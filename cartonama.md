@@ -35,7 +35,9 @@ https://github.com/mikelmaron/Cartonama
 * data: none
 * other: none
 * time: 30 minutes
-* questions: the goal ... alcohol shops map app?
+* questions: the goal ... alcohol shops map app? other ideas: bus stops
+** introduction to GIS and GeoData. familiar with GMapsAPI, but nothing more.
+** what are limits to google maps
 
 ---
 #CREATING GEO DATA
@@ -50,7 +52,7 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 * data:
 * other:
 * time: 30 minutes
-* questions:
+* questions: 
 
 ---
 #GPS Surveying for OSM
@@ -63,6 +65,8 @@ Understand how to use a GPS and collect data for OSM
 * other: GPS units. Maybe Apps?
 * time: 30-45 minutes
 * questions: less interest (at least from funnel so far)
+** theory and practice
+** updated from swaziland
 
 ---
 #Downloading from GPS
