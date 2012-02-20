@@ -127,7 +127,9 @@ Understand the most common ways GeoData is shared: Shapefile, CSV, KML, GeoRSS, 
 * other:
 * time: 15 minutes
 * questions: how can this not be boring?
-
+** Basic GIS data models ... geometries, features, attributes, rasters. projections.
+** demonstrate using QGIS
+ * Future of Web Apps Slides
 ---
 #Geo Enabled Databases
 Understand PostGIS basics and MySQL spatial extension
@@ -137,31 +139,24 @@ Understand PostGIS basics and MySQL spatial extension
 * software:
 * data:
 * other:
-* time: 30-45 minutes
+* time: 45 minutes
 * questions: should this be more hands on?
+** WKT, Spatial Indexes, Predicates, shp2pgsql, pgsql2shp
+ * non-relational dbs and spatial search suckage
+ * could just show a database
+ * spatial meta-data
+ * projections
 
 ---
-#Processing OSM Data
+#Processing OSM Data & Making Shapefiles
 Processing OSM data (osmosis, osmlib. osmium, imposm)
 
 * format: workshop
 * slides: download an extract, transform
-* software: wget. osm2pgsql. osmium. osmlib.
-* data: OSM data
+* software: wget. osm2pgsql. osmium. osmlib. osmjs
+* data: OSM data and Shapefiles
 * other:
-* time: 30 minutes
-* questions:
-
----
-#Create Shapefiles from Collected Data
-Create Shapefiles from Collected Data
-
-* format: workshop
-* slides: commands
-* software: osmium?
-* data: OSM data. Results in Shapefile
-* other:
-* time: 20 minutes
+* time: 45 minutes
 * questions:
 
 ---
@@ -174,7 +169,7 @@ Convert and process geodata w/ OGR, GeoCommons
 * data: Shapefile of stuff
 * other:
 * time: 20 minutes
-* questions:
+* questions: important to know about it
 
 ---
 
@@ -207,6 +202,7 @@ Creating Tiles w/ TileMill
 * other:
 * time: 1.5 hours
 * questions: what can we get from devseed
+** show how to generate_tiles.py from mapnik style sheets output by tilemill
 
 ---
 #Multi-lingual Tiles
