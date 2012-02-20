@@ -71,6 +71,7 @@ Understand how to use a GPS and collect data for OSM
 ** mobile: periodicity and accuracy. but what to use ... Android: MyTracks, others. OSMAnd --- unusable. what do they use in jbad? 
 ** POIs are not collected nearby to CIS ... street hawkers
 ** MyTracks: can adjust frequency. gpx visible as mounted drives. uses GMaps as a basemap
+** Watch the time!!!
 
 ---
 #Downloading from GPS
@@ -111,7 +112,7 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 
 * total time: 2.5 hours
 * data: results in data in OSM ... should have this already created for Bangalore
-
+** Is the enough time??
 ---
 #WORKING WITH GEO DATA
 
