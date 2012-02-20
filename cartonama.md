@@ -17,7 +17,7 @@ trying to determine for each session
 * time: 
 * questions: 
 
-https://gist.github.com/1868516
+https://github.com/mikelmaron/Cartonama
 
 ---
 #Four half days
