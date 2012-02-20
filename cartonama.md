@@ -53,6 +53,7 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 * other:
 * time: 30 minutes
 * questions: 
+** license
 
 ---
 #GPS Surveying for OSM
@@ -63,10 +64,13 @@ Understand how to use a GPS and collect data for OSM
 * software:
 * data:
 * other: GPS units. Maybe Apps?
-* time: 30-45 minutes
+* time: 1 hour
 * questions: less interest (at least from funnel so far)
 ** theory and practice
 ** updated from swaziland
+** mobile: periodicity and accuracy. but what to use ... Android: MyTracks, others. OSMAnd --- unusable. what do they use in jbad? 
+** POIs are not collected nearby to CIS ... street hawkers
+** MyTracks: can adjust frequency. gpx visible as mounted drives. uses GMaps as a basemap
 
 ---
 #Downloading from GPS
