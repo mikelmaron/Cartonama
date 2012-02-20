@@ -129,7 +129,7 @@ Understand the most common ways GeoData is shared: Shapefile, CSV, KML, GeoRSS, 
 * questions: how can this not be boring?
 ** Basic GIS data models ... geometries, features, attributes, rasters. projections.
 ** demonstrate using QGIS
- * Future of Web Apps Slides
+ * Future of Web Apps Slides http://schuyler.github.com/
 ---
 #Geo Enabled Databases
 Understand PostGIS basics and MySQL spatial extension
@@ -188,8 +188,9 @@ What are Map Tiles?
 * software:
 * data:
 * other:
-* time: 30 minutes
+* time: 15 minutes
 * questions: more interest in this
+** nice graphics needed for tile pyramid 
 
 ---
 #TileMill
@@ -203,6 +204,9 @@ Creating Tiles w/ TileMill
 * time: 1.5 hours
 * questions: what can we get from devseed
 ** show how to generate_tiles.py from mapnik style sheets output by tilemill
+ * connect to shapefile, postgis db
+ * overlay on preset osm tiles. render osm data itself
+ * render raster data as well
 
 ---
 #Multi-lingual Tiles
@@ -213,7 +217,7 @@ Creating Tiles w/ TileMill
 * data: need to make sure data collected and processed into shapefile includes translations
 * other:
 * time: 30 minutes
-* questions:
+* questions: really try to show this, though it might be tricky
 
 ---
 #Serving Tiles
@@ -246,7 +250,7 @@ survey Javascript Mapping APIs (OpenLayers, ModestMaps, GMaps API, Leaflet, Maps
 * data:
 * other:
 * time: 30 minutes
-* questions:
+* questions: survey the options, and pick one
 
 ---
 #Geocoding and Location Queries
@@ -257,7 +261,7 @@ survey Javascript Mapping APIs (OpenLayers, ModestMaps, GMaps API, Leaflet, Maps
 * data:
 * other:
 * time: 45 minutes
-* questions: more interest in this. is there a small postgis->geojson web service?
+* questions: more interest in this. is there a small postgis->geojson web service? maybe flask, or node.js. python would have postgis bindings
 
 ---
 #Putting it all Together
