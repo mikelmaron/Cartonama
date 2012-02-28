@@ -19,6 +19,8 @@ trying to determine for each session
 
 https://github.com/mikelmaron/Cartonama
 
+http://aeneous.coolwrks.com/sajjad/Cartonama-Workshop-Hasgeek.iso
+
 ---
 #Four half days
 ##Creating Geo Data
@@ -274,6 +276,8 @@ Create an app using, tiles and search, generated from the collected data.
 * other:
 * time: 1.5 hours
 * questions: would be nice to have this app built.
+
+https://github.com/yuvipanda/POSM
 
 ---
 #SUGGESTIONS
