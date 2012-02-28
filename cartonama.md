@@ -278,6 +278,7 @@ Create an app using, tiles and search, generated from the collected data.
 * questions: would be nice to have this app built.
 
 https://github.com/yuvipanda/POSM
+http://yuvi.in/POSM/
 
 ---
 #SUGGESTIONS
