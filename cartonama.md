@@ -21,6 +21,8 @@ https://github.com/mikelmaron/Cartonama
 
 http://aeneous.coolwrks.com/sajjad/Cartonama-Workshop-Hasgeek.iso
 
+https://docs.google.com/spreadsheet/pub?key=0AkAxbDR2ycpddExzQ3JoV0pzT0t5aVFDSEFtSzdrNVE&single=true&gid=9&output=html
+
 ---
 #Four half days
 ##Creating Geo Data
