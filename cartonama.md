@@ -523,7 +523,7 @@ https://github.com/mikelmaron/Cartonama/blob/master/data/busstops-bangalore.xml
 
 * Originally implemented by Google
 * Now standard across web mapping services
-* By setting max lat to +/- 85.0511&deg; the world is square
+* By setting max lat to +/- 85.0511&deg;, the world becomes square
 * This has implications for tiling
 ---
 #Spatial Reference Systems
@@ -771,40 +771,341 @@ _N.B._ Properties can be any legit JSON object!
 ---
 #Create a PostGIS table
 
+## Create the table
+
+    CREATE TABLE poi (id SERIAL, name VARCHAR);
+
+## Add the geometry column
+
+    SELECT AddGeometryColumn('poi','location',4326,'POINT',2);
+
+---
+#Create a PostGIS table
+
+    # \d poi
+                       Table "public.poi"
+
+      Column  |       Type        |         Modifiers
+    ----------+-------------------+--------------------------------------
+     id       | integer           | not null default nextval(...)
+     name     | character varying | 
+     location | geometry          | 
+
+    Check constraints:
+        "enforce_dims_location" CHECK (st_ndims(location) = 2)
+        "enforce_geotype_location" CHECK
+            (geometrytype(location) = 'POINT'::text OR location IS NULL)
+        "enforce_srid_location" CHECK (st_srid(location) = 4326)  
+
 ---
 #Create some spatial data
+
+    # INSERT INTO poi (name, location)
+             VALUES ('CIS', 'POINT(77.6375384 12.9647134)');
+
+    ERROR:  new row for relation "poi" violates check constraint
+            "enforce_srid_location"
+
+    # INSERT INTO poi (name, location)
+             VALUES ('CIS', 'SRID=4326;POINT(77.6375384 12.9647134)');
+
+    INSERT 0 1
 
 ---
 #Select some spatial data
 
+    # SELECT * FROM poi;
+
+     id | name |                      location                      
+    ----+------+----------------------------------------------------
+      2 | CIS  | 0101000020E61000006D7CDC6DCD685340A4062EEAEEED2940
+    (1 row)
+
+    # SELECT id, name, AsText(location) FROM poi;
+
+     id | name |            astext            
+    ----+------+------------------------------
+      2 | CIS  | POINT(77.6375384 12.9647134)
+    (1 row)
+
 ---
 #Spatial predicates
+
+* Equals
+* Is Disjoint With
+* Intersects
+* Touches
+* Crosses
+* Is Within
+* Contains
+* Overlaps
+* Covers
+* Is Covered By
+
+---
+#DE-9IM
+"Dimensionally Extended 9 Intersection Model" (DE-9IM)
+
+<img src="img/de-9im.png" style="width:80%" />
+
+---
+#PostGIS spatial predicates
+
+* ST\_Equals(geom1, geom2)
+* ST\_Disjoint(geom1, geom2)
+* ST\_Intersects(geom1, geom2)
+* ST\_Touches(geom1, geom2)
+* ST\_Crosses(geom1, geom2)
+* ST\_Within(geom1, geom2)
+* ST\_Contains(geom1, geom2)
+* ST\_Overlaps(geom1, geom2)
+* ST\_Covers(geom1, geom2)
+* ST\_CoveredBy(geom1, geom2)
 
 ---
 #Load data from Shapefile
 
+    $ shp2pgsql -s4326 -I world_borders.shp admin0 | psql my_db
+
+                   Table "public.world_borders"
+       Column   |         Type          |   Modifiers                          
+    ------------+-----------------------+------------------------------
+     gid        | integer               | not null default nextval(...)
+     cat        | double precision      | 
+     fips_cntry | character varying(80) | 
+     cntry_name | character varying(80) | 
+     area       | double precision      | 
+     pop_cntry  | double precision      | 
+     the_geom   | geometry              | 
+
+    Indexes:
+        "world_borders_pkey" PRIMARY KEY, btree (gid)
+        "world_borders_the_geom_gist" gist (the_geom)
+    Check constraints:
+        "enforce_dims_the_geom" CHECK (st_ndims(the_geom) = 2)
+        "enforce_geotype_the_geom" CHECK
+            (geometrytype(the_geom) = 'MULTIPOLYGON'::text ...)
+        "enforce_srid_the_geom" CHECK (st_srid(the_geom) = 4326)
+
+---
+#Apply a spatial predicate
+
+    # SELECT name, cntry_name FROM world_borders, poi
+        WHERE st_contains(world_borders.the_geom, poi.location);
+
+     name | cntry_name 
+    ------+------------
+     CIS  | India
+    (1 row)
+
+---
+#Geometry processing
+
+* ST\_Union(geom1, geom2)
+* ST\_Intersection(geom1, geom2)
+* ST\_Difference(geom1, geom2)
+* ST\_Buffer(geom, distance)
+* ST\_ConvexHull(geom)
+* ST\_Transform(geom, srid)
+* ... and many more!
+
+---
+#Geometry measurement
+
+* ST\_Distance(geom1, geom2)
+* ST\_Length(geom)
+* ST\_Area(geom)
+* ST\_Centroid(geom)
+* ST\_Distance\_Spheroid(geom1, geom2)
+* ... and many more!
+
+---
+#Area example
+
+    SELECT SUM(ST_Area(ST_Transform(the_geom, 32643))) / 1000000
+        FROM world_borders WHERE cntry_name = 'India';
+
+    ?column?     
+    ------------------
+    3196343.52393187
+    (1 row)
+
+---
+#Spheroid distance example
+
+    
+    SELECT ST_Distance_Sphere(
+            'POINT(77.6375384 12.9647134)', 'POINT(122.7 37.4)') / 1000;
+
+    ?column?     
+    ------------------
+    5216.69910277434
+    (1 row)
+
+---
+#Spatial indexes?
+
+    # EXPLAIN SELECT name, cntry_name FROM world_borders, poi
+              WHERE st_contains(world_borders.the_geom, poi.location);
+
+                             QUERY PLAN
+    ----------------------------------------------------------------------
+     Nested Loop  (cost=0.00..1347.15 rows=1 width=14)
+       Join Filter: ((world_borders.the_geom && poi.location) AND
+                     _st_contains(world_borders.the_geom, poi.location))
+       ->  Seq Scan on poi  (cost=0.00..1.01 rows=1 width=104)
+       ->  Seq Scan on world_borders
+                        (cost=0.00..352.84 rows=3784 width=6982)
+    (4 rows)
+
+---
+#Create a spatial index
+
+    # CREATE INDEX world_borders_the_geom_gist
+             ON world_borders USING GIST (the_geom);
+
+    # EXPLAIN SELECT name, cntry_name FROM world_borders, poi
+              WHERE st_contains(world_borders.the_geom, poi.location);
+
+                             QUERY PLAN
+    ----------------------------------------------------------------------
+     Nested Loop  (cost=0.00..1815.00 rows=5 width=42)
+       Join Filter: _st_contains(world_borders.the_geom, poi.location)
+       ->  Seq Scan on poi  (cost=0.00..18.30 rows=830 width=64)
+       ->  Index Scan using world_borders_the_geom_gist on world_borders
+            (cost=0.00..1.90 rows=1 width=6982) 
+             Index Cond: (the_geom && poi.location)
+    (6 rows)
+
+---
+#R-trees
+
+<img src="img/R-tree.png" style="height:80%"/>
+
 ---
 #Dump a spatial table to a Shapefile
 
+    $ pgsql2shp my_db poi
+
+    Initializing... Done (postgis major version: 1).
+    Output shape: Point
+    Dumping: XX [1 rows].
+
 ---
 #Data Swiss Army Knives
-Convert and process geodata w/ OGR, GeoCommons
+---
+#GDAL/OGR
 
-* format: workshop
-* slides: OGR commands
-* software: OGR/GDAL, GeoCommons, GPSBabel
-* data: Shapefile of stuff
-* other:
-* time: 20 minutes
-* questions: important to know about it
+A F/OSS library that speaks dozens and dozens of formats
+
+* GDAL is for raster data
+* OGR is for vector data
+---
+#Exploring rasters
+
+    $ gdalinfo SRTM_fB03_n012e077.tif 
+
+    Driver: GTiff/GeoTIFF
+    Files: SRTM_fB03_n012e077.tif
+    Size is 1201, 1201
+    Coordinate System is:
+    GEOGCS["WGS 84",
+        DATUM["WGS_1984",
+            SPHEROID["WGS 84",6378137,298.257223563,
+                AUTHORITY["EPSG","7030"]],
+            AUTHORITY["EPSG","6326"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4326"]]
+    Origin = (76.999583333333334,13.000416666666666)
+    Pixel Size = (0.000833333333333,-0.000833333333333)
+    Corner Coordinates:
+    Upper Left  (  76.9995833,  13.0004167) ( 76d59'58.50"E, 13d 0' 1.50"N)
+    Lower Left  (  76.9995833,  11.9995833) ( 76d59'58.50"E, 11d59'58.50"N)
+    Upper Right (  78.0004167,  13.0004167) ( 78d 0' 1.50"E, 13d 0' 1.50"N)
+    Lower Right (  78.0004167,  11.9995833) ( 78d 0' 1.50"E, 11d59'58.50"N)
+    Center      (  77.5000000,  12.5000000) ( 77d30' 0.00"E, 12d30' 0.00"N)
+    Band 1 Block=1201x1 Type=Float32, ColorInterp=Gray
 
 ---
+#Transforming rasters
+
+##gdal\_translate
+
+    $ gdal_translate -of GTiff some_other_format.jpg a_better_format.tif
+
+    $ gdal_translate --formats
+
+##gdalwarp
+
+    $ gdalwarp -t_srs EPSG:3875 some_file_in_4326.tif web_mercator.tif
+
+##gdaladdo
+
+    $ gdaladdo satellite_image.tif 2 4 8 16 32
+
+---
+#Exploring vectors
+    $ ogrinfo world_borders.shp
+
+    INFO: Open of `world_borders.shp'
+          using driver `ESRI Shapefile' successful.
+    1: world_borders (Polygon)
+---
+#Exploring vectors
+    $ ogrinfo world_borders.shp
+
+    Layer name: world_borders
+    Geometry: Polygon
+    Feature Count: 3784
+    Extent: (-180.000000, -90.000000) - (180.000000, 83.623596)
+    Layer SRS WKT:
+    (unknown)
+    CAT: Real (16.0)
+    FIPS_CNTRY: String (80.0)
+    CNTRY_NAME: String (80.0)
+    AREA: Real (15.2)
+    POP_CNTRY: Real (15.2)
+
+    OGRFeature(world_borders):0
+      CAT (Real) =                1
+      FIPS_CNTRY (String) = AA
+      CNTRY_NAME (String) = Aruba
+      AREA (Real) =          193.00
+      POP_CNTRY (Real) =        71218.00
+      POLYGON ((-69.882233 12.41111,-69.946945 12.436666, ...))
+---
+#Transforming vectors
+
+## Assigning SRS
+
+    $ ogr2ogr -a_srs epsg:4326 world_borders_4326.shp world_borders.shp
+
+## Transforming SRS
+    
+    $ ogr2ogr -a_srs epsg:4326 -t_srs epsg:3875 world_borders_3875.shp world_borders.shp
+
+## Format conversion
+
+    $ ogr2ogr -f KML world_borders.kml world_borders.shp 
+
+## Database support
+
+    $ ogr2ogr -f PostgreSQL PG:dbname=my_db world_borders.kml
+---
+
 #GeoCommons
 <img src="img/geocommons-upload.png" style="width:80%"/>
 
 ---
+
 #GeoCommons
 <img src="img/geocommons-download.png" style="width:80%"/>
+
+---
+
+#Quantum GIS (QGIS)
+<img src="img/qgis.jpg" style="width:80%"/>
 
 ---
 #Processing OSM Data & Making Shapefiles
