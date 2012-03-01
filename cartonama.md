@@ -56,8 +56,117 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 * data:
 * other:
 * time: 30 minutes
-* questions: 
+* questions:
 ** license
+
+---
+#OpenStreetMap
+##Collaborative Global Mapping, "like Wikipedia for Maps"
+
+<img src="img/osm-painting.png" style="width:80%" />
+
+---
+#what is OpenStreetMap?
+##the openstreetmap "one-liner"
+
+<img src="img/osm-oneline.png" style="width:80%" />
+
+---
+<img src="img/osm-gps-london.png" style="width:80%" />
+
+---
+#Haiti
+<img src="img/haiti-eq.png" style="width:80%" />
+
+.notes: source http://news.bbc.co.uk/2/hi/uk_news/magazine/8517057.stm
+
+---
+#Before / After in OSM
+<img src="img/osm-before-after.png" style="height:80%" />
+
+---
+<img src="img/osm-pap.png" style="height:80%" />
+
+---
+#Uses
+##Immediate recovery, ongoing reconstruction
+<img src="img/osm-on-gps.png" style="width:80%" />
+
+---
+#Map Kibera
+<img src="img/map-kibera.png" style="width:80%" />
+
+.notes: sourc http://gallery.me.com/dbullington#100816&view=null&bgcolor=black&sel=12
+
+---
+#Kibera was a blank spot
+##250,000 people, 2.5 km2
+<img src="img/osm-kibera-blank.png" style="width:80%" />
+
+---
+#The Mappers
+<img src="img/kibera-mappers.png" style="width:80%" />
+
+---
+#The Map!
+<img src="img/kibera-map.png" style="width:80%" />
+
+---
+#Voice of Kibera
+##Hyper local, geotagged reporting, using Ushahidi
+<img src="img/vok.png" style="width:80%" />
+http://voiceofkibera.org/
+
+---
+#What distinguishes OSM?
+##Open License
+##Technical Freedom
+##Community
+
+---
+<img src="img/taptapmap.png" width="80%"/>
+
+---
+<img src="img/gazamap.png" width="80%"/>
+
+---
+<img src="img/relief-philippines.png" width="80%"/>
+
+---
+<img src="img/jalagood.png" width="80%"/>
+
+---
+<img src="img/forbiddencity.png" height="80%"/>
+
+---
+<img src="img/vatican-city.png" width="80%"/>
+
+---
+<img src="img/osm-print.png" width="80%"/>
+
+---
+<img src="img/osm-blanket.png" width="80%"/>
+
+---
+<img src="img/osm-cake.png" width="80%"/>
+
+---
+<img src="img/osm-3d.png" width="80%"/>
+
+---
+<img src="img/osm-train.png" width="80%"/>
+
+---
+<img src="img/osm-relief.png" height="80%"/>
+
+---
+<img src="img/osm-community.png" width="80%"/>
+
+---
+#Foursquare
+<img src="img/osm-foursquare.png" style="width:80%" />
+
+http://blog.foursquare.com/2012/02/29/foursquare-is-joining-the-openstreetmap-movement-say-hi-to-pretty-new-maps/
 
 ---
 #GPS Surveying for OSM
