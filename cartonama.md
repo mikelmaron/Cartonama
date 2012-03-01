@@ -418,8 +418,8 @@ http://wiki.openstreetmap.org/wiki/Develop
 
 ---
 #WORKING WITH GEO DATA
-
-##or, "Points and Lines and Polygons, oh my!"
+---
+#or, "Points and Lines and Polygons, oh my!"
 ---
 #A Round World
 * Not perfectly round
@@ -434,17 +434,105 @@ http://wiki.openstreetmap.org/wiki/Develop
 * semi-minor axis (polar)
 * common spheroids
     * World Geodetic Survey 1984 (WGS84)
-    * WGS 1974
-    * NAD 1927 and 1983
+    * WGS 1972
     * Everest 1830 and 1956
+    * NAD 1927 and 1983
+---
+#Coordinate Systems
+
+* Geographic:  _latitude_ and _longitude_ in _degrees_
+* Projected: _easting_ and _northing_ in _meters_
+* False easting and northing
+* Datum: coordinate system origin
+* WHEN IN DOUBT, USE THE WGS84 SPHEROID AND DATUM
+---
+#Projections
+
+* Round(ish) world, flat map
+* Project on the surface of another solid in some orientation, then unwrap
+* Sacrifice shape, area, and/or direction
+* Allows us to use Cartesian coordinates (whew!)
+---
+
+<img src="img/Mercator_1569.png" width="80%" />
 
 ---
-#Geographic Data
+# Cylindrical projections
+<img src="img/USGS-mercator.gif" width="80%" />
 
-* Raster
-* Vector
+---
+# Transverse cylindrical projections
+<img src="img/USGS-transverse.gif" width="80%" />
 
-<div align="center">"Raster is faster but vector is correcter."</div>
+---
+# Conic projections
+<img src="img/USGS-conic.gif" width="80%" />
+
+---
+# Plane projections
+
+## Azimuthal
+<img src="img/USGS-azimuthal.gif" width="80%" />
+
+## Orthographic
+<img src="img/USGS-orthographic.gif" width="80%" />
+
+---
+#Projections worth knowing
+
+* Unprojected, or Equirectangular
+* Mercator
+* Universal Transverse Mercator (UTM)
+* Spherical or "Web" Mercator
+---
+#Equirectangular "Projection"
+
+<img src="img/Equirectangular_projection_SW.jpg" width="80%" />
+
+---
+#Mercator
+
+<img src="img/Mercator_projection_SW.jpg" width="80%" />
+
+---
+#Transverse Mercator
+
+<img src="img/MercTranSph.png" width="80%" />
+
+---
+#Universal Transverse Mercator (UTM)
+
+<img src="img/utmworld.gif" style="width:80%"/>
+
+---
+#Web Mercator
+
+* Originally implemented by Google
+* Now standard across web mapping services
+* By setting max lat to +/- 85.0511&deg; the world is square
+* This has implications for tiling
+---
+#Spatial Reference Systems
+
+* __Projection + Spheroid + Datum + Units = SRS__
+* Also known as "coordinate reference systems" (CRS)
+
+----
+#EPSG Codes
+
+* European Petroleum Standards Group
+* Established _EPSG codes_ for common spatial reference systems
+* Unprojected Longitude/Latitude: __EPSG 4326__
+* Web Mercator: __EPSG 3857__
+* UTM zone 43 North: EPSG 32643 (for example)
+
+---
+#Geographic Data Models
+
+# Raster Data
+# Vector Data
+
+_"Raster is faster but vector is correcter."_
 
 ---
 #Raster Data
@@ -454,7 +542,47 @@ http://wiki.openstreetmap.org/wiki/Develop
     * Discrete
     * Continuous
     * Imagery
-* Affine transform
+* Georeferencing via affine transformation
+---
+#Affine Transformation
+
+<img src="img/affine-transformation.png" style="width:80%" />
+
+---
+#Affine Transformations
+
+<img src="img/affine-matrix.png" style="width:50%" />
+
+<img src="img/affine-equations.png" style="width:50%" />
+
+---
+#World File
+
+    32.0
+    0.0
+    0.0
+    -32.0
+    691200.0
+    4576000.0
+
+* A: x component of the pixel width (x-scale)
+* D: y component of the pixel width (y-skew)
+* B: x component of the pixel height (x-skew)
+* E: y component of the pixel height (*negative* y-scale)
+* C: x-coordinate of the center of the upper left pixel
+* F: y-coordinate of the center of the upper left pixel
+
+(example borrowed from Wikipedia)
+
+---
+#Raster Formats
+
+* GeoTIFF (.tif)
+    * World file (.wld, or .tfw)
+    * Projection in "Well-Known Text" (.prj)
+* World files for JPEGs, or PNGs (.jpw, .pgw)
+* Others: BIL, JPEG2000, ECW, NITF, etc.
+
 ---
 #Vector Data
 * The "Simple Features" Model
@@ -503,16 +631,17 @@ http://wiki.openstreetmap.org/wiki/Develop
 <img src="img/polygon-area.png" style="width:40%"/>
 
 ---
-#Vector File Formats
+#Vector Formats
 
 * ESRI Shapefile
 * GML
 * KML
 * GeoJSON
+* "Well-Known" Text (WKT) and Binary (WKB)
 * GeoRSS
 * GPX
 ---
-#Shapefiles
+#The misnamed "Shapefile"
 
 * __.shp__
 * __.shx__
@@ -577,33 +706,71 @@ _N.B._ Properties can be any legit JSON object!
 ---
 #GEO ENABLED DATABASES
 ---
-#Geo Enabled Databases
-Understand PostGIS basics and MySQL spatial extension
+#PostGIS
 
-* format: lecture
-* slides: all about OGC Simple Features, their implementation in PostGIS and MySQL. Basics about setting up PostGIS and using spatial columns, etc.
-* software:
-* data:
-* other:
-* time: 45 minutes
-* questions: should this be more hands on?
-** WKT, Spatial Indexes, Predicates, shp2pgsql, pgsql2shp
- * non-relational dbs and spatial search suckage
- * could just show a database
- * spatial meta-data
- * projections
+* A geospatial extension to PostgreSQL
+* Geometry operations
+* Spatial predicates
+* Spatial indexes
+* Spatial reference system support
 
 ---
-#Processing OSM Data & Making Shapefiles
-Processing OSM data (osmosis, osmlib. osmium, imposm)
+#Create a PostGIS template database
 
-* format: workshop
-* slides: download an extract, transform
-* software: wget. osm2pgsql. osmium. osmlib. osmjs
-* data: OSM data and Shapefiles
-* other:
-* time: 45 minutes
-* questions:
+##Create a PostGIS template
+
+    $ createdb template_gis
+    $ createlang plpgsql template_gis
+    $ psql template_gis </usr/share/postgis/postgis.sql
+    $ psql template_gis </usr/share/postgis/spatial_ref_sys.sql
+
+##Make a spatial database from the template
+
+    $ createdb -Ttemplate_gis my_new_postgis_db
+
+---
+#PostGIS metadata tables
+
+## geometry_columns
+ 
+          Column       |          Type          | Modifiers 
+    -------------------+------------------------+-----------
+     f_table_catalog   | character varying(256) | not null
+     f_table_schema    | character varying(256) | not null
+     f_table_name      | character varying(256) | not null
+     f_geometry_column | character varying(256) | not null
+     coord_dimension   | integer                | not null
+     srid              | integer                | not null
+     type              | character varying(30)  | not null
+
+
+## spatial_ref_sys
+
+      Column   |          Type           | Modifiers 
+    -----------+-------------------------+-----------
+     srid      | integer                 | not null
+     auth_name | character varying(256)  | 
+     auth_srid | integer                 | 
+     srtext    | character varying(2048) | 
+     proj4text | character varying(2048) | 
+
+---
+#Create a PostGIS table
+
+---
+#Create some spatial data
+
+---
+#Select some spatial data
+
+---
+#Spatial predicates
+
+---
+#Load data from Shapefile
+
+---
+#Dump a spatial table to a Shapefile
 
 ---
 #Data Swiss Army Knives
@@ -626,9 +793,20 @@ Convert and process geodata w/ OGR, GeoCommons
 <img src="img/geocommons-download.png" style="width:80%"/>
 
 ---
+#Processing OSM Data & Making Shapefiles
+Processing OSM data (osmosis, osmlib. osmium, imposm)
 
+* format: workshop
+* slides: download an extract, transform
+* software: wget. osm2pgsql. osmium. osmlib. osmjs
+* data: OSM data and Shapefiles
+* other:
+* time: 45 minutes
+* questions:
+
+---
 * total time: ~2.5 hours
-* data: results in data in Shapefile and/or database
+* data: results in data in Shapefile
 
 ---
 #VISUALIZING GEO DATA
