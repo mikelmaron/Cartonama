@@ -68,6 +68,10 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 <img src="img/osm-gps-london.png" style="width:80%" />
 
 ---
+#Bangalore Animation
+http://www.youtube.com/watch?v=fpHKb-SZRh8
+
+---
 #Haiti
 <img src="img/haiti-eq.png" style="width:80%" />
 
@@ -256,6 +260,7 @@ Record Data
     * The track is a guideline, not the map!
 * Can use pen/paper, camera, dictaphone, mobile, etc
 * Work together to divide up the Cake!
+
 ---
 #Let's Go
 
@@ -409,7 +414,7 @@ http://wiki.openstreetmap.org/wiki/Develop
 ---
 * total time: 2.5 hours
 * data: results in data in OSM ... should have this already created for Bangalore
-** Is the enough time??
+    *Is the enough time??
 
 ---
 #WORKING WITH GEO DATA
@@ -611,6 +616,14 @@ Convert and process geodata w/ OGR, GeoCommons
 * other:
 * time: 20 minutes
 * questions: important to know about it
+
+---
+#GeoCommons
+<img src="img/geocommons-upload.png" style="width:80%"/>
+
+---
+#GeoCommons
+<img src="img/geocommons-download.png" style="width:80%"/>
 
 ---
 
