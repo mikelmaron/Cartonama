@@ -164,6 +164,9 @@ http://voiceofkibera.org/
 <img src="img/osm-relief.png" height="80%"/>
 
 ---
+<img src="img/8bit.png" height="80%"/>
+
+---
 #Foursquare
 <img src="img/osm-foursquare.png" style="width:80%" />
 
@@ -227,6 +230,7 @@ Understand how to use a GPS and collect data for OSM
 
 ---
 Using the GPS
+
 * Turn on GPS
 * Get a Signal
 * Page to Map
@@ -267,7 +271,9 @@ Use of GPSBabel to download GPS data
 * time: 20 minutes
 
 ---
-# Connect GPS with USB cable
+# Download data
+
+* Connect GPS with USB cable
 
     !sh
     sudo gpsbabel -i Garmin -f usb: -o gpx -F waypoints.gpx
@@ -277,6 +283,12 @@ Use of GPSBabel to download GPS data
 
 * Change to USB Mode ... shows up as a drive
 * or add -t to gpsbabel command
+
+---
+# Putting Maps on GPS
+
+* http://mapas.alternativaslibres.es/downloads.php
+* mkgmap
 
 ---
 #Editing Data in OSM
@@ -289,6 +301,9 @@ Facility with JOSM and Potlatch editors.
 * other:
 * time: 40 minutes
 * questions:
+
+---
+#JOSM
 
 ---
 #Tagging, OSM data model and API
@@ -311,6 +326,7 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 ---
 <img src="img/map-features.png" style="width:80%"/>
 
+http://wiki.openstreetmap.org/wiki/Map_Features
 
 ---
 #RESTful API
@@ -534,6 +550,7 @@ survey Javascript Mapping APIs (OpenLayers, ModestMaps, GMaps API, Leaflet, Maps
 * time: 30 minutes
 * questions: survey the options, and pick one
 
+leaflet and discussion
 ---
 #Geocoding and Location Queries
 
@@ -544,6 +561,8 @@ survey Javascript Mapping APIs (OpenLayers, ModestMaps, GMaps API, Leaflet, Maps
 * other:
 * time: 45 minutes
 * questions: more interest in this. is there a small postgis->geojson web service? maybe flask, or node.js. python would have postgis bindings
+
+show nominatim, geonames, overpass api
 
 ---
 #Putting it all Together
