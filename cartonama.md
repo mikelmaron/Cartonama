@@ -1,34 +1,5 @@
 #Cartonama
-
-* look through the half days and the sessions
-* does it all flow together comprehensively?
-* does it actually work? what needs implementation?
-* what's missing? what's unnecessary?
-* what resources do we need? what needs to be prepared?
-
-trying to determine for each session
-
-
-* format:
-* slides: 
-* software: 
-* data:
-* other: 
-* time: 
-* questions: 
-
-https://github.com/mikelmaron/Cartonama
-
-http://aeneous.coolwrks.com/sajjad/Cartonama-Workshop-Hasgeek.iso
-
-https://docs.google.com/spreadsheet/pub?key=0AkAxbDR2ycpddExzQ3JoV0pzT0t5aVFDSEFtSzdrNVE&single=true&gid=9&output=html
-
----
-#Four half days
-##Creating Geo Data
-##Working with Geo Data
-##Visualizing Geo Data
-##Building Apps with Geo Data
+<img src="img/cartonama.png" style="height:80%" />
 
 ---
 #Introduction
@@ -39,12 +10,31 @@ https://docs.google.com/spreadsheet/pub?key=0AkAxbDR2ycpddExzQ3JoV0pzT0t5aVFDSEF
 * data: none
 * other: none
 * time: 30 minutes
-* questions: the goal ... alcohol shops map app? other ideas: bus stops
-** introduction to GIS and GeoData. familiar with GMapsAPI, but nothing more.
-** what are limits to google maps
+* questions: 
+    * the goal ... alcohol shops map app? other ideas: bus stops
+    * introduction to GIS and GeoData. familiar with GMapsAPI, but nothing more.
+    * what are limits to google maps
 
 ---
-<img src="img/freemap-2008.png" style="width:80%" />
+#Approximately Four Half Days
+##Creating Geo Data
+##Working with Geo Data
+##Visualizing Geo Data
+##Building Apps with Geo Data
+
+Goal: an location based app!
+
+---
+#Resources
+## Github repo of the slides and some materials
+https://github.com/mikelmaron/Cartonama
+## The LiveBoot ISO
+http://aeneous.coolwrks.com/sajjad/Cartonama-Workshop-Hasgeek.iso
+## Workshop Schedule
+http://workshop.cartonama.org/
+## Mailing List
+http://groups.google.com/group/cartonama-workshop
+
 
 ---
 #CREATING GEO DATA
@@ -60,7 +50,7 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 * other:
 * time: 30 minutes
 * questions:
-** license
+    * license
 
 ---
 #OpenStreetMap
@@ -88,6 +78,7 @@ Came away with a solid base understanding of what OpenStreetMap is all about ...
 <img src="img/osm-before-after.png" style="height:80%" />
 
 ---
+#Destroyed buildings, IDP camps
 <img src="img/osm-pap.png" style="height:80%" />
 
 ---
@@ -130,6 +121,7 @@ http://voiceofkibera.org/
 <img src="img/mcdonalds.png" width="80%" />
 
 ---
+
 <img src="img/india-flight.png" height="80%" />
 
 ---
@@ -190,13 +182,33 @@ Understand how to use a GPS and collect data for OSM
 * data:
 * other: GPS units. Maybe Apps?
 * time: 1 hour
-* questions: less interest (at least from funnel so far)
-** theory and practice
-** updated from swaziland
-** mobile: periodicity and accuracy. but what to use ... Android: MyTracks, others. OSMAnd --- unusable. what do they use in jbad? 
-** POIs are not collected nearby to CIS ... street hawkers
-** MyTracks: can adjust frequency. gpx visible as mounted drives. uses GMaps as a basemap
-** Watch the time!!!
+* questions: 
+    * theory and practice
+    * mobile: periodicity and accuracy. but what to use ... Android: MyTracks, others. OSMAnd --- unusable. what do they use in jbad? 
+    * POIs are not collected nearby to CIS ... street hawkers
+    * MyTracks: can adjust frequency. gpx visible as mounted drives. uses GMaps as a basemap
+
+---
+<img src="img/GPS.png" style="width:80%"/>
+
+---
+<img src="img/GPS-satellite.png" style="height:80%"/>
+
+---
+<img src="img/constellation.png" style="height:80%"/>
+
+---
+<img src="img/GPS-orbits.png" style="width:80%"/>
+
+---
+#Einstein's Theory of Relativity and You!
+
+---
+<img src="img/GPS-triangulation.png" style="width:80%"/>
+
+---
+<img src="img/asteroids.png" style="width:80%"/>
+
 
 ---
 <img src="img/gps-download.png" style="width:80%"/>
@@ -214,6 +226,36 @@ Understand how to use a GPS and collect data for OSM
 <img src="img/josm-editing.png" style="width:80%"/>
 
 ---
+Using the GPS
+* Turn on GPS
+* Get a Signal
+* Page to Map
+* Zoom and Pan
+* Record WayPoints by pushing joy stick straight in
+* Note Waypoint number
+
+---
+Record Data
+
+* Type of highway and names
+* Any interesting POI
+* Parking
+* Street Direction (one way street)‏
+* Land use
+* Walking paths, Cycleways, other routes
+* Specific Buildings and Amenities
+* Crossings, bridges, and tunnels
+* Additional Noteworthy Places and Landmarks
+
+---
+* Tracks are recorded automatically
+    * The track is a guideline, not the map!
+* Can use pen/paper, camera, dictaphone, mobile, etc
+* Work together to divide up the Cake!
+---
+#Let's Go
+
+---
 #Downloading from GPS
 Use of GPSBabel to download GPS data
 
@@ -223,6 +265,18 @@ Use of GPSBabel to download GPS data
 * data: results in GPX
 * other:
 * time: 20 minutes
+
+---
+# Connect GPS with USB cable
+
+    !sh
+    sudo gpsbabel -i Garmin -f usb: -o gpx -F waypoints.gpx
+     
+---
+# Tracks
+
+* Change to USB Mode ... shows up as a drive
+* or add -t to gpsbabel command
 
 ---
 #Editing Data in OSM
@@ -237,7 +291,7 @@ Facility with JOSM and Potlatch editors.
 * questions:
 
 ---
-#Tagging and Map Features, OSM data model and API
+#Tagging, OSM data model and API
 Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 
 * format: lecture
@@ -249,16 +303,6 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 * questions: how to generate interest
 
 ---
-#RESTful API
-* simple data format
-* tagging for metadata
-* standard map tiles
-= thriving ecosystem of tools, renderers, editors, routers, applications
-
----
-<img src="img/osm-architecture.png" style="width:80%"/>
-
----
 <img src="img/points-nodes.png" style="width:80%"/>
 
 ---
@@ -267,46 +311,90 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 ---
 <img src="img/map-features.png" style="width:80%"/>
 
+
 ---
-#Restful response
+#RESTful API
+* simple data format
+* tagging for metadata
+* standard map tiles
+* full planet dumps
+= thriving ecosystem of tools, renderers, editors, routers, applications
 
-Check this code:
+http://wiki.openstreetmap.org/wiki/APIs
 
-  !python
-      &lt;way id='7972254' timestamp='2007-09-24T12:36:29+01:00' user='chippy' visible='true'>
-    <nd ref='59608510' />
-    <nd ref='59608509' />
-    <nd ref='59608516' />
-    <nd ref='59608515' />
-    <nd ref='59608514' />
-    <nd ref='59608513' />
-    <nd ref='59608512' />
-    <nd ref='59608511' />
-    <nd ref='59608510' />
-    <tag k='created_by' v='JOSM' />
-    <tag k='building' v='retail' />
-    <tag k='name' v='White Rose Shopping Centre' />
-    <tag k='amenity' v='shopping_centre' />
-    <tag k='note' v='huge building' />
-  </way>
+* Main editing API. GET/PUT/DELETE/POST
+* XAPI and Overpass GET
+* Planet and minutely diffs XML files
+
+
+---
+#Example request
+
+GET http://api.openstreetmap.org/api/0.6/way/35
+
+    !xml
+    
+    <osm version="0.6" generator="OpenStreetMap server">
+    <way id="35" visible="true" timestamp="2010-12-06T14:41:05Z" 
+        version="5" changeset="6564105" user="blackadder" uid="735">
+    <nd ref="200542"/>
+    <nd ref="274057218"/>
+    <nd ref="1024965354"/>
+    <nd ref="200550"/>
+    <nd ref="1024940305"/>
+    <nd ref="1024940306"/>
+    <nd ref="1024940307"/>
+    <nd ref="200551"/>
+    <nd ref="200553"/>
+    <tag k="highway" v="footway"/>
+    <tag k="is_in" v="Sutton Coldfield"/>
+    <tag k="note" v="Fire Access Route"/>
+    <tag k="surface" v="paved"/>
+    </way>
+    </osm>
+
+---
+#Presets
+
+    !xml
+    <presets>
+    <group name="Health Service">
+
+    <item name="Basics">
+    <label text="Health Service" />
+
+    <text key="name" text="Service Name" />
+    <combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" 
+        default="" delete_if_empty="true" link="http://wiki.openstreetmap.org/wiki/Key:opening_hours" />
+
+    <label text=" " />
+    <text key="contact:phone" text="Mobile" 
+        link="http://wiki.openstreetmap.org/wiki/Key:contact" />
+    <text key="contact:email" text="Email" 
+        link="http:///wiki.openstreetmap.org/wiki/Key:contact" />
+    </group>
+    </presets>
+    
+
+http://josm.openstreetmap.de/wiki/TaggingPresets
+
+---
+<img src="img/osm-architecture.png" style="width:80%"/>
+http://wiki.openstreetmap.org/wiki/Develop
 
 ---
 #Resources
-* http://learnosm.org/
-* Books
-* Wiki
-* Lists
+* Basics: http://learnosm.org/
+* Using OSM: http://switch2osm.org/
+* Book: http://www.openstreetmap.info/
+* Wiki: http://wiki.openstreetmap.org/
+* Lists, IRC
 
 ---
-testing code:
-  why
-  doestn't
-  this
-  work
-
 * total time: 2.5 hours
 * data: results in data in OSM ... should have this already created for Bangalore
 ** Is the enough time??
+
 ---
 #WORKING WITH GEO DATA
 
