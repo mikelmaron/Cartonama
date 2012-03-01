@@ -413,9 +413,91 @@ http://wiki.openstreetmap.org/wiki/Develop
 * semi-minor axis (polar)
 * common spheroids
     * World Geodetic Survey 1984 (WGS84)
-    * WGS 1974
-    * NAD 1927 and 1983
+    * WGS 1972
     * Everest 1830 and 1956
+    * NAD 1927 and 1983
+---
+#Coordinate System
+
+* Geographic:  _latitude_ and _longitude_ in _degrees_
+* Projected: _easting_ and _northing_ in _meters_
+* False easting and northing
+* Datum: coordinate system origin
+* WHEN IN DOUBT, USE WGS84
+---
+#Projections
+
+* Round(ish) world, flat map
+* Project on the surface of another solid in some orientation, then unwrap
+* Sacrifice shape, area, and/or direction
+* Allows us to use Cartesian coordinates (whew!)
+---
+
+<img src="img/Mercator_1569.png" width="80%" />
+
+---
+# Cylindrical projections
+<img src="img/USGS-mercator.gif" width="80%" />
+
+---
+# Transverse cylindrical projections
+<img src="img/USGS-transverse.gif" width="80%" />
+
+---
+# Conic projections
+<img src="img/USGS-conic.gif" width="80%" />
+
+---
+# Plane projections
+
+## Azimuthal
+<img src="img/USGS-azimuthal.gif" width="80%" />
+
+## Orthographic
+<img src="img/USGS-orthographic.gif" width="80%" />
+
+---
+#Projections worth knowing
+
+* Unprojected, or Equirectangular
+* Mercator
+* Universal Transverse Mercator (UTM)
+* Spherical or "Web" Mercator
+---
+#Equirectangular "Projection"
+
+<img src="img/Equirectangular_projection_SW.jpg" width="80%" />
+
+---
+#Mercator
+
+<img src="img/Mercator_projection_SW.jpg" width="80%" />
+
+---
+#Transverse Mercator
+
+<img src="img/MercTranSph.png" width="80%" />
+
+---
+#Universal Transverse Mercator (UTM)
+
+<img src="img/utmworld.gif" style="width:80%"/>
+
+---
+#Web Mercator
+
+* Originally implemented by Google
+* Now standard across web mapping services
+* By setting max lat to +/- 85.0511&deg; the world is square
+* This has implications for tiling
+---
+#EPSG Codes
+
+* European Petroleum Standards Group
+* Established _EPSG codes_ for each projection
+* Unprojected Longitude/Latitude: __EPSG 4326__
+* Web Mercator: __EPSG 3857__
+* UTM zone 43 North: EPSG 32643 (for example)
 
 ---
 #Geographic Data
