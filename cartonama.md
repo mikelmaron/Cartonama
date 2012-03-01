@@ -397,8 +397,8 @@ http://wiki.openstreetmap.org/wiki/Develop
 
 ---
 #WORKING WITH GEO DATA
-
-##or, "Points and Lines and Polygons, oh my!"
+---
+#or, "Points and Lines and Polygons, oh my!"
 ---
 #A Round World
 * Not perfectly round
@@ -417,13 +417,13 @@ http://wiki.openstreetmap.org/wiki/Develop
     * Everest 1830 and 1956
     * NAD 1927 and 1983
 ---
-#Coordinate System
+#Coordinate Systems
 
 * Geographic:  _latitude_ and _longitude_ in _degrees_
 * Projected: _easting_ and _northing_ in _meters_
 * False easting and northing
 * Datum: coordinate system origin
-* WHEN IN DOUBT, USE WGS84
+* WHEN IN DOUBT, USE THE WGS84 SPHEROID AND DATUM
 ---
 #Projections
 
@@ -493,7 +493,8 @@ http://wiki.openstreetmap.org/wiki/Develop
 ---
 #Spatial Reference Systems
 
-__Projection + Spheroid + Datum + Units = SRS__
+* __Projection + Spheroid + Datum + Units = SRS__
+* Also known as "coordinate reference systems" (CRS)
 
 ----
 #EPSG Codes
@@ -505,7 +506,7 @@ __Projection + Spheroid + Datum + Units = SRS__
 * UTM zone 43 North: EPSG 32643 (for example)
 
 ---
-#Geographic Data
+#Geographic Data Models
 
 # Raster Data
 # Vector Data
@@ -693,10 +694,44 @@ _N.B._ Properties can be any legit JSON object!
 * Spatial reference system support
 
 ---
-#Create a PostGIS database
+#Create a PostGIS template database
+
+##Create a PostGIS template
+
+    $ createdb template_gis
+    $ createlang plpgsql template_gis
+    $ psql template_gis </usr/share/postgis/postgis.sql
+    $ psql template_gis </usr/share/postgis/spatial_ref_sys.sql
+
+##Make a spatial database from the template
+
+    $ createdb -Ttemplate_gis my_new_postgis_db
 
 ---
 #PostGIS metadata tables
+
+## geometry_columns
+ 
+          Column       |          Type          | Modifiers 
+    -------------------+------------------------+-----------
+     f_table_catalog   | character varying(256) | not null
+     f_table_schema    | character varying(256) | not null
+     f_table_name      | character varying(256) | not null
+     f_geometry_column | character varying(256) | not null
+     coord_dimension   | integer                | not null
+     srid              | integer                | not null
+     type              | character varying(30)  | not null
+
+
+## spatial_ref_sys
+
+      Column   |          Type           | Modifiers 
+    -----------+-------------------------+-----------
+     srid      | integer                 | not null
+     auth_name | character varying(256)  | 
+     auth_srid | integer                 | 
+     srtext    | character varying(2048) | 
+     proj4text | character varying(2048) | 
 
 ---
 #Create a PostGIS table
@@ -715,24 +750,6 @@ _N.B._ Properties can be any legit JSON object!
 
 ---
 #Dump a spatial table to a Shapefile
-
----
-
-#Geo Enabled Databases
-Understand PostGIS basics and MySQL spatial extension
-
-* format: lecture
-* slides: all about OGC Simple Features, their implementation in PostGIS and MySQL. Basics about setting up PostGIS and using spatial columns, etc.
-* software:
-* data:
-* other:
-* time: 45 minutes
-* questions: should this be more hands on?
-** WKT, Spatial Indexes, Predicates, shp2pgsql, pgsql2shp
- * non-relational dbs and spatial search suckage
- * could just show a database
- * spatial meta-data
- * projections
 
 ---
 #Data Swiss Army Knives
