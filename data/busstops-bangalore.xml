@@ -1,0 +1,2033 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="Osmosis SNAPSHOT-r26564">
+  <node id="158692604" version="10" timestamp="2009-01-03T17:07:22Z" uid="74061" user="SrikanthLogic" changeset="725630" lat="12.9568001" lon="77.6414513">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="249775695" version="5" timestamp="2011-10-14T09:04:44Z" uid="536292" user="Deepthi Kalku" changeset="9553493" lat="12.9378297" lon="77.5692767">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="N.R.Colony Bus Stop"/>
+  </node>
+  <node id="251103708" version="40" timestamp="2011-08-07T11:46:57Z" uid="33853" user="Dinesh R" changeset="8946027" lat="12.9652228" lon="77.7183071">
+    <tag k="local_ref" v="Brookesfield"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hindustan Level Limited"/>
+  </node>
+  <node id="266323140" version="1" timestamp="2008-05-22T14:18:19Z" uid="35811" user="Praveen" changeset="498270" lat="12.9246304" lon="77.6508178">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Agara"/>
+  </node>
+  <node id="266371073" version="2" timestamp="2008-05-22T18:41:24Z" uid="35811" user="Praveen" changeset="501300" lat="12.9212812" lon="77.6627642">
+    <tag k="created_by" v="Potlatch 0.9a"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ibblur"/>
+  </node>
+  <node id="266371138" version="3" timestamp="2009-12-14T19:30:39Z" uid="35811" user="Praveen" changeset="3374356" lat="12.921093" lon="77.6656834">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="266371205" version="3" timestamp="2011-01-05T13:27:11Z" uid="35811" user="Praveen" changeset="6871605" lat="12.9211641" lon="77.6624412">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ibblur"/>
+  </node>
+  <node id="267212842" version="1" timestamp="2008-05-28T10:55:13Z" uid="35811" user="Praveen" changeset="539586" lat="12.9186817" lon="77.6700672">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bellandur Gate"/>
+  </node>
+  <node id="278163316" version="17" timestamp="2012-01-18T11:59:27Z" uid="492742" user="docaneesh" changeset="10426752" lat="13.0494992" lon="77.5926728">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kempapura Bus Stop"/>
+  </node>
+  <node id="303933269" version="3" timestamp="2011-10-16T17:51:33Z" uid="536089" user="shijo" changeset="9575111" lat="12.9241537" lon="77.6300394">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="303933282" version="4" timestamp="2011-10-16T17:51:29Z" uid="536089" user="shijo" changeset="9575111" lat="12.9248728" lon="77.6345284">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jakkasandra Bus Stop"/>
+  </node>
+  <node id="308809874" version="2" timestamp="2009-07-24T15:51:14Z" uid="1306" user="PlaneMad" changeset="1926129" lat="12.9336397" lon="77.5839247">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="308809954" version="2" timestamp="2011-10-20T11:14:16Z" uid="535774" user="Sriranjan" changeset="9606958" lat="12.9293145" lon="77.5860321">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="308809997" version="2" timestamp="2011-10-20T11:10:01Z" uid="535774" user="Sriranjan" changeset="9606958" lat="12.9318759" lon="77.5838473">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="308922632" version="3" timestamp="2009-08-09T17:40:33Z" uid="1306" user="PlaneMad" changeset="2087999" lat="12.9362016" lon="77.607253">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="308922692" version="2" timestamp="2009-09-11T15:35:52Z" uid="1306" user="PlaneMad" changeset="2446958" lat="12.9398226" lon="77.5976635">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nimhans Bus Stop"/>
+  </node>
+  <node id="316997347" version="3" timestamp="2012-03-01T16:42:34Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.960045" lon="77.6464366">
+    <tag k="name:kn" v="ಕೊಡಿಹಳ್ಳಿ"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kodihalli"/>
+  </node>
+  <node id="316997427" version="3" timestamp="2012-03-01T16:29:54Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.9610682" lon="77.638209">
+    <tag k="name:kn" v="ಡೊಮಲೂರು"/>
+    <tag k="name:en" v="Domlur"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Domlur"/>
+  </node>
+  <node id="316997464" version="5" timestamp="2012-03-01T16:30:50Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.961217" lon="77.6365276">
+    <tag k="name:kn" v="ಡೊಮಲೂರು"/>
+    <tag k="name:en" v="Domlur"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Domlur"/>
+  </node>
+  <node id="316998710" version="4" timestamp="2012-03-01T16:31:41Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.9636716" lon="77.6416423">
+    <tag k="name:kn" v="ದೋಪ್ಪನ ಹಳ್ಳಿ"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Doopanhalli Last Stop"/>
+  </node>
+  <node id="325156622" version="3" timestamp="2012-03-01T16:39:49Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.955068" lon="77.6412885">
+    <tag k="name:kn" v="ಡೊಮಲೂರು ಹಿರೊಹೊಂಡ"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Domlur Herohonda Stop"/>
+  </node>
+  <node id="374216503" version="1" timestamp="2009-04-13T18:40:53Z" uid="116609" user="Jaegermeister" changeset="499282" lat="13.0224861" lon="77.572264">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="New B.E.L. Road (C.P.R.I.)"/>
+  </node>
+  <node id="374217535" version="2" timestamp="2010-02-21T08:29:11Z" uid="13303" user="sissou" changeset="3930638" lat="13.0162024" lon="77.5726437">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sadashivnagar Police Station"/>
+  </node>
+  <node id="374218191" version="1" timestamp="2009-04-13T18:45:14Z" uid="116609" user="Jaegermeister" changeset="499282" lat="13.0269539" lon="77.5717505">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="M.S. Ramaiah College"/>
+  </node>
+  <node id="414404832" version="3" timestamp="2010-02-04T13:11:54Z" uid="228837" user="som" changeset="3790195" lat="12.9589497" lon="77.6594288">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Konena Agrahara Bus Stop"/>
+  </node>
+  <node id="426402308" version="3" timestamp="2010-12-21T15:19:18Z" uid="1306" user="PlaneMad" changeset="6726139" lat="13.0346787" lon="77.5300983">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Peenya SRS Bus Stop"/>
+  </node>
+  <node id="426402661" version="2" timestamp="2010-08-13T17:11:51Z" uid="1306" user="PlaneMad" changeset="5483891" lat="13.0342823" lon="77.5304124">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Peenya SRS Bus Stop"/>
+  </node>
+  <node id="426402720" version="4" timestamp="2010-09-19T11:54:35Z" uid="1306" user="PlaneMad" changeset="5819050" lat="13.0295753" lon="77.5383219">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guragunte Palya Cross"/>
+  </node>
+  <node id="426402798" version="4" timestamp="2010-09-19T11:54:35Z" uid="1306" user="PlaneMad" changeset="5819050" lat="13.0312139" lon="77.5361444">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="CMTI"/>
+  </node>
+  <node id="428550495" version="3" timestamp="2011-05-18T10:01:01Z" uid="354670" user="janvpi" changeset="8179232" lat="13.0038423" lon="77.5692811">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="13th Cross Bus Stop"/>
+  </node>
+  <node id="428836836" version="4" timestamp="2011-01-03T05:17:22Z" uid="178915" user="Nand Kishore Gupta" changeset="6846216" lat="12.9655002" lon="77.6027917">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Richmond Circle Bus Stop"/>
+  </node>
+  <node id="428836842" version="3" timestamp="2012-01-19T12:55:43Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9672498" lon="77.5993953">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="428843485" version="2" timestamp="2009-11-28T16:42:23Z" uid="1306" user="PlaneMad" changeset="3237609" lat="12.9927836" lon="77.595052">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vasanth Nagar"/>
+  </node>
+  <node id="429001259" version="2" timestamp="2010-03-10T11:00:04Z" uid="1306" user="PlaneMad" changeset="4088274" lat="12.9742452" lon="77.6014144">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bowring Institute"/>
+  </node>
+  <node id="429303160" version="3" timestamp="2010-03-10T11:00:05Z" uid="1306" user="PlaneMad" changeset="4088274" lat="12.9774989" lon="77.5989042">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Chinnaswamy Stadium"/>
+  </node>
+  <node id="429876579" version="4" timestamp="2011-04-04T20:50:05Z" uid="1306" user="PlaneMad" changeset="7767885" lat="12.9735602" lon="77.6104316">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mayo Hall Bus Stop"/>
+  </node>
+  <node id="430043676" version="2" timestamp="2009-08-18T16:03:00Z" uid="1306" user="PlaneMad" changeset="2191014" lat="13.0107173" lon="77.5916013">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="430043752" version="4" timestamp="2010-08-09T12:26:03Z" uid="1306" user="PlaneMad" changeset="5443290" lat="13.0254264" lon="77.592988">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="RT Nagar Post Office"/>
+  </node>
+  <node id="430127796" version="1" timestamp="2009-06-28T10:56:15Z" uid="1306" user="PlaneMad" changeset="1660840" lat="13.0428998" lon="77.5909791">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hebbal"/>
+  </node>
+  <node id="430127799" version="1" timestamp="2009-06-28T10:56:16Z" uid="1306" user="PlaneMad" changeset="1660840" lat="13.0427726" lon="77.5909575">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hebbal"/>
+  </node>
+  <node id="443724378" version="2" timestamp="2009-07-24T10:21:00Z" uid="137441" user="Shankar" changeset="1923297" lat="13.022804" lon="77.5504128">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Regulated  Market"/>
+  </node>
+  <node id="443724407" version="2" timestamp="2009-07-24T10:21:00Z" uid="137441" user="Shankar" changeset="1923297" lat="13.0231218" lon="77.5503012">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Regulated  Market"/>
+  </node>
+  <node id="443727650" version="4" timestamp="2009-12-07T16:16:12Z" uid="1306" user="PlaneMad" changeset="3317046" lat="13.0451588" lon="77.5565241">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Circle"/>
+  </node>
+  <node id="443727723" version="2" timestamp="2009-07-19T15:41:36Z" uid="1306" user="PlaneMad" changeset="1874031" lat="13.0491439" lon="77.5446965">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="HMT Theatre"/>
+  </node>
+  <node id="443803763" version="1" timestamp="2009-07-19T17:10:16Z" uid="147423" user="AvinashHasiru" changeset="1875270" lat="12.9431924" lon="77.5429107">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Avalahalli BDA Park"/>
+  </node>
+  <node id="443803764" version="1" timestamp="2009-07-19T17:10:16Z" uid="147423" user="AvinashHasiru" changeset="1875270" lat="12.9408251" lon="77.5453226">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Girinagar Circle"/>
+  </node>
+  <node id="443803765" version="2" timestamp="2009-08-08T18:11:13Z" uid="147423" user="AvinashHasiru" changeset="2077748" lat="12.9411591" lon="77.5397297">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Girinagar Extn"/>
+  </node>
+  <node id="445573746" version="2" timestamp="2011-01-06T12:44:20Z" uid="1306" user="PlaneMad" changeset="6881854" lat="13.0146526" lon="77.5650459">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tata Institute"/>
+  </node>
+  <node id="445574316" version="1" timestamp="2009-07-22T16:21:54Z" uid="1306" user="PlaneMad" changeset="1906026" lat="13.0160471" lon="77.5626369">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tata Institute"/>
+  </node>
+  <node id="446780151" version="4" timestamp="2010-05-18T15:08:10Z" uid="1306" user="PlaneMad" changeset="4739666" lat="13.0286621" lon="77.5363502">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guragunte Palya"/>
+  </node>
+  <node id="446780153" version="2" timestamp="2009-08-13T13:38:12Z" uid="1306" user="PlaneMad" changeset="2130964" lat="13.026732" lon="77.5433714">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="MEI"/>
+  </node>
+  <node id="446781796" version="2" timestamp="2009-08-13T13:38:13Z" uid="1306" user="PlaneMad" changeset="2130964" lat="13.0254693" lon="77.5456035">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Suryodaya Mill"/>
+  </node>
+  <node id="446781799" version="3" timestamp="2010-12-07T13:25:42Z" uid="178915" user="Nand Kishore Gupta" changeset="6574682" lat="13.0212184" lon="77.551985">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Govardhan Theater Bus Stop"/>
+  </node>
+  <node id="446781800" version="2" timestamp="2009-11-22T12:41:09Z" uid="1306" user="PlaneMad" changeset="3185289" lat="13.0195041" lon="77.5528347">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeshwantpur Station"/>
+  </node>
+  <node id="446781802" version="3" timestamp="2010-08-09T13:01:04Z" uid="1306" user="PlaneMad" changeset="5443618" lat="13.0133369" lon="77.5536576">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Govt Soap Factory"/>
+  </node>
+  <node id="446781803" version="2" timestamp="2009-07-24T10:58:34Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0116853" lon="77.5508699">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ISKCON"/>
+  </node>
+  <node id="446782727" version="3" timestamp="2009-12-24T14:01:17Z" uid="1306" user="PlaneMad" changeset="3442491" lat="13.0221714" lon="77.5327656">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kanteerava Studio"/>
+  </node>
+  <node id="446782728" version="2" timestamp="2009-12-24T14:01:18Z" uid="1306" user="PlaneMad" changeset="3442491" lat="13.0197613" lon="77.5389856">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kanteerava Nagar"/>
+  </node>
+  <node id="446782729" version="2" timestamp="2009-08-13T13:47:48Z" uid="1306" user="PlaneMad" changeset="2131082" lat="13.0185109" lon="77.5409982">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Krishnanda Nagar"/>
+  </node>
+  <node id="446784269" version="1" timestamp="2009-07-24T10:41:25Z" uid="137441" user="Shankar" changeset="1923445" lat="13.020202" lon="77.5350138">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramkrishna Nagar"/>
+  </node>
+  <node id="446784270" version="3" timestamp="2009-07-24T16:36:08Z" uid="1306" user="PlaneMad" changeset="1926419" lat="13.0142774" lon="77.5324608">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jaibhuvaneshwari Nagar"/>
+  </node>
+  <node id="446784271" version="1" timestamp="2009-07-24T10:41:26Z" uid="137441" user="Shankar" changeset="1923445" lat="13.0175827" lon="77.5334781">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bakery"/>
+  </node>
+  <node id="446784272" version="2" timestamp="2009-07-26T07:51:15Z" uid="1306" user="PlaneMad" changeset="1941072" lat="13.0105988" lon="77.5331426">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Quaters"/>
+  </node>
+  <node id="446784273" version="1" timestamp="2009-07-24T10:41:26Z" uid="137441" user="Shankar" changeset="1923445" lat="13.0163191" lon="77.5309518">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramkrishna Nagar"/>
+  </node>
+  <node id="446791106" version="2" timestamp="2011-12-26T03:13:01Z" uid="492742" user="docaneesh" changeset="10204390" lat="13.0189809" lon="77.5226018">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lakshmidevi Nagar Cross"/>
+  </node>
+  <node id="446791135" version="2" timestamp="2009-07-26T07:41:31Z" uid="1306" user="PlaneMad" changeset="1941072" lat="13.0182004" lon="77.5235639">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lakshmidevi Nagar"/>
+  </node>
+  <node id="446791137" version="2" timestamp="2009-07-26T07:41:12Z" uid="1306" user="PlaneMad" changeset="1941072" lat="13.0157" lon="77.5234265">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vidhan Soudha Layout"/>
+  </node>
+  <node id="446791139" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="13.0100014" lon="77.5269094">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vidhan Soudha Layout"/>
+  </node>
+  <node id="446791142" version="2" timestamp="2011-12-21T13:17:07Z" uid="492742" user="docaneesh" changeset="10171455" lat="13.0103801" lon="77.5290268">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Swathantra Yodhara Nagar"/>
+  </node>
+  <node id="446791144" version="3" timestamp="2011-12-25T12:58:48Z" uid="492742" user="docaneesh" changeset="10199390" lat="13.015213" lon="77.5293199">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Laggere"/>
+  </node>
+  <node id="446791146" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="13.0060088" lon="77.5263248">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Muneshwara Block"/>
+  </node>
+  <node id="446791149" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="13.0017054" lon="77.5251229">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Community Hall"/>
+  </node>
+  <node id="446791153" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9968376" lon="77.5224992">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kamala Nagar"/>
+  </node>
+  <node id="446791156" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.993363" lon="77.5281085">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kamala Nagar BEML Layout"/>
+  </node>
+  <node id="446791158" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9970528" lon="77.5268975">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shankarnag Bus Station"/>
+  </node>
+  <node id="446791162" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9962783" lon="77.5299881">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kamala Nagar"/>
+  </node>
+  <node id="446791165" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9958785" lon="77.533455">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nethaji Bus Stop"/>
+  </node>
+  <node id="446791168" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9932201" lon="77.5349114">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Old Bus Stop"/>
+  </node>
+  <node id="446791171" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9910812" lon="77.5328395">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sharadha Colony"/>
+  </node>
+  <node id="446791174" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9889424" lon="77.5322446">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sharadha Colony"/>
+  </node>
+  <node id="446791176" version="1" timestamp="2009-07-24T10:54:34Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9877031" lon="77.5366551">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Havanoor Circle"/>
+  </node>
+  <node id="446791178" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9842924" lon="77.5376501">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Natraj Junction"/>
+  </node>
+  <node id="446791181" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9891648" lon="77.542426">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Saneguruvana Halli"/>
+  </node>
+  <node id="446791185" version="2" timestamp="2009-07-24T16:43:26Z" uid="1306" user="PlaneMad" changeset="1926419" lat="12.9851404" lon="77.5427433">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Darsahalli"/>
+  </node>
+  <node id="446791187" version="2" timestamp="2011-10-16T05:36:28Z" uid="535816" user="Abhijit Potnis" changeset="9569172" lat="12.9888769" lon="77.5462892">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shivannahalli"/>
+  </node>
+  <node id="446791189" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9908826" lon="77.5468493">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pushpanjali Talkies"/>
+  </node>
+  <node id="446791190" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9923818" lon="77.5439004">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Manjunatha Nagar"/>
+  </node>
+  <node id="446791191" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9908514" lon="77.5500867">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="EHP"/>
+  </node>
+  <node id="446791192" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9906327" lon="77.5511124">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="EHP"/>
+  </node>
+  <node id="446791193" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="12.9951302" lon="77.5503431">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Manjunatha Nagar"/>
+  </node>
+  <node id="446791194" version="2" timestamp="2010-12-06T14:20:05Z" uid="178915" user="Nand Kishore Gupta" changeset="6563864" lat="12.9957549" lon="77.5401182">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Water Tank Bus Stop"/>
+  </node>
+  <node id="446791195" version="2" timestamp="2010-11-19T12:30:34Z" uid="178915" user="Nand Kishore Gupta" changeset="6406603" lat="12.9974414" lon="77.5458557">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Modi Hospital Bus Stop"/>
+  </node>
+  <node id="446791196" version="3" timestamp="2010-11-19T12:30:33Z" uid="178915" user="Nand Kishore Gupta" changeset="6406603" lat="12.9992638" lon="77.5415736">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shankar Mutt Bus Stop"/>
+  </node>
+  <node id="446791198" version="3" timestamp="2011-10-12T10:53:33Z" uid="523804" user="yvPramod" changeset="9537720" lat="12.9984947" lon="77.5502582">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="446791200" version="1" timestamp="2009-07-24T10:54:35Z" uid="137441" user="Shankar" changeset="1923529" lat="13.0023448" lon="77.5462403">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Navarangpura"/>
+  </node>
+  <node id="446791202" version="2" timestamp="2012-02-03T15:58:57Z" uid="492742" user="docaneesh" changeset="10576630" lat="13.0011853" lon="77.549913">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Canara Bank"/>
+  </node>
+  <node id="446796164" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0034339" lon="77.5372655">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="JC Nagar"/>
+  </node>
+  <node id="446796165" version="2" timestamp="2011-12-19T07:19:39Z" uid="492742" user="docaneesh" changeset="10153262" lat="13.0027597" lon="77.5337979">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kaveri Nagar"/>
+  </node>
+  <node id="446796166" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0018333" lon="77.5409917">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bhimjyothi Nagar"/>
+  </node>
+  <node id="446796171" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0063048" lon="77.5406215">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Galayara Balaga"/>
+  </node>
+  <node id="446796173" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0090269" lon="77.5394391">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Saraswathi Pura"/>
+  </node>
+  <node id="446796175" version="3" timestamp="2011-10-14T05:44:03Z" uid="537018" user="Deepa V" changeset="9552598" lat="13.0081887" lon="77.5454818">
+    <tag k="local_ref" v="Anjaneya Temple"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Anjaneya Temple"/>
+  </node>
+  <node id="446796177" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0123685" lon="77.5440292">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mahalakshmi Layout"/>
+  </node>
+  <node id="446796179" version="1" timestamp="2009-07-24T10:58:33Z" uid="137441" user="Shankar" changeset="1923550" lat="13.0096979" lon="77.5430179">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ganesha Temple"/>
+  </node>
+  <node id="446796180" version="3" timestamp="2009-08-13T13:38:13Z" uid="1306" user="PlaneMad" changeset="2130964" lat="13.0157669" lon="77.5439122">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shankar Nagar"/>
+  </node>
+  <node id="446796182" version="2" timestamp="2009-12-24T14:01:17Z" uid="1306" user="PlaneMad" changeset="3442491" lat="13.0218005" lon="77.5261255">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sanjaygandhi Nagar"/>
+  </node>
+  <node id="446805853" version="2" timestamp="2009-08-13T13:38:13Z" uid="1306" user="PlaneMad" changeset="2130964" lat="13.0326885" lon="77.5409104">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tata Tea"/>
+  </node>
+  <node id="446805857" version="3" timestamp="2009-12-24T13:15:27Z" uid="1306" user="PlaneMad" changeset="3442110" lat="13.0307965" lon="77.5515229">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mohan Kumar Nagar"/>
+  </node>
+  <node id="446805859" version="2" timestamp="2009-09-10T18:54:45Z" uid="1306" user="PlaneMad" changeset="2438647" lat="13.0376165" lon="77.5417081">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ALIDSA"/>
+  </node>
+  <node id="446805862" version="3" timestamp="2010-02-14T13:41:38Z" uid="13303" user="sissou" changeset="3873802" lat="13.0411722" lon="77.5457323">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ASC supply point"/>
+  </node>
+  <node id="446805864" version="2" timestamp="2009-10-05T07:34:10Z" uid="1306" user="PlaneMad" changeset="2746139" lat="13.0426967" lon="77.5504594">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Muthyala Nagar"/>
+  </node>
+  <node id="446805867" version="4" timestamp="2009-12-07T16:15:21Z" uid="1306" user="PlaneMad" changeset="3317046" lat="13.0412811" lon="77.5573181">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gokula"/>
+  </node>
+  <node id="446805872" version="2" timestamp="2009-10-11T17:49:07Z" uid="1306" user="PlaneMad" changeset="2817135" lat="13.0309651" lon="77.5596914">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Post Office"/>
+  </node>
+  <node id="446810096" version="2" timestamp="2009-08-13T15:37:40Z" uid="1306" user="PlaneMad" changeset="2132367" lat="13.0274274" lon="77.5583053">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bombay Dyeing"/>
+  </node>
+  <node id="446818836" version="3" timestamp="2011-01-02T08:54:37Z" uid="1306" user="PlaneMad" changeset="6836012" lat="13.0438026" lon="77.5580876">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Circle"/>
+  </node>
+  <node id="446818837" version="2" timestamp="2009-10-12T09:44:30Z" uid="1306" user="PlaneMad" changeset="2822513" lat="13.0439083" lon="77.5618405">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kuvempu Circle"/>
+  </node>
+  <node id="446822783" version="4" timestamp="2011-01-19T13:26:55Z" uid="178915" user="Nand Kishore Gupta" changeset="7020422" lat="13.0198503" lon="77.5559986">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeshwantpur Market Bus Stop"/>
+  </node>
+  <node id="446822785" version="3" timestamp="2009-12-02T17:54:11Z" uid="1306" user="PlaneMad" changeset="3273936" lat="13.0177605" lon="77.5593769">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeshwantpur Circle"/>
+  </node>
+  <node id="446822786" version="3" timestamp="2009-08-11T04:37:11Z" uid="1306" user="PlaneMad" changeset="2104220" lat="13.0119708" lon="77.5613718">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mysore Lamps"/>
+  </node>
+  <node id="446822787" version="2" timestamp="2011-01-10T20:02:02Z" uid="1306" user="PlaneMad" changeset="6929757" lat="13.0120356" lon="77.5584024">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kirloskar"/>
+  </node>
+  <node id="446865383" version="2" timestamp="2009-10-12T09:44:30Z" uid="1306" user="PlaneMad" changeset="2822513" lat="13.0466403" lon="77.567117">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="chowdeshwari Nagar"/>
+  </node>
+  <node id="446865385" version="2" timestamp="2009-10-12T08:31:28Z" uid="1306" user="PlaneMad" changeset="2822513" lat="13.0425607" lon="77.573103">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Basaveshwaranagar Layout"/>
+  </node>
+  <node id="446865386" version="1" timestamp="2009-07-24T12:43:18Z" uid="137441" user="Shankar" changeset="1924426" lat="13.042247" lon="77.5748165">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nagashetty halli"/>
+  </node>
+  <node id="446865387" version="3" timestamp="2009-10-12T09:13:51Z" uid="1306" user="PlaneMad" changeset="2822513" lat="13.0426143" lon="77.5778114">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bakery"/>
+  </node>
+  <node id="446865388" version="2" timestamp="2009-08-17T16:09:16Z" uid="15477" user="muscicapa" changeset="2179063" lat="13.0465509" lon="77.5753313">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nagashetty halli"/>
+  </node>
+  <node id="446865389" version="3" timestamp="2011-10-19T15:12:00Z" uid="535441" user="Nithin Raju" changeset="9600625" lat="13.0381879" lon="77.5742895">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="RMS Bus Stop"/>
+  </node>
+  <node id="446865390" version="2" timestamp="2009-07-26T17:57:39Z" uid="1306" user="PlaneMad" changeset="1946879" lat="13.0379311" lon="77.5707912">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="RMV Stage 2"/>
+  </node>
+  <node id="446865391" version="2" timestamp="2009-10-11T19:17:32Z" uid="1306" user="PlaneMad" changeset="2818099" lat="13.0386697" lon="77.5647797">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Devasandra"/>
+  </node>
+  <node id="446865392" version="2" timestamp="2009-10-11T19:27:21Z" uid="1306" user="PlaneMad" changeset="2818099" lat="13.0341897" lon="77.5687566">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ITI Colony"/>
+  </node>
+  <node id="446865393" version="2" timestamp="2010-10-27T15:45:56Z" uid="363827" user="ssasmal" changeset="6197292" lat="13.0343897" lon="77.5756573">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sanjay Nagar"/>
+  </node>
+  <node id="446865394" version="2" timestamp="2009-07-26T18:01:56Z" uid="1306" user="PlaneMad" changeset="1946903" lat="13.0421244" lon="77.5824984">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bupa Sandra"/>
+  </node>
+  <node id="446865395" version="3" timestamp="2011-10-19T15:49:08Z" uid="535441" user="Nithin Raju" changeset="9600998" lat="13.0308269" lon="77.5775615">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Geddahalli"/>
+  </node>
+  <node id="446865396" version="5" timestamp="2011-10-16T13:28:03Z" uid="535441" user="Nithin Raju" changeset="9572055" lat="13.0266471" lon="77.5801183">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="AshwathNagar"/>
+  </node>
+  <node id="446865397" version="4" timestamp="2011-05-25T16:06:45Z" uid="422364" user="abyclassic" changeset="8246088" lat="13.0390261" lon="77.5895799">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hebbal"/>
+  </node>
+  <node id="446865399" version="3" timestamp="2011-05-25T15:27:52Z" uid="422364" user="abyclassic" changeset="8245741" lat="13.0345022" lon="77.5888576">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Baptist Hospital"/>
+  </node>
+  <node id="446865400" version="2" timestamp="2009-10-12T07:45:28Z" uid="1306" user="PlaneMad" changeset="2822513" lat="13.0309667" lon="77.5871536">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vetenary College"/>
+  </node>
+  <node id="446865401" version="2" timestamp="2009-12-06T15:06:59Z" uid="1306" user="PlaneMad" changeset="3306013" lat="13.0295976" lon="77.5925517">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ananda Nagar"/>
+  </node>
+  <node id="446865402" version="3" timestamp="2010-08-09T12:26:30Z" uid="1306" user="PlaneMad" changeset="5443290" lat="13.0268702" lon="77.5864775">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="CBI office"/>
+  </node>
+  <node id="446865403" version="2" timestamp="2010-08-09T12:26:12Z" uid="1306" user="PlaneMad" changeset="5443290" lat="13.0262185" lon="77.5889138">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ashwathappa Layout"/>
+  </node>
+  <node id="446865404" version="2" timestamp="2009-12-06T15:58:59Z" uid="1306" user="PlaneMad" changeset="3306502" lat="13.0206843" lon="77.5886129">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ganga Nagar"/>
+  </node>
+  <node id="446865405" version="1" timestamp="2009-07-24T12:43:19Z" uid="137441" user="Shankar" changeset="1924426" lat="13.0169685" lon="77.5879527">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Muneshwara Temple"/>
+  </node>
+  <node id="446865406" version="3" timestamp="2010-08-09T13:41:55Z" uid="1306" user="PlaneMad" changeset="5444045" lat="13.0175911" lon="77.5838321">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Airforce Camp"/>
+  </node>
+  <node id="446941376" version="2" timestamp="2009-08-11T04:37:10Z" uid="1306" user="PlaneMad" changeset="2104220" lat="13.0135799" lon="77.5836905">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mekhri Circle"/>
+  </node>
+  <node id="446941377" version="1" timestamp="2009-07-24T14:01:46Z" uid="137441" user="Shankar" changeset="1925206" lat="13.0085897" lon="77.5800407">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sadhashivnagar"/>
+  </node>
+  <node id="446941379" version="2" timestamp="2009-08-18T16:02:59Z" uid="1306" user="PlaneMad" changeset="2191014" lat="13.0090448" lon="77.5910863">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="TV Tower"/>
+  </node>
+  <node id="446941380" version="3" timestamp="2010-03-06T12:26:19Z" uid="77582" user="Byung Kyu Park" changeset="4049554" lat="13.0060604" lon="77.5795947">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sadashivanagar"/>
+  </node>
+  <node id="446941381" version="6" timestamp="2011-05-18T09:48:00Z" uid="354670" user="janvpi" changeset="8179232" lat="13.0086242" lon="77.5710968">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="18th Cross Malleshwaram"/>
+  </node>
+  <node id="446941382" version="3" timestamp="2011-05-18T09:47:59Z" uid="354670" user="janvpi" changeset="8179232" lat="13.0053392" lon="77.5711719">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="15th Cross Maleshwaram"/>
+  </node>
+  <node id="446995784" version="1" timestamp="2009-07-24T15:13:12Z" uid="137441" user="Shankar" changeset="1925798" lat="13.0028189" lon="77.5783947">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vyalikaval"/>
+  </node>
+  <node id="446995789" version="5" timestamp="2011-09-17T17:05:09Z" uid="492742" user="docaneesh" changeset="9325691" lat="12.9995042" lon="77.5837855">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guttahalli Bus Stop"/>
+  </node>
+  <node id="446995791" version="1" timestamp="2009-07-24T15:13:12Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9955422" lon="77.5810572">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pipe Line"/>
+  </node>
+  <node id="446995793" version="2" timestamp="2009-08-11T14:08:32Z" uid="1306" user="PlaneMad" changeset="2108247" lat="12.9938777" lon="77.5774907">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="RMS"/>
+  </node>
+  <node id="446995794" version="1" timestamp="2009-07-24T15:13:12Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9989096" lon="77.5752634">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Dattatreya Temple"/>
+  </node>
+  <node id="446995796" version="3" timestamp="2011-05-18T10:51:28Z" uid="354670" user="janvpi" changeset="8179646" lat="13.0015549" lon="77.5711826">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="11th Cross"/>
+  </node>
+  <node id="446995798" version="3" timestamp="2009-12-01T10:34:14Z" uid="1306" user="PlaneMad" changeset="3263017" lat="12.9998935" lon="77.5712222">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="8th Cross"/>
+  </node>
+  <node id="446995800" version="2" timestamp="2009-12-25T01:34:31Z" uid="197978" user="jmurthy" changeset="3445840" lat="12.9999635" lon="77.5654977">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="8th Cross 8th Main"/>
+  </node>
+  <node id="446995802" version="2" timestamp="2011-09-20T15:32:12Z" uid="523804" user="yvPramod" changeset="9352412" lat="12.9967075" lon="77.5629757">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Devaiah Park"/>
+  </node>
+  <node id="446995807" version="2" timestamp="2011-10-30T14:19:28Z" uid="1306" user="PlaneMad" changeset="9693526" lat="12.9985795" lon="77.5560911">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mariyappana Palya"/>
+  </node>
+  <node id="446995809" version="1" timestamp="2009-07-24T15:13:12Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9950445" lon="77.5537853">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Basaveshwara College"/>
+  </node>
+  <node id="446995812" version="2" timestamp="2009-07-26T07:57:48Z" uid="1306" user="PlaneMad" changeset="1941072" lat="12.9901594" lon="77.554626">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Old Police station"/>
+  </node>
+  <node id="446995814" version="1" timestamp="2009-07-24T15:13:12Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9907269" lon="77.558922">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Navarang Bar"/>
+  </node>
+  <node id="446995816" version="2" timestamp="2009-07-26T07:58:22Z" uid="1306" user="PlaneMad" changeset="1941072" lat="12.9930364" lon="77.5596814">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ayappa Temple"/>
+  </node>
+  <node id="446995818" version="2" timestamp="2009-07-26T08:00:15Z" uid="1306" user="PlaneMad" changeset="1941072" lat="12.9927771" lon="77.5633979">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="LN Pura"/>
+  </node>
+  <node id="446995820" version="2" timestamp="2009-12-01T10:51:29Z" uid="1306" user="PlaneMad" changeset="3263110" lat="12.9886163" lon="77.5664117">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Aruna Talkies"/>
+  </node>
+  <node id="446995823" version="2" timestamp="2009-12-01T10:51:16Z" uid="1306" user="PlaneMad" changeset="3263110" lat="12.9907699" lon="77.5679782">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bashyam Nagar"/>
+  </node>
+  <node id="446995825" version="1" timestamp="2009-07-24T15:13:13Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9885566" lon="77.5720296">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Central Talkies"/>
+  </node>
+  <node id="446995827" version="3" timestamp="2009-12-01T10:51:35Z" uid="1306" user="PlaneMad" changeset="3263110" lat="12.9863059" lon="77.5680962">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gandhi School"/>
+  </node>
+  <node id="446995828" version="2" timestamp="2009-12-01T10:52:21Z" uid="1306" user="PlaneMad" changeset="3263110" lat="12.9856891" lon="77.563">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramachandra Pura Market"/>
+  </node>
+  <node id="446995829" version="2" timestamp="2009-08-25T19:39:00Z" uid="1306" user="PlaneMad" changeset="2260081" lat="12.9967029" lon="77.5680581">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maleshwaram Circle"/>
+  </node>
+  <node id="446995830" version="2" timestamp="2009-12-01T10:51:25Z" uid="1306" user="PlaneMad" changeset="3263110" lat="12.9933312" lon="77.5678601">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Brand Reddy Circle"/>
+  </node>
+  <node id="446995832" version="1" timestamp="2009-07-24T15:13:13Z" uid="137441" user="Shankar" changeset="1925798" lat="12.9944373" lon="77.5672203">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Chowdeshawari Temple"/>
+  </node>
+  <node id="446995834" version="2" timestamp="2009-08-04T14:26:39Z" uid="1306" user="PlaneMad" changeset="2035799" lat="12.9974813" lon="77.5694701">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maleshwaram Circle"/>
+  </node>
+  <node id="446995837" version="4" timestamp="2011-05-18T09:47:58Z" uid="354670" user="janvpi" changeset="8179232" lat="13.009688" lon="77.5691418">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="18th Cross"/>
+  </node>
+  <node id="452414811" version="4" timestamp="2010-03-11T07:05:47Z" uid="1306" user="PlaneMad" changeset="4095594" lat="12.9685335" lon="77.5897717">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kasturba Road AC Stand"/>
+  </node>
+  <node id="454083696" version="1" timestamp="2009-08-02T06:59:19Z" uid="89411" user="Guillaume Audirac" changeset="2009971" lat="13.0258161" lon="77.6317274">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BMTC 10th Depot"/>
+  </node>
+  <node id="459427775" version="1" timestamp="2009-08-09T05:51:25Z" uid="20435" user="Pradeep B V" changeset="2081235" lat="12.9301102" lon="77.5437296">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="460976009" version="3" timestamp="2009-12-02T17:54:23Z" uid="1306" user="PlaneMad" changeset="3273936" lat="13.0179669" lon="77.5570575">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeshwantpur Circle"/>
+  </node>
+  <node id="461539063" version="1" timestamp="2009-08-11T04:36:44Z" uid="1306" user="PlaneMad" changeset="2104220" lat="13.0145974" lon="77.5823369">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mekhri Circle"/>
+  </node>
+  <node id="469614003" version="5" timestamp="2012-01-15T04:20:09Z" uid="178915" user="Nand Kishore Gupta" changeset="10394630" lat="12.9875985" lon="77.5945157">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Cunningham Road Bus Stop"/>
+  </node>
+  <node id="469626786" version="1" timestamp="2009-08-17T06:30:39Z" uid="1306" user="PlaneMad" changeset="2173431" lat="13.0142833" lon="77.5670518">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="469831466" version="1" timestamp="2009-08-17T16:04:36Z" uid="15477" user="muscicapa" changeset="2179063" lat="13.0475627" lon="77.5653578">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lottegollahalli"/>
+  </node>
+  <node id="469832484" version="1" timestamp="2009-08-17T16:05:30Z" uid="15477" user="muscicapa" changeset="2179063" lat="13.0553973" lon="77.5733143">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tatanagar"/>
+  </node>
+  <node id="469833387" version="4" timestamp="2011-10-16T08:56:04Z" uid="535441" user="Nithin Raju" changeset="9570017" lat="13.0483706" lon="77.5760903">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Badrappa layout"/>
+  </node>
+  <node id="469835554" version="1" timestamp="2009-08-17T16:15:45Z" uid="15477" user="muscicapa" changeset="2179063" lat="13.0585912" lon="77.5590235">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bommasandra"/>
+  </node>
+  <node id="469835555" version="1" timestamp="2009-08-17T16:15:45Z" uid="15477" user="muscicapa" changeset="2179063" lat="13.0732896" lon="77.5666366">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Thindlu"/>
+  </node>
+  <node id="483709336" version="1" timestamp="2009-09-04T22:32:03Z" uid="167508" user="prashanth sharma" changeset="2374863" lat="12.9330913" lon="77.5405009">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="HosaKereHalli bus stop"/>
+  </node>
+  <node id="493556427" version="1" timestamp="2009-09-11T16:14:39Z" uid="1306" user="PlaneMad" changeset="2446958" lat="12.9196315" lon="77.5921293">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="493556458" version="2" timestamp="2011-10-20T06:03:24Z" uid="535774" user="Sriranjan" changeset="9605400" lat="12.9177142" lon="77.5774669">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sangam Circle"/>
+  </node>
+  <node id="503532619" version="1" timestamp="2009-09-20T18:15:46Z" uid="1306" user="PlaneMad" changeset="2548347" lat="13.0547353" lon="77.5327719">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="512100060" version="3" timestamp="2011-12-30T03:34:04Z" uid="178915" user="Nand Kishore Gupta" changeset="10241929" lat="12.9923158" lon="77.7162959">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hoodi Circle Bus Stop"/>
+  </node>
+  <node id="514184962" version="2" timestamp="2011-12-30T03:34:04Z" uid="178915" user="Nand Kishore Gupta" changeset="10241929" lat="12.9929821" lon="77.705506">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="514185567" version="4" timestamp="2011-12-30T03:34:04Z" uid="178915" user="Nand Kishore Gupta" changeset="10241929" lat="12.9930142" lon="77.7065827">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="517325325" version="3" timestamp="2011-06-17T14:59:49Z" uid="401804" user="Pravin" changeset="8465656" lat="12.9784901" lon="77.6462763">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="CMH Bus Stop"/>
+  </node>
+  <node id="517874467" version="1" timestamp="2009-10-02T18:03:10Z" uid="1306" user="PlaneMad" changeset="2715065" lat="12.9530434" lon="77.5737413">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="520197507" version="1" timestamp="2009-10-04T15:50:46Z" uid="1306" user="PlaneMad" changeset="2738039" lat="13.043531" lon="77.5585995">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Circle"/>
+  </node>
+  <node id="524077013" version="1" timestamp="2009-10-07T12:49:40Z" uid="178915" user="Nand Kishore Gupta" changeset="2770603" lat="12.9171533" lon="77.5889579">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marenahalli Bus Stop"/>
+  </node>
+  <node id="524080923" version="1" timestamp="2009-10-07T12:53:27Z" uid="178915" user="Nand Kishore Gupta" changeset="2770603" lat="12.917145" lon="77.5927516">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Raggigudda Bus Stop"/>
+  </node>
+  <node id="524080930" version="1" timestamp="2009-10-07T12:53:27Z" uid="178915" user="Nand Kishore Gupta" changeset="2770603" lat="12.9170864" lon="77.5970603">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="East End Bus Stop"/>
+  </node>
+  <node id="528968367" version="2" timestamp="2010-02-14T13:28:49Z" uid="13303" user="sissou" changeset="3873676" lat="13.0345364" lon="77.5572948">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mathikere"/>
+  </node>
+  <node id="537536153" version="4" timestamp="2012-01-24T11:07:09Z" uid="83660" user="ashish v" changeset="10483363" lat="12.9320091" lon="77.6131688">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Check Post/Forum Bus Stop"/>
+  </node>
+  <node id="537536264" version="3" timestamp="2011-01-05T12:42:19Z" uid="178915" user="Nand Kishore Gupta" changeset="6871195" lat="12.929643" lon="77.6157203">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="St Johns Hospital Bus Stop"/>
+  </node>
+  <node id="537536287" version="5" timestamp="2011-10-18T19:03:56Z" uid="536089" user="shijo" changeset="9593967" lat="12.9268167" lon="77.6228642">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Koramangala Water Tank"/>
+  </node>
+  <node id="537536393" version="1" timestamp="2009-10-21T09:38:45Z" uid="20435" user="Pradeep B V" changeset="2910068" lat="12.9242884" lon="77.6181077">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Madiwala"/>
+  </node>
+  <node id="537536464" version="2" timestamp="2011-10-19T18:30:56Z" uid="536089" user="shijo" changeset="9602519" lat="12.9198608" lon="77.6207279">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Madiwala Market"/>
+  </node>
+  <node id="553942818" version="2" timestamp="2011-10-04T06:26:02Z" uid="492742" user="docaneesh" changeset="9466540" lat="12.9585324" lon="77.6659475">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="H.A.L"/>
+  </node>
+  <node id="568282147" version="2" timestamp="2010-05-03T06:39:08Z" uid="1306" user="PlaneMad" changeset="4592036" lat="13.0044007" lon="77.5821749">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sadashivanagar"/>
+  </node>
+  <node id="568362029" version="1" timestamp="2009-11-22T12:41:17Z" uid="1306" user="PlaneMad" changeset="3185289" lat="13.0190108" lon="77.553324">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeshwantpur Station"/>
+  </node>
+  <node id="570888938" version="3" timestamp="2011-10-15T14:58:31Z" uid="486230" user="gumaste" changeset="9564176" lat="12.9379859" lon="77.5497842">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Seetha Circle"/>
+  </node>
+  <node id="573433441" version="2" timestamp="2011-10-16T14:07:31Z" uid="535849" user="Lakshmi" changeset="9572004" lat="12.9901154" lon="77.5994771">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="576134549" version="2" timestamp="2009-12-01T10:26:52Z" uid="1306" user="PlaneMad" changeset="3262984" lat="12.9901759" lon="77.5719766">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajiv Gandhi Circle"/>
+  </node>
+  <node id="577019587" version="1" timestamp="2009-12-01T10:26:57Z" uid="1306" user="PlaneMad" changeset="3262984" lat="12.9897159" lon="77.572556">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajiv Gandhi Circle"/>
+  </node>
+  <node id="577021934" version="1" timestamp="2009-12-01T10:34:05Z" uid="1306" user="PlaneMad" changeset="3263017" lat="12.9975205" lon="77.571308">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maleshwaram Circle"/>
+  </node>
+  <node id="581893766" version="1" timestamp="2009-12-05T12:45:16Z" uid="1306" user="PlaneMad" changeset="3294812" lat="13.0286776" lon="77.5406582">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guragunte Palya Cross"/>
+  </node>
+  <node id="581893767" version="2" timestamp="2010-06-17T11:58:56Z" uid="1306" user="PlaneMad" changeset="5008191" lat="13.0311892" lon="77.5356441">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="SRS"/>
+  </node>
+  <node id="582576069" version="1" timestamp="2009-12-06T15:22:08Z" uid="1306" user="PlaneMad" changeset="3306173" lat="13.029541" lon="77.6092934">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="LR Bande"/>
+  </node>
+  <node id="582924351" version="1" timestamp="2009-12-07T16:15:14Z" uid="1306" user="PlaneMad" changeset="3317046" lat="13.0411662" lon="77.557125">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gokula"/>
+  </node>
+  <node id="582924364" version="1" timestamp="2009-12-07T16:16:00Z" uid="1306" user="PlaneMad" changeset="3317046" lat="13.0464653" lon="77.5557624">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jallahalli"/>
+  </node>
+  <node id="582924366" version="1" timestamp="2009-12-07T16:16:07Z" uid="1306" user="PlaneMad" changeset="3317046" lat="13.045232" lon="77.5567709">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Circle"/>
+  </node>
+  <node id="583207264" version="1" timestamp="2009-12-08T08:07:11Z" uid="206000" user="srikanth2577" changeset="3322952" lat="12.9876579" lon="77.493235">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mahadeshwarnagar(Hero halli cross) Bus stop"/>
+  </node>
+  <node id="589780599" version="1" timestamp="2009-12-14T05:44:01Z" uid="1306" user="PlaneMad" changeset="3369433" lat="13.048904" lon="77.535472">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="589805799" version="1" timestamp="2009-12-14T05:57:40Z" uid="1306" user="PlaneMad" changeset="3369433" lat="13.0538268" lon="77.5328542">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="590008914" version="2" timestamp="2009-12-14T10:08:28Z" uid="1306" user="PlaneMad" changeset="3370253" lat="13.0510768" lon="77.5524869">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Market"/>
+  </node>
+  <node id="590009104" version="1" timestamp="2009-12-14T10:08:21Z" uid="1306" user="PlaneMad" changeset="3370253" lat="13.0510977" lon="77.5527014">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Market"/>
+  </node>
+  <node id="590021026" version="1" timestamp="2009-12-14T10:15:36Z" uid="1306" user="PlaneMad" changeset="3370253" lat="13.0689485" lon="77.5445288">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Double Tank"/>
+  </node>
+  <node id="590030412" version="1" timestamp="2009-12-14T10:25:51Z" uid="1306" user="PlaneMad" changeset="3370253" lat="13.0494149" lon="77.5371124">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="590030701" version="1" timestamp="2009-12-14T10:29:13Z" uid="1306" user="PlaneMad" changeset="3370253" lat="13.0577135" lon="77.5462105">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gangamma Circle"/>
+  </node>
+  <node id="594866300" version="1" timestamp="2009-12-17T11:12:15Z" uid="209606" user="balasubramanian" changeset="3393018" lat="12.9716111" lon="77.6582872">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Beml"/>
+  </node>
+  <node id="594866728" version="1" timestamp="2009-12-17T11:12:42Z" uid="209606" user="balasubramanian" changeset="3393018" lat="12.9751867" lon="77.6660441">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="GM Palya"/>
+  </node>
+  <node id="595314102" version="1" timestamp="2009-12-17T17:44:19Z" uid="204894" user="Sriram Srivatsan" changeset="3395621" lat="12.92467" lon="77.592622">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bus Depot"/>
+  </node>
+  <node id="597083018" version="2" timestamp="2010-04-01T14:51:10Z" uid="1306" user="PlaneMad" changeset="4294680" lat="12.977204" lon="77.5857003">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maharani College"/>
+  </node>
+  <node id="597363270" version="3" timestamp="2011-04-12T09:16:14Z" uid="436289" user="siva kumar" changeset="7840658" lat="12.9678248" lon="77.5905268">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hudson Circle"/>
+  </node>
+  <node id="599194976" version="2" timestamp="2009-12-25T10:23:43Z" uid="1306" user="PlaneMad" changeset="3446983" lat="13.0225137" lon="77.5326377">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Foreman Training Institute"/>
+  </node>
+  <node id="601348330" version="1" timestamp="2009-12-30T05:43:51Z" uid="212178" user="gjain89" changeset="3487251" lat="12.8425416" lon="77.5176727">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="601348508" version="1" timestamp="2009-12-30T05:44:11Z" uid="212178" user="gjain89" changeset="3487251" lat="12.8490793" lon="77.5219642">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="607762874" version="1" timestamp="2010-01-07T03:51:39Z" uid="216232" user="Salil" changeset="3559052" lat="12.9725499" lon="77.6771589">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="612075712" version="1" timestamp="2010-01-12T10:49:36Z" uid="218251" user="chirayu" changeset="3602115" lat="12.9127631" lon="77.6378708">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="HSR Layout bus stop"/>
+  </node>
+  <node id="617540170" version="1" timestamp="2010-01-21T09:44:17Z" uid="222276" user="Sudheendra" changeset="3673182" lat="12.9377595" lon="77.5338441">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Veerabhadra Nagara"/>
+  </node>
+  <node id="622361511" version="1" timestamp="2010-01-29T13:08:14Z" uid="225134" user="Rak" changeset="3743032" lat="12.9089002" lon="77.6493235">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Parangi Palya Bus Stop"/>
+  </node>
+  <node id="624993358" version="5" timestamp="2010-02-17T10:00:07Z" uid="13303" user="sissou" changeset="3899352" lat="13.0184765" lon="77.5611704">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yeswanthpur Tollgate"/>
+  </node>
+  <node id="628634429" version="2" timestamp="2011-01-02T06:10:15Z" uid="390083" user="som_p" changeset="6835215" lat="12.985618" lon="77.6639618">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kaggadasapura Bus Stand"/>
+  </node>
+  <node id="628893494" version="1" timestamp="2010-02-04T13:11:01Z" uid="228837" user="som" changeset="3790195" lat="12.9675439" lon="77.6823861">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Basavanagara Bus Stand"/>
+  </node>
+  <node id="638990888" version="4" timestamp="2010-02-14T13:42:22Z" uid="13303" user="sissou" changeset="3873802" lat="13.0413787" lon="77.5456069">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ASC supply point"/>
+  </node>
+  <node id="661987318" version="1" timestamp="2010-03-07T06:47:32Z" uid="77582" user="Byung Kyu Park" changeset="4057638" lat="13.0104276" lon="77.5902499">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="661987319" version="1" timestamp="2010-03-07T06:47:32Z" uid="77582" user="Byung Kyu Park" changeset="4057638" lat="13.0117259" lon="77.5931694">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="663317710" version="2" timestamp="2010-03-13T07:54:51Z" uid="1306" user="PlaneMad" changeset="4112259" lat="12.9687185" lon="77.5872271">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nrupathunga Road"/>
+  </node>
+  <node id="663551440" version="3" timestamp="2011-04-04T15:30:56Z" uid="1306" user="PlaneMad" changeset="7766077" lat="12.9790219" lon="77.5913936">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vidhana Soudha"/>
+  </node>
+  <node id="663551443" version="3" timestamp="2011-04-04T15:30:53Z" uid="1306" user="PlaneMad" changeset="7766077" lat="12.9787354" lon="77.5921201">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vidhana Soudha"/>
+  </node>
+  <node id="663573130" version="3" timestamp="2011-12-21T23:55:33Z" uid="572874" user="SathishG" changeset="10176384" lat="12.9737668" lon="77.5953448">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kasturba Road"/>
+  </node>
+  <node id="663573137" version="3" timestamp="2011-12-21T23:55:33Z" uid="572874" user="SathishG" changeset="10176384" lat="12.9737468" lon="77.5954533">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kasturba Road"/>
+  </node>
+  <node id="663592961" version="2" timestamp="2012-02-27T12:59:22Z" uid="492742" user="docaneesh" changeset="10808131" lat="12.9775461" lon="77.5987809">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Chinnaswamy Stadium"/>
+  </node>
+  <node id="665811373" version="1" timestamp="2010-03-14T11:48:35Z" uid="1306" user="PlaneMad" changeset="4123302" lat="12.97398" lon="77.5866288">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="665871300" version="1" timestamp="2010-03-14T12:47:24Z" uid="77582" user="Byung Kyu Park" changeset="4123902" lat="13.0004693" lon="77.5947329">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jayamahal Bus Stop"/>
+  </node>
+  <node id="665871315" version="1" timestamp="2010-03-14T12:47:24Z" uid="77582" user="Byung Kyu Park" changeset="4123902" lat="13.0104434" lon="77.5902195">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="666936503" version="2" timestamp="2010-04-17T11:31:59Z" uid="1306" user="PlaneMad" changeset="4446749" lat="12.9340278" lon="77.5402888">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sri Vidyanagara Bus Stop"/>
+  </node>
+  <node id="677286825" version="1" timestamp="2010-03-29T04:50:34Z" uid="77582" user="Byung Kyu Park" changeset="4263774" lat="12.9638947" lon="77.5840727">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="677286829" version="1" timestamp="2010-03-29T04:50:34Z" uid="77582" user="Byung Kyu Park" changeset="4263774" lat="12.9855479" lon="77.5791192">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="677286851" version="2" timestamp="2012-02-01T13:52:56Z" uid="83660" user="ashish v" changeset="10558845" lat="12.9876396" lon="77.5802461">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="683352655" version="2" timestamp="2011-02-22T05:29:33Z" uid="412659" user="karunakar" changeset="7360281" lat="12.949282" lon="77.5811266">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="683352664" version="1" timestamp="2010-04-03T15:36:56Z" uid="77582" user="Byung Kyu Park" changeset="4314263" lat="12.9530829" lon="77.58358">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="693193671" version="1" timestamp="2010-04-11T15:33:40Z" uid="263468" user="BB__" changeset="4395018" lat="13.0040905" lon="77.6194121">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Davis Road Bus Stop"/>
+  </node>
+  <node id="729896966" version="1" timestamp="2010-05-11T19:30:46Z" uid="1306" user="PlaneMad" changeset="4671607" lat="12.9582118" lon="77.5930927">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Double Road"/>
+  </node>
+  <node id="730673039" version="1" timestamp="2010-05-12T09:40:47Z" uid="88265" user="cited third page" changeset="4675641" lat="12.8766497" lon="77.6088757">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hulimavu"/>
+  </node>
+  <node id="734814388" version="1" timestamp="2010-05-15T00:56:08Z" uid="287737" user="slabs" changeset="4701698" lat="12.8873301" lon="77.738147">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="746490971" version="2" timestamp="2010-05-23T15:45:07Z" uid="288549" user="Bopaiah" changeset="4784409" lat="12.8983914" lon="77.6180025">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kodichikkanahalli Bus Stop"/>
+  </node>
+  <node id="757913473" version="1" timestamp="2010-05-30T05:09:35Z" uid="294699" user="mowgli748" changeset="4848523" lat="13.129855" lon="77.5713736">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="collective"/>
+  </node>
+  <node id="806309393" version="1" timestamp="2010-07-08T06:59:34Z" uid="1306" user="PlaneMad" changeset="5163842" lat="13.0493404" lon="77.5447901">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="HMT Theatre"/>
+  </node>
+  <node id="825452139" version="3" timestamp="2012-01-06T16:23:05Z" uid="492742" user="docaneesh" changeset="10313177" lat="12.9698456" lon="77.7498403">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Whitefield Bus Stop"/>
+  </node>
+  <node id="825452159" version="5" timestamp="2011-12-29T12:26:01Z" uid="178915" user="Nand Kishore Gupta" changeset="10234744" lat="12.983935" lon="77.7520333">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hope Farm Bus Stop"/>
+  </node>
+  <node id="825452667" version="1" timestamp="2010-07-20T07:00:30Z" uid="321628" user="merc782" changeset="5267712" lat="12.9560262" lon="77.7146335">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kundalahalli bus stop"/>
+  </node>
+  <node id="825452795" version="4" timestamp="2011-12-29T09:26:40Z" uid="178915" user="Nand Kishore Gupta" changeset="10233247" lat="12.9775076" lon="77.7098021">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Graphite Bus Stop"/>
+  </node>
+  <node id="825453211" version="3" timestamp="2011-12-29T12:26:01Z" uid="178915" user="Nand Kishore Gupta" changeset="10234744" lat="12.9824745" lon="77.7278976">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sai Baba Hospital Bus Stop"/>
+  </node>
+  <node id="825453217" version="1" timestamp="2010-07-20T07:04:26Z" uid="321628" user="merc782" changeset="5267712" lat="12.9879872" lon="77.7336987">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Pattandur Agrahara Bus Stop"/>
+  </node>
+  <node id="825453261" version="3" timestamp="2011-02-27T19:20:29Z" uid="1306" user="PlaneMad" changeset="7414437" lat="12.9876771" lon="77.737265">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ITPL Bus Stop"/>
+  </node>
+  <node id="825453269" version="2" timestamp="2011-12-29T12:27:41Z" uid="178915" user="Nand Kishore Gupta" changeset="10234767" lat="12.9865787" lon="77.7443317">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="GR Tech Park Bus Stop"/>
+  </node>
+  <node id="844404618" version="3" timestamp="2010-11-18T13:20:08Z" uid="178915" user="Nand Kishore Gupta" changeset="6399922" lat="12.9294628" lon="77.6842775">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Intel Bus Stop"/>
+  </node>
+  <node id="844434371" version="5" timestamp="2012-03-01T16:42:50Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.960038" lon="77.6473711">
+    <tag k="name:kn" v="ಕೊಡಿಹಳ್ಳಿ"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kodihalli Bus Stop"/>
+  </node>
+  <node id="844462413" version="3" timestamp="2011-11-01T11:45:38Z" uid="1306" user="PlaneMad" changeset="9711784" lat="12.9831494" lon="77.6376049">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Binnamangala"/>
+  </node>
+  <node id="850751665" version="1" timestamp="2010-08-09T12:25:49Z" uid="1306" user="PlaneMad" changeset="5443290" lat="13.0249444" lon="77.5935249">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="860057141" version="1" timestamp="2010-08-14T10:51:26Z" uid="326230" user="danadina" changeset="5489348" lat="13.0030781" lon="77.6215147">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="918202621" version="1" timestamp="2010-09-19T11:54:34Z" uid="1306" user="PlaneMad" changeset="5819050" lat="13.0295308" lon="77.5400782">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guragunte Palya Cross"/>
+  </node>
+  <node id="918202622" version="1" timestamp="2010-09-19T11:54:34Z" uid="1306" user="PlaneMad" changeset="5819050" lat="13.0287785" lon="77.5404287">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Guragunte Palya Cross"/>
+  </node>
+  <node id="937026988" version="2" timestamp="2012-02-16T03:49:08Z" uid="492742" user="docaneesh" changeset="10698591" lat="12.9799669" lon="77.6941699">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Doddanekundi"/>
+  </node>
+  <node id="938177350" version="1" timestamp="2010-10-05T03:18:42Z" uid="353910" user="Jeet" changeset="5958476" lat="12.9790589" lon="77.6952062">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Doddanekundi"/>
+  </node>
+  <node id="939097359" version="2" timestamp="2010-12-18T11:15:24Z" uid="5359" user="user_5359" changeset="6694654" lat="12.9029573" lon="77.5617217">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kumaraswamy Layout last Bus stop"/>
+  </node>
+  <node id="953638201" version="1" timestamp="2010-10-17T05:47:37Z" uid="359354" user="varuntayur" changeset="6063682" lat="12.9423895" lon="77.5489892">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Muneshwara Block Bus Stop"/>
+  </node>
+  <node id="953670592" version="3" timestamp="2011-10-14T03:03:36Z" uid="536292" user="Deepthi Kalku" changeset="9552265" lat="12.9238384" lon="77.5540793">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="953687118" version="2" timestamp="2010-10-17T22:01:18Z" uid="70696" user="xybot" changeset="6072408" lat="12.9326234" lon="77.5453595">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hosakerehalli Cross"/>
+  </node>
+  <node id="953688689" version="1" timestamp="2010-10-17T06:22:08Z" uid="359354" user="varuntayur" changeset="6063799" lat="12.9386882" lon="77.5535885">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="SBM Colony"/>
+  </node>
+  <node id="954610622" version="1" timestamp="2010-10-17T13:18:35Z" uid="359354" user="varuntayur" changeset="6066921" lat="12.9444378" lon="77.5546637">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Srinagar Bus Stop"/>
+  </node>
+  <node id="954610757" version="1" timestamp="2010-10-17T13:19:36Z" uid="359354" user="varuntayur" changeset="6066921" lat="12.942012" lon="77.5557795">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Apex Bank Bus Stop"/>
+  </node>
+  <node id="954619918" version="3" timestamp="2011-01-04T12:20:53Z" uid="178915" user="Nand Kishore Gupta" changeset="6859961" lat="12.9435856" lon="77.5585582">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maruthi Circle Bus Stop"/>
+  </node>
+  <node id="954620241" version="1" timestamp="2010-10-17T13:32:21Z" uid="359354" user="varuntayur" changeset="6066921" lat="12.9436275" lon="77.5618198">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nirmala Stores"/>
+  </node>
+  <node id="954621288" version="2" timestamp="2010-10-17T22:08:39Z" uid="70696" user="xybot" changeset="6072408" lat="12.9440875" lon="77.5640943">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ganesh Bhavan"/>
+  </node>
+  <node id="954627609" version="1" timestamp="2010-10-17T13:39:39Z" uid="359354" user="varuntayur" changeset="6066921" lat="12.9431569" lon="77.5454369">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Avalahalli Cross"/>
+  </node>
+  <node id="954627990" version="1" timestamp="2010-10-17T13:40:21Z" uid="359354" user="varuntayur" changeset="6066921" lat="12.9421531" lon="77.5520029">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nagendra Block"/>
+  </node>
+  <node id="959250441" version="1" timestamp="2010-10-21T10:50:12Z" uid="361326" user="rajaseeray" changeset="6123499" lat="13.1037707" lon="77.5769507">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="yelahanka new town 4th phase"/>
+  </node>
+  <node id="959251560" version="1" timestamp="2010-10-21T10:52:15Z" uid="361327" user="shubhangi goel" changeset="6123585" lat="13.1062363" lon="77.5821927">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="959502439" version="1" timestamp="2010-10-21T15:38:30Z" uid="1306" user="PlaneMad" changeset="6128312" lat="13.0993226" lon="77.5768689">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mother Dairy"/>
+  </node>
+  <node id="959502441" version="1" timestamp="2010-10-21T15:38:30Z" uid="1306" user="PlaneMad" changeset="6128312" lat="13.0994967" lon="77.5768731">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mother Dairy"/>
+  </node>
+  <node id="975681668" version="1" timestamp="2010-11-03T09:15:16Z" uid="178572" user="Bipin" changeset="6274220" lat="12.9563066" lon="77.7089971">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Spice Garden Bus Stop"/>
+  </node>
+  <node id="997846402" version="2" timestamp="2011-08-02T02:21:37Z" uid="398735" user="Ashim" changeset="8896907" lat="12.9604437" lon="77.7164611">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1000885798" version="2" timestamp="2011-12-29T12:26:01Z" uid="178915" user="Nand Kishore Gupta" changeset="10234744" lat="12.9781925" lon="77.7104167">
+    <tag k="tactile_paving" v="no"/>
+    <tag k="shelter" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="no"/>
+    <tag k="name" v="Graphite India Bus Stop"/>
+  </node>
+  <node id="1001587090" version="1" timestamp="2010-11-24T00:51:47Z" uid="374566" user="Sajin" changeset="6443858" lat="12.9610729" lon="77.7164249">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEML Layout"/>
+  </node>
+  <node id="1010036512" version="2" timestamp="2011-12-29T16:13:19Z" uid="178915" user="Nand Kishore Gupta" changeset="10236827" lat="12.9919078" lon="77.7149789">
+    <tag k="tactile_paving" v="no"/>
+    <tag k="shelter" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="no"/>
+    <tag k="name" v="Hoodi Circle Bus Stop"/>
+  </node>
+  <node id="1054699506" version="1" timestamp="2010-12-21T15:40:57Z" uid="1306" user="PlaneMad" changeset="6726310" lat="12.919997" lon="77.6515015">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1067189842" version="2" timestamp="2010-12-27T20:59:52Z" uid="70696" user="xybot" changeset="6782108" lat="13.0030472" lon="77.6035327">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Chinnappa Garden"/>
+    <tag k="addr:housenumber" v="109"/>
+  </node>
+  <node id="1067190323" version="1" timestamp="2010-12-27T05:23:02Z" uid="388289" user="masterg0g0" changeset="6774330" lat="13.0045055" lon="77.5998098">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marappa Garden Bus stop"/>
+    <tag k="addr:housenumber" v="109"/>
+  </node>
+  <node id="1067841650" version="2" timestamp="2011-01-03T05:09:59Z" uid="178915" user="Nand Kishore Gupta" changeset="6846191" lat="12.9714975" lon="77.6067921">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Brigade Road Bus Stop"/>
+  </node>
+  <node id="1070314207" version="1" timestamp="2010-12-29T07:17:57Z" uid="1306" user="PlaneMad" changeset="6795293" lat="12.917235" lon="77.5738847">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1070314214" version="1" timestamp="2010-12-29T07:17:58Z" uid="1306" user="PlaneMad" changeset="6795293" lat="12.9166305" lon="77.5730685">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1070361703" version="2" timestamp="2011-10-16T17:51:29Z" uid="536089" user="shijo" changeset="9575111" lat="12.9321834" lon="77.6131548">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Check Post/Forum Bus Stop"/>
+  </node>
+  <node id="1070361737" version="1" timestamp="2010-12-29T07:51:15Z" uid="1306" user="PlaneMad" changeset="6795293" lat="12.9280681" lon="77.6210663">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Koramangala Water Tank"/>
+  </node>
+  <node id="1078177793" version="2" timestamp="2011-01-02T05:44:16Z" uid="390385" user="Ashwin_Maps" changeset="6835209" lat="12.9858297" lon="77.6790788">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="DRDO Phase 2 Bus Stop"/>
+  </node>
+  <node id="1078253111" version="2" timestamp="2011-07-21T12:10:57Z" uid="492742" user="docaneesh" changeset="8787963" lat="12.9570641" lon="77.7404124">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramagondanahalli"/>
+  </node>
+  <node id="1078399192" version="1" timestamp="2011-01-02T08:54:12Z" uid="1306" user="PlaneMad" changeset="6836012" lat="13.038496" lon="77.5533259">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1080728417" version="1" timestamp="2011-01-03T17:45:10Z" uid="391057" user="space_monkey" changeset="6852328" lat="12.9379124" lon="77.5690147">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="N.R.Colony Bus Stop"/>
+  </node>
+  <node id="1093360265" version="2" timestamp="2011-12-29T12:02:41Z" uid="178915" user="Nand Kishore Gupta" changeset="10234533" lat="12.9766859" lon="77.7236427">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="EPIP  Bus Stop"/>
+  </node>
+  <node id="1108008962" version="1" timestamp="2011-01-17T19:31:07Z" uid="391721" user="subramanyamn" changeset="7002639" lat="12.967501" lon="77.5449272">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vijayanagar Pipeline"/>
+  </node>
+  <node id="1131031327" version="2" timestamp="2011-12-30T03:34:03Z" uid="178915" user="Nand Kishore Gupta" changeset="10241929" lat="12.9928814" lon="77.7076504">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Bhoruka Steel Limited Bus Stop"/>
+  </node>
+  <node id="1147263595" version="2" timestamp="2011-07-24T08:00:56Z" uid="398735" user="Ashim" changeset="8812778" lat="12.9643168" lon="77.7137721">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ganesha Temple Bus stop"/>
+  </node>
+  <node id="1176722296" version="1" timestamp="2011-02-27T08:41:41Z" uid="354670" user="janvpi" changeset="7407627" lat="13.0000026" lon="77.5694611">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="8th Cross"/>
+  </node>
+  <node id="1185757004" version="2" timestamp="2011-04-04T18:30:39Z" uid="1306" user="PlaneMad" changeset="7767885" lat="12.9740147" lon="77.6411654">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="100 Feet Road"/>
+  </node>
+  <node id="1192534341" version="1" timestamp="2011-03-08T11:24:02Z" uid="1306" user="PlaneMad" changeset="7493056" lat="12.8554905" lon="77.664574">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1213632666" version="1" timestamp="2011-03-22T18:20:40Z" uid="1306" user="PlaneMad" changeset="7639607" lat="12.9826127" lon="77.6348297">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1232740597" version="1" timestamp="2011-04-04T18:30:37Z" uid="1306" user="PlaneMad" changeset="7767885" lat="12.973597" lon="77.64095">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="100 Feet Road"/>
+  </node>
+  <node id="1232907904" version="1" timestamp="2011-04-04T20:20:01Z" uid="1306" user="PlaneMad" changeset="7767885" lat="13.0429541" lon="77.5900741">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hebbal BIAS"/>
+  </node>
+  <node id="1245517944" version="1" timestamp="2011-04-15T13:19:52Z" uid="1306" user="PlaneMad" changeset="7869631" lat="12.9608585" lon="77.6014232">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1252231261" version="2" timestamp="2011-11-17T06:18:54Z" uid="492742" user="docaneesh" changeset="9851312" lat="12.9484962" lon="77.7081719">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Munekolala Bus Stand"/>
+  </node>
+  <node id="1282881207" version="1" timestamp="2011-05-13T15:18:51Z" uid="1306" user="PlaneMad" changeset="8132590" lat="12.9583978" lon="77.6413664">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1289988668" version="1" timestamp="2011-05-18T07:54:10Z" uid="354670" user="janvpi" changeset="8178651" lat="12.9838691" lon="77.5975328">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Indian Express"/>
+  </node>
+  <node id="1307680256" version="1" timestamp="2011-06-01T12:52:21Z" uid="450011" user="Arthi" changeset="8310057" lat="12.9304708" lon="77.5533814">
+    <tag k="local_ref" v="43A bus stop"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1318917198" version="2" timestamp="2011-12-30T13:46:58Z" uid="178915" user="Nand Kishore Gupta" changeset="10245361" lat="12.8843179" lon="77.5514893">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Gubbalala Gate"/>
+  </node>
+  <node id="1318987637" version="1" timestamp="2011-06-10T14:58:02Z" uid="83660" user="ashish v" changeset="8397927" lat="12.8901669" lon="77.564175">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Konanakunte Cross"/>
+  </node>
+  <node id="1326252974" version="1" timestamp="2011-06-15T10:32:56Z" uid="83660" user="ashish v" changeset="8445904" lat="12.8962316" lon="77.5523924">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vasantapura"/>
+  </node>
+  <node id="1326252977" version="1" timestamp="2011-06-15T10:32:56Z" uid="83660" user="ashish v" changeset="8445904" lat="12.8857104" lon="77.5557666">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Talaghattapura"/>
+  </node>
+  <node id="1333606520" version="1" timestamp="2011-06-21T13:03:43Z" uid="354670" user="janvpi" changeset="8504495" lat="13.0064762" lon="77.564565">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="15th Cross"/>
+  </node>
+  <node id="1339602948" version="4" timestamp="2011-08-07T11:46:57Z" uid="33853" user="Dinesh R" changeset="8946027" lat="12.965225" lon="77.7183935">
+    <tag k="local_ref" v="Brookesfield"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hindustan Level Limited"/>
+  </node>
+  <node id="1368933538" version="2" timestamp="2011-11-16T06:01:09Z" uid="492742" user="docaneesh" changeset="9841336" lat="12.9560121" lon="77.7308114">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Siddapura (towards Kundalahalli Gate)"/>
+  </node>
+  <node id="1368933549" version="1" timestamp="2011-07-21T12:10:56Z" uid="492742" user="docaneesh" changeset="8787963" lat="12.9570577" lon="77.7454455">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kodi"/>
+  </node>
+  <node id="1417340828" version="2" timestamp="2011-10-18T18:17:49Z" uid="536089" user="shijo" changeset="9593550" lat="12.8899242" lon="77.6392819">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kudlu Gate"/>
+  </node>
+  <node id="1420059004" version="1" timestamp="2011-09-01T12:57:27Z" uid="1306" user="PlaneMad" changeset="9184376" lat="12.9655653" lon="77.6355315">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1420066707" version="1" timestamp="2011-09-01T13:10:32Z" uid="1306" user="PlaneMad" changeset="9184480" lat="12.9655653" lon="77.6355315">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1420113193" version="3" timestamp="2012-03-01T16:31:22Z" uid="999" user="mikelmaron" changeset="10839653" lat="12.9636723" lon="77.6415116">
+    <tag k="name:kn" v="ದೋಪ್ಪನ ಹಳ್ಳಿ"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Doopanhalli Last Stop"/>
+  </node>
+  <node id="1426776295" version="1" timestamp="2011-09-08T07:23:29Z" uid="508836" user="Anuj Gupta" changeset="9242995" lat="12.9593102" lon="77.6571177">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Murgeshpallya"/>
+  </node>
+  <node id="1426776304" version="1" timestamp="2011-09-08T07:23:30Z" uid="508836" user="Anuj Gupta" changeset="9242995" lat="12.959172" lon="77.6564132">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Murgeshpallya"/>
+  </node>
+  <node id="1436191050" version="2" timestamp="2012-01-27T11:59:49Z" uid="492742" user="docaneesh" changeset="10511541" lat="12.9962665" lon="77.6571776">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="SadanandaNagar Bus Stop"/>
+  </node>
+  <node id="1437330570" version="3" timestamp="2012-02-14T01:17:15Z" uid="492742" user="docaneesh" changeset="10679365" lat="12.982798" lon="77.7522021">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hope Farm"/>
+  </node>
+  <node id="1438147959" version="1" timestamp="2011-09-20T08:07:24Z" uid="492742" user="docaneesh" changeset="9348988" lat="12.9419954" lon="77.7469661">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Varthur"/>
+  </node>
+  <node id="1440202610" version="2" timestamp="2011-09-22T17:39:23Z" uid="70696" user="xybot" changeset="9370603" lat="12.9878132" lon="77.5385817">
+    <tag k="local_ref" v="Basaveshwaranagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Havanur Circle"/>
+  </node>
+  <node id="1442068020" version="1" timestamp="2011-09-23T09:22:42Z" uid="288815" user="Imad" changeset="9375116" lat="12.9461461" lon="77.5882036">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lalbagh Siddapura (Lalbagh East Gate)"/>
+  </node>
+  <node id="1442068021" version="1" timestamp="2011-09-23T09:22:42Z" uid="288815" user="Imad" changeset="9375116" lat="12.9462742" lon="77.588158">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lalbagh Siddapura (Lalbagh East Gate)"/>
+  </node>
+  <node id="1442068023" version="1" timestamp="2011-09-23T09:22:42Z" uid="288815" user="Imad" changeset="9375116" lat="12.9459763" lon="77.597071">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wilson Garden 12th Cross"/>
+  </node>
+  <node id="1442068029" version="1" timestamp="2011-09-23T09:22:42Z" uid="288815" user="Imad" changeset="9375116" lat="12.9364651" lon="77.5839021">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Madahavan Park"/>
+  </node>
+  <node id="1442068030" version="1" timestamp="2011-09-23T09:22:42Z" uid="288815" user="Imad" changeset="9375116" lat="12.9465565" lon="77.5958908">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wilson Garden 10th Cross"/>
+  </node>
+  <node id="1442068034" version="1" timestamp="2011-09-23T09:22:43Z" uid="288815" user="Imad" changeset="9375116" lat="12.9382309" lon="77.5851486">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sarla Devi"/>
+  </node>
+  <node id="1442068035" version="1" timestamp="2011-09-23T09:22:43Z" uid="288815" user="Imad" changeset="9375116" lat="12.9379749" lon="77.5849662">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sarla Devi"/>
+  </node>
+  <node id="1442068036" version="1" timestamp="2011-09-23T09:22:43Z" uid="288815" user="Imad" changeset="9375116" lat="12.9427481" lon="77.5852478">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ashoka Pillar"/>
+  </node>
+  <node id="1442068037" version="1" timestamp="2011-09-23T09:22:43Z" uid="288815" user="Imad" changeset="9375116" lat="12.9436291" lon="77.584537">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ashoka Pillar"/>
+  </node>
+  <node id="1442068041" version="1" timestamp="2011-09-23T09:22:43Z" uid="288815" user="Imad" changeset="9375116" lat="12.9425103" lon="77.5850493">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ashoka Pillar"/>
+  </node>
+  <node id="1445190594" version="2" timestamp="2012-01-27T11:59:48Z" uid="492742" user="docaneesh" changeset="10511541" lat="12.9943732" lon="77.6581484">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bus Station"/>
+  </node>
+  <node id="1445190645" version="2" timestamp="2012-01-27T11:59:49Z" uid="492742" user="docaneesh" changeset="10511541" lat="12.9945039" lon="77.658127">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BusStation"/>
+  </node>
+  <node id="1448262215" version="1" timestamp="2011-09-28T17:04:44Z" uid="288815" user="Imad" changeset="9421097" lat="12.9383726" lon="77.5984769">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kidwai (NIMHANS)"/>
+  </node>
+  <node id="1448634282" version="1" timestamp="2011-09-29T07:11:50Z" uid="288815" user="Imad" changeset="9424954" lat="12.9355468" lon="77.5898915">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Byrasandra Bus Stop"/>
+  </node>
+  <node id="1448635322" version="1" timestamp="2011-09-29T07:20:26Z" uid="288815" user="Imad" changeset="9424954" lat="12.9440183" lon="77.5970205">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lakkasandra"/>
+  </node>
+  <node id="1448635327" version="1" timestamp="2011-09-29T07:20:26Z" uid="288815" user="Imad" changeset="9424954" lat="12.9431198" lon="77.5973078">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Lakksandra"/>
+  </node>
+  <node id="1454651907" version="1" timestamp="2011-10-04T06:25:57Z" uid="492742" user="docaneesh" changeset="9466540" lat="12.9582817" lon="77.6659209">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="H.A.L"/>
+  </node>
+  <node id="1454651909" version="1" timestamp="2011-10-04T06:25:57Z" uid="492742" user="docaneesh" changeset="9466540" lat="12.9644818" lon="77.6257202">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Command Hospital"/>
+  </node>
+  <node id="1459986597" version="2" timestamp="2011-12-30T05:26:15Z" uid="178915" user="Nand Kishore Gupta" changeset="10242182" lat="13.0627238" lon="77.7403054">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Grindwell Norton"/>
+  </node>
+  <node id="1462176186" version="2" timestamp="2011-10-11T10:33:58Z" uid="535795" user="BSR" changeset="9529315" lat="13.0921956" lon="77.5339609">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Laxmipura Cross"/>
+  </node>
+  <node id="1462222864" version="2" timestamp="2011-10-11T14:18:24Z" uid="535795" user="BSR" changeset="9531011" lat="13.0881913" lon="77.5468334">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sambhram College Bus Stop"/>
+  </node>
+  <node id="1463454294" version="1" timestamp="2011-10-12T03:49:25Z" uid="535795" user="BSR" changeset="9535493" lat="13.0906646" lon="77.5388349">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kanshiram Nagar"/>
+  </node>
+  <node id="1463557428" version="1" timestamp="2011-10-12T05:54:42Z" uid="535795" user="BSR" changeset="9535647" lat="12.9281369" lon="77.5141934">
+    <tag k="local_ref" v="R R School"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1463566956" version="1" timestamp="2011-10-12T06:04:18Z" uid="535795" user="BSR" changeset="9535647" lat="12.9227359" lon="77.5182596">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEML"/>
+  </node>
+  <node id="1463658492" version="1" timestamp="2011-10-12T07:29:24Z" uid="535795" user="BSR" changeset="9535989" lat="13.06852" lon="77.5599519">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nanjappa Circle"/>
+  </node>
+  <node id="1463734435" version="1" timestamp="2011-10-12T08:18:14Z" uid="535795" user="BSR" changeset="9536611" lat="13.0460181" lon="77.5564919">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BEL Circle"/>
+  </node>
+  <node id="1464786104" version="1" timestamp="2011-10-13T06:11:13Z" uid="492742" user="docaneesh" changeset="9544429" lat="12.9570242" lon="77.7020776">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Marathalli Bridge"/>
+  </node>
+  <node id="1464899739" version="3" timestamp="2012-02-03T11:57:11Z" uid="492742" user="docaneesh" changeset="10575450" lat="12.9291764" lon="77.5735579">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="alt_name" v="shastry nagar/thyagaraj nagar"/>
+    <tag k="name" v="MM industries"/>
+  </node>
+  <node id="1464907353" version="3" timestamp="2012-01-22T16:34:23Z" uid="492742" user="docaneesh" changeset="10466527" lat="12.9356543" lon="77.5737671">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="tata silk farm, K R road( towards market)"/>
+  </node>
+  <node id="1464908663" version="2" timestamp="2012-01-22T16:34:23Z" uid="492742" user="docaneesh" changeset="10466527" lat="12.9360046" lon="77.5739013">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="tata silk farm, K R road( towards Banashankari)"/>
+  </node>
+  <node id="1464922039" version="2" timestamp="2012-02-03T11:57:11Z" uid="492742" user="docaneesh" changeset="10575450" lat="12.9291001" lon="77.5737704">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="MM industries"/>
+  </node>
+  <node id="1464962566" version="2" timestamp="2011-10-13T09:38:41Z" uid="535778" user="RBEI-ArunKumar" changeset="9545270" lat="12.9410309" lon="77.620603">
+    <tag k="local_ref" v="Koramangala Police station Stop"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BMTC Bus Stop. Koramangala 8th Block,"/>
+  </node>
+  <node id="1465059596" version="1" timestamp="2011-10-13T12:08:07Z" uid="537034" user="Ganesh prabhu" changeset="9546654" lat="13.007897" lon="77.5543373">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1465059611" version="1" timestamp="2011-10-13T12:08:08Z" uid="537034" user="Ganesh prabhu" changeset="9546654" lat="13.005639" lon="77.5564401">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BMTC"/>
+  </node>
+  <node id="1466472864" version="1" timestamp="2011-10-14T02:42:14Z" uid="535840" user="Bhushan J" changeset="9552262" lat="12.9750244" lon="77.6700139">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="malleahpallya bus stop"/>
+  </node>
+  <node id="1466547205" version="1" timestamp="2011-10-14T03:30:19Z" uid="537034" user="Ganesh prabhu" changeset="9552330" lat="13.0043507" lon="77.5612349">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BMTC BUS STOP"/>
+  </node>
+  <node id="1466724591" version="2" timestamp="2012-01-21T03:42:00Z" uid="492742" user="docaneesh" changeset="10452493" lat="12.941514" lon="77.5593149">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hanumanthanagar"/>
+  </node>
+  <node id="1466857947" version="2" timestamp="2012-01-05T14:49:08Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.9168617" lon="77.6097522">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Udupi Garden Bus Stop"/>
+  </node>
+  <node id="1467246058" version="1" timestamp="2011-10-14T15:31:05Z" uid="535840" user="Bhushan J" changeset="9556469" lat="12.9589024" lon="77.665422">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="hal bus stop"/>
+  </node>
+  <node id="1467333641" version="2" timestamp="2011-10-16T13:28:03Z" uid="535441" user="Nithin Raju" changeset="9572055" lat="13.0270498" lon="77.579673">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="AshwathNagar"/>
+  </node>
+  <node id="1467794500" version="1" timestamp="2011-10-15T04:17:36Z" uid="536919" user="Jaiprakash" changeset="9560466" lat="12.9320356" lon="77.5675801">
+    <tag k="local_ref" v="T. R. Nagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Thyagaraja Nagar"/>
+    <tag k="designation" v="T. R. Nagar"/>
+  </node>
+  <node id="1467987241" version="2" timestamp="2011-10-16T06:21:58Z" uid="535795" user="BSR" changeset="9569252" lat="13.0957442" lon="77.5791059">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Yelhanka New Town"/>
+  </node>
+  <node id="1467987329" version="1" timestamp="2011-10-15T09:24:14Z" uid="535795" user="BSR" changeset="9561731" lat="13.0936751" lon="77.5824533">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="ChikkaBomasandra Bus Stop"/>
+  </node>
+  <node id="1467987993" version="1" timestamp="2011-10-15T09:27:06Z" uid="535795" user="BSR" changeset="9561731" lat="13.0977035" lon="77.5915996">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="NES bus stop"/>
+  </node>
+  <node id="1468911089" version="1" timestamp="2011-10-16T05:36:27Z" uid="535816" user="Abhijit Potnis" changeset="9569172" lat="12.9878186" lon="77.5506147">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Dhobi Ghat"/>
+  </node>
+  <node id="1468911091" version="1" timestamp="2011-10-16T05:36:27Z" uid="535816" user="Abhijit Potnis" changeset="9569172" lat="12.9852259" lon="77.5450357">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kere Stop"/>
+  </node>
+  <node id="1468911092" version="1" timestamp="2011-10-16T05:36:27Z" uid="535816" user="Abhijit Potnis" changeset="9569172" lat="12.9873063" lon="77.5506254">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Dhobi Ghat"/>
+  </node>
+  <node id="1469190370" version="1" timestamp="2011-10-16T13:09:34Z" uid="535849" user="Lakshmi" changeset="9572004" lat="12.9966936" lon="77.6119017">
+    <tag k="local_ref" v="Coles Road Bus Stop"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Coles Road Bus Stop"/>
+    <tag k="designation" v="Towards Sevanagar"/>
+  </node>
+  <node id="1469190379" version="1" timestamp="2011-10-16T13:09:34Z" uid="535849" user="Lakshmi" changeset="9572004" lat="12.9966309" lon="77.6118964">
+    <tag k="local_ref" v="Coles Road Bus Stop"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Coles Road Bus Stop"/>
+    <tag k="designation" v="towards Colespark"/>
+  </node>
+  <node id="1469196565" version="1" timestamp="2011-10-16T13:14:27Z" uid="535849" user="Lakshmi" changeset="9572004" lat="12.9933248" lon="77.6099088">
+    <tag k="local_ref" v="Coles Park"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Coles Park Bus Stop"/>
+    <tag k="designation" v="towards Sevanagar"/>
+  </node>
+  <node id="1469215488" version="1" timestamp="2011-10-16T13:25:59Z" uid="535441" user="Nithin Raju" changeset="9572055" lat="13.0256239" lon="77.5850395">
+    <tag k="local_ref" v="CBI Road Bus Stop"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1470544932" version="2" timestamp="2012-01-29T00:39:10Z" uid="492742" user="docaneesh" changeset="10526313" lat="13.0077887" lon="77.5479122">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Mahalakshmi Layout Entrance Busstop"/>
+  </node>
+  <node id="1470545057" version="2" timestamp="2012-01-05T11:48:20Z" uid="492742" user="docaneesh" changeset="10299877" lat="12.9167836" lon="77.6300041">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Fernhill Apartment Shop"/>
+  </node>
+  <node id="1470547252" version="2" timestamp="2011-10-17T17:42:09Z" uid="70696" user="xybot" changeset="9584171" lat="13.0052041" lon="77.5537732">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="VRL bus stop"/>
+  </node>
+  <node id="1470547294" version="2" timestamp="2011-10-17T17:42:10Z" uid="70696" user="xybot" changeset="9584171" lat="12.9974683" lon="77.56013">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Harishandra Ghat Bus stop"/>
+  </node>
+  <node id="1470605462" version="2" timestamp="2012-01-05T14:49:09Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.9168143" lon="77.6025692">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BTM 1st Stage Bustand"/>
+  </node>
+  <node id="1470608843" version="2" timestamp="2012-01-05T14:49:09Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.916532" lon="77.6046372">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="MicoLayout Bus stop"/>
+  </node>
+  <node id="1471128637" version="1" timestamp="2011-10-17T19:47:52Z" uid="535383" user="MadhanBabu" changeset="9585580" lat="12.9369224" lon="77.6182244">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Koramangala"/>
+  </node>
+  <node id="1471687832" version="3" timestamp="2011-10-19T18:30:54Z" uid="536089" user="shijo" changeset="9602519" lat="12.9056817" lon="77.6295167">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bommanahalli"/>
+    <tag k="addr:street" v="Hosur road"/>
+  </node>
+  <node id="1471776617" version="2" timestamp="2012-01-29T00:39:11Z" uid="492742" user="docaneesh" changeset="10526313" lat="13.0085089" lon="77.5442117">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Temple Stop"/>
+  </node>
+  <node id="1471781029" version="2" timestamp="2012-01-29T00:39:10Z" uid="492742" user="docaneesh" changeset="10526313" lat="13.0037055" lon="77.5499141">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajajinagar 1st Block"/>
+  </node>
+  <node id="1471781220" version="2" timestamp="2012-01-28T16:34:58Z" uid="492742" user="docaneesh" changeset="10522529" lat="13.0041942" lon="77.5491846">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajajinagar 1st Block"/>
+  </node>
+  <node id="1471781253" version="1" timestamp="2011-10-18T06:08:00Z" uid="535955" user="vaani" changeset="9588200" lat="12.9545191" lon="77.6414375">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1471813604" version="1" timestamp="2011-10-18T08:24:43Z" uid="539487" user="Ajith Kumar" changeset="9589087" lat="12.8769469" lon="77.6472952">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="source" v="Local knowledge"/>
+    <tag k="name" v="Singasandra"/>
+  </node>
+  <node id="1472134470" version="1" timestamp="2011-10-18T16:13:29Z" uid="538948" user="Avinash_Patil" changeset="9592127" lat="13.0580537" lon="77.5985128">
+    <tag k="local_ref" v="Amruth Nagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Amruth Nagar"/>
+  </node>
+  <node id="1472141960" version="2" timestamp="2011-12-30T11:25:26Z" uid="178915" user="Nand Kishore Gupta" changeset="10244137" lat="12.8797293" lon="77.624544">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Aralekatte Bus Stop"/>
+  </node>
+  <node id="1472212720" version="2" timestamp="2012-01-24T12:28:09Z" uid="83660" user="ashish v" changeset="10483955" lat="12.8476725" lon="77.6711047">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Electronics City"/>
+  </node>
+  <node id="1472871827" version="1" timestamp="2011-10-19T06:14:44Z" uid="536405" user="Achi!!3$" changeset="9596692" lat="12.9302645" lon="77.6332585">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kormangala 1st Block"/>
+  </node>
+  <node id="1472871982" version="2" timestamp="2011-10-19T17:37:50Z" uid="70696" user="xybot" changeset="9601929" lat="12.9288423" lon="77.633398">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wipro Park , Kormangala"/>
+  </node>
+  <node id="1473082160" version="2" timestamp="2012-01-06T07:20:53Z" uid="492742" user="docaneesh" changeset="10308409" lat="12.928393" lon="77.615303">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="St Johns Bus Stop"/>
+  </node>
+  <node id="1473298098" version="2" timestamp="2012-02-01T14:52:23Z" uid="78656" user="Walter Schlögl" changeset="10559306" lat="12.9053388" lon="77.6300569">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Bommanahalli"/>
+    <tag k="addr:street" v="Hosur road"/>
+  </node>
+  <node id="1473298099" version="1" timestamp="2011-10-19T18:30:42Z" uid="536089" user="shijo" changeset="9602519" lat="12.8953165" lon="77.6359511">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Garabavipalaya"/>
+  </node>
+  <node id="1473298100" version="2" timestamp="2012-01-24T11:07:09Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8958778" lon="77.6359335">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Garavebhavipalaya"/>
+  </node>
+  <node id="1473298101" version="1" timestamp="2011-10-19T18:30:42Z" uid="536089" user="shijo" changeset="9602519" lat="12.9215265" lon="77.6210114">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Madiwala Market"/>
+  </node>
+  <node id="1473330336" version="1" timestamp="2011-10-19T19:12:15Z" uid="535383" user="MadhanBabu" changeset="9602667" lat="12.9386368" lon="77.630006">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Koramangala ring road"/>
+  </node>
+  <node id="1473879998" version="1" timestamp="2011-10-20T04:09:47Z" uid="536292" user="Deepthi Kalku" changeset="9605039" lat="12.9173119" lon="77.5846214">
+    <tag k="local_ref" v="Jayanagar 5th block"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1473883092" version="1" timestamp="2011-10-20T04:12:32Z" uid="536292" user="Deepthi Kalku" changeset="9605039" lat="12.9211393" lon="77.5734527">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1473896296" version="3" timestamp="2012-01-29T16:28:53Z" uid="492742" user="docaneesh" changeset="10531731" lat="13.0009368" lon="77.535953">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kurubarahalli Main Road"/>
+  </node>
+  <node id="1473972575" version="2" timestamp="2012-01-21T03:42:00Z" uid="492742" user="docaneesh" changeset="10452493" lat="12.9492383" lon="77.5677391">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramakrishna Ashrama Busstop"/>
+  </node>
+  <node id="1473972592" version="2" timestamp="2012-01-21T03:42:00Z" uid="492742" user="docaneesh" changeset="10452493" lat="12.9488619" lon="77.5675782">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ramakrishna Ashrama Busstop"/>
+  </node>
+  <node id="1473972596" version="2" timestamp="2012-01-21T03:42:00Z" uid="492742" user="docaneesh" changeset="10452493" lat="12.9518732" lon="77.5675085">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BHS Busstop"/>
+  </node>
+  <node id="1473995564" version="2" timestamp="2011-10-20T05:54:49Z" uid="535774" user="Sriranjan" changeset="9605400" lat="12.9109568" lon="77.5787365">
+    <tag k="local_ref" v="Sarakki, Shakambarinagara"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sarakki"/>
+  </node>
+  <node id="1473998140" version="2" timestamp="2011-10-20T06:03:01Z" uid="535774" user="Sriranjan" changeset="9605400" lat="12.9170457" lon="77.5785326">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Sangam Circle"/>
+  </node>
+  <node id="1474064316" version="1" timestamp="2011-10-20T10:08:08Z" uid="535774" user="Sriranjan" changeset="9606958" lat="12.9275786" lon="77.5779399">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1474200451" version="1" timestamp="2011-10-20T13:56:46Z" uid="535849" user="Lakshmi" changeset="9608645" lat="13.00303" lon="77.6166357">
+    <tag k="local_ref" v="Clarence"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Clarence Bus Stop"/>
+  </node>
+  <node id="1474220561" version="1" timestamp="2011-10-20T14:30:20Z" uid="535383" user="MadhanBabu" changeset="9609169" lat="12.9698248" lon="77.6411968">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="HAL 2nd stage"/>
+  </node>
+  <node id="1474258848" version="1" timestamp="2011-10-20T15:45:15Z" uid="535383" user="MadhanBabu" changeset="9609634" lat="12.9767808" lon="77.6411158">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Indira nagar Defence colony"/>
+  </node>
+  <node id="1474309825" version="2" timestamp="2012-01-05T14:49:09Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.9160872" lon="77.6163594">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kuvempu Nagar Bus station"/>
+  </node>
+  <node id="1474310210" version="2" timestamp="2012-01-05T14:49:09Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.9164111" lon="77.6096965">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BTM Layout Bus stop"/>
+  </node>
+  <node id="1474310488" version="2" timestamp="2012-01-05T14:49:09Z" uid="492742" user="docaneesh" changeset="10301703" lat="12.916751" lon="77.6067622">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BTM Water tank BusStop"/>
+  </node>
+  <node id="1474432211" version="1" timestamp="2011-10-20T18:50:39Z" uid="536089" user="shijo" changeset="9611251" lat="12.9375266" lon="77.6104113">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Audugodi"/>
+  </node>
+  <node id="1474432212" version="1" timestamp="2011-10-20T18:50:39Z" uid="536089" user="shijo" changeset="9611251" lat="12.9379961" lon="77.6103933">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Audugodi"/>
+  </node>
+  <node id="1474432219" version="1" timestamp="2011-10-20T18:50:40Z" uid="536089" user="shijo" changeset="9611251" lat="12.9354287" lon="77.6146308">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Forum"/>
+  </node>
+  <node id="1474819890" version="2" timestamp="2012-01-28T16:34:58Z" uid="492742" user="docaneesh" changeset="10522529" lat="12.9958427" lon="77.550729">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Chord Road Stop (Navrang)"/>
+  </node>
+  <node id="1474821314" version="2" timestamp="2011-11-22T03:14:36Z" uid="492742" user="docaneesh" changeset="9904433" lat="12.9825714" lon="77.5490832">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Aralimara"/>
+  </node>
+  <node id="1474827874" version="2" timestamp="2012-01-30T04:10:14Z" uid="492742" user="docaneesh" changeset="10536587" lat="12.9748609" lon="77.5487184">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tollgate Busstop"/>
+  </node>
+  <node id="1474827877" version="2" timestamp="2012-01-30T04:10:13Z" uid="492742" user="docaneesh" changeset="10536587" lat="12.9741865" lon="77.5491044">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tollgate Busstop"/>
+  </node>
+  <node id="1474827886" version="2" timestamp="2012-01-30T04:10:14Z" uid="492742" user="docaneesh" changeset="10536587" lat="12.9739879" lon="77.5466153">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Manuvana"/>
+  </node>
+  <node id="1474835636" version="1" timestamp="2011-10-21T05:04:24Z" uid="537018" user="Deepa V" changeset="9613720" lat="12.972566" lon="77.5383863">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vijaynagara"/>
+  </node>
+  <node id="1474835640" version="1" timestamp="2011-10-21T05:04:25Z" uid="537018" user="Deepa V" changeset="9613720" lat="12.973256" lon="77.5383004">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vijaynagar"/>
+  </node>
+  <node id="1474835884" version="1" timestamp="2011-10-21T05:09:18Z" uid="537018" user="Deepa V" changeset="9613720" lat="12.9678089" lon="77.5360313">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maruti mandir"/>
+  </node>
+  <node id="1474854775" version="1" timestamp="2011-10-21T06:02:36Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9325493" lon="77.5160821">
+    <tag k="local_ref" v="Ideal Homes"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1474854780" version="1" timestamp="2011-10-21T06:02:36Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9599688" lon="77.5316496">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Attiguppe"/>
+  </node>
+  <node id="1474854781" version="1" timestamp="2011-10-21T06:02:36Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9499277" lon="77.5370892">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BHEL"/>
+  </node>
+  <node id="1474854788" version="1" timestamp="2011-10-21T06:02:37Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.944501" lon="77.5274067">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nayandalli"/>
+  </node>
+  <node id="1474854790" version="1" timestamp="2011-10-21T06:02:37Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9267912" lon="77.5111412">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajarajeshwari Temple Stop"/>
+  </node>
+  <node id="1474854795" version="1" timestamp="2011-10-21T06:02:37Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9362404" lon="77.5178148">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajarajeshwari gate"/>
+  </node>
+  <node id="1474854797" version="1" timestamp="2011-10-21T06:02:37Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.943884" lon="77.5266929">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Nayandalli bus Stop"/>
+  </node>
+  <node id="1474854800" version="2" timestamp="2011-11-29T07:54:50Z" uid="492742" user="docaneesh" changeset="9985063" lat="12.950859" lon="77.5373856">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Deepanjalinagar"/>
+  </node>
+  <node id="1474854803" version="1" timestamp="2011-10-21T06:02:38Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9277496" lon="77.5112219">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="BMTC Stop"/>
+  </node>
+  <node id="1474854807" version="1" timestamp="2011-10-21T06:02:38Z" uid="537018" user="Deepa V" changeset="9613948" lat="12.9358222" lon="77.5183188">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Rajarajeshwari Arch Busstop"/>
+  </node>
+  <node id="1474863985" version="1" timestamp="2011-10-21T06:29:16Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.0013649" lon="77.6300131">
+    <tag k="local_ref" v="Jai Bharath Nagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jai Bharath Nagar Bus Stop"/>
+    <tag k="designation" v="Towards Basaswadi"/>
+  </node>
+  <node id="1474864004" version="1" timestamp="2011-10-21T06:29:17Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.002682" lon="77.634648">
+    <tag k="local_ref" v="Maruthi Sevanagar[towards Banaswadi]"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maruthi Sevanagar Bus Stop"/>
+  </node>
+  <node id="1474864012" version="1" timestamp="2011-10-21T06:29:18Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.002588" lon="77.634766">
+    <tag k="local_ref" v="Sevanagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Maruthi Sevanagar Bus Stop"/>
+    <tag k="designation" v="towards Coxtown"/>
+  </node>
+  <node id="1474864013" version="1" timestamp="2011-10-21T06:29:18Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.0015426" lon="77.6302491">
+    <tag k="local_ref" v="Jai Bharath Nagar"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jai Bharath NagarBus Stop"/>
+    <tag k="designation" v="Towards Cox Town"/>
+  </node>
+  <node id="1474877585" version="1" timestamp="2011-10-21T07:36:33Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.0208641" lon="77.6297915">
+    <tag k="local_ref" v="Kacharakanahalli"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Kacharakanahalli Bus Stop"/>
+  </node>
+  <node id="1474877609" version="1" timestamp="2011-10-21T07:36:34Z" uid="535849" user="Lakshmi" changeset="9613912" lat="13.0164283" lon="77.6292621">
+    <tag k="local_ref" v="Jyothi School"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Jyothi School Bus Stop"/>
+  </node>
+  <node id="1488405361" version="2" timestamp="2011-12-30T03:40:09Z" uid="178915" user="Nand Kishore Gupta" changeset="10241939" lat="12.9829846" lon="77.6378514">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Indira Nagar Police Station"/>
+  </node>
+  <node id="1488405362" version="1" timestamp="2011-11-01T11:45:35Z" uid="1306" user="PlaneMad" changeset="9711784" lat="12.9781902" lon="77.6380588">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Indiranagar Station"/>
+  </node>
+  <node id="1488405363" version="1" timestamp="2011-11-01T11:45:35Z" uid="1306" user="PlaneMad" changeset="9711784" lat="12.9783895" lon="77.6380548">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Indiranagar Station"/>
+  </node>
+  <node id="1490428102" version="2" timestamp="2011-12-30T05:26:15Z" uid="178915" user="Nand Kishore Gupta" changeset="10242182" lat="13.0465477" lon="77.7502297">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Budigere Cross Bus Stop"/>
+  </node>
+  <node id="1504737976" version="1" timestamp="2011-11-16T06:01:09Z" uid="492742" user="docaneesh" changeset="9841336" lat="12.9563516" lon="77.7317418">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Siddapura (towards Whitefield)"/>
+  </node>
+  <node id="1523537189" version="1" timestamp="2011-11-29T18:53:26Z" uid="1306" user="PlaneMad" changeset="9990890" lat="12.9835306" lon="77.6034741">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1526010059" version="2" timestamp="2011-12-13T18:00:49Z" uid="307202" user="alester" changeset="10109528" lat="13.0146966" lon="77.5750322">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="CPRI Bus stop"/>
+  </node>
+  <node id="1573975041" version="1" timestamp="2012-01-02T12:38:27Z" uid="178915" user="Nand Kishore Gupta" changeset="10270202" lat="12.9939235" lon="77.7017861">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1581347332" version="2" timestamp="2012-01-07T19:21:43Z" uid="581824" user="Vishwasinbox" changeset="10324513" lat="12.960484" lon="77.5046668">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ambedkar Institute of Technology Bus Stop"/>
+  </node>
+  <node id="1581463479" version="3" timestamp="2012-01-10T16:15:23Z" uid="492742" user="docaneesh" changeset="10352627" lat="12.9607732" lon="77.5073413">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Vinayaka Layout Bus Stop"/>
+    <tag k="amenity" v="bus_stop"/>
+  </node>
+  <node id="1595181210" version="1" timestamp="2012-01-17T19:10:26Z" uid="83660" user="ashish v" changeset="10420866" lat="12.8384342" lon="77.6586191">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Wipro Gate"/>
+    <tag k="operator" v="BMTC"/>
+  </node>
+  <node id="1597612575" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9972207" lon="77.6696311">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Tin Factory Bus Stop"/>
+  </node>
+  <node id="1597612576" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9734201" lon="77.6200927">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1597612577" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9791213" lon="77.6292327">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1597612578" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9836449" lon="77.6392348">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1597612579" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9877992" lon="77.6497771">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1597612580" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="12.9900557" lon="77.6546252">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1597612581" version="1" timestamp="2012-01-19T12:55:38Z" uid="178915" user="Nand Kishore Gupta" changeset="10436976" lat="13.0001129" lon="77.6757124">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1603318756" version="1" timestamp="2012-01-24T10:07:05Z" uid="83660" user="ashish v" changeset="10482934" lat="12.9506793" lon="77.5958079">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Wilson Garden"/>
+  </node>
+  <node id="1603379603" version="1" timestamp="2012-01-24T11:06:43Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8707131" lon="77.652844">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Hosa Road Junction"/>
+  </node>
+  <node id="1603379639" version="1" timestamp="2012-01-24T11:06:44Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8454799" lon="77.6635942">
+    <tag k="shelter" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="no"/>
+    <tag k="name" v="Infosys"/>
+  </node>
+  <node id="1603379643" version="1" timestamp="2012-01-24T11:06:44Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8497447" lon="77.6629874">
+    <tag k="shelter" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="no"/>
+    <tag k="name" v="Infosys"/>
+  </node>
+  <node id="1603379645" version="1" timestamp="2012-01-24T11:06:44Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8897335" lon="77.6397245">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Kudlu Gate"/>
+  </node>
+  <node id="1603379657" version="1" timestamp="2012-01-24T11:06:45Z" uid="83660" user="ashish v" changeset="10483363" lat="12.9364132" lon="77.6066339">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Muneshwara Temple"/>
+  </node>
+  <node id="1603379679" version="2" timestamp="2012-02-01T14:52:24Z" uid="78656" user="Walter Schlögl" changeset="10559306" lat="12.9120295" lon="77.625905">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Roopena Agrahara"/>
+  </node>
+  <node id="1603379682" version="1" timestamp="2012-01-24T11:06:46Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8451664" lon="77.6602556">
+    <tag k="shelter" v="no"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="no"/>
+    <tag k="name" v="Siemens"/>
+  </node>
+  <node id="1603379697" version="1" timestamp="2012-01-24T11:06:46Z" uid="83660" user="ashish v" changeset="10483363" lat="12.8787052" lon="77.6464449">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Singasandra"/>
+  </node>
+  <node id="1603463889" version="1" timestamp="2012-01-24T12:28:02Z" uid="83660" user="ashish v" changeset="10483955" lat="12.8259424" lon="77.6828153">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Hebbagodi"/>
+  </node>
+  <node id="1603463891" version="1" timestamp="2012-01-24T12:28:02Z" uid="83660" user="ashish v" changeset="10483955" lat="12.8368608" lon="77.6787787">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Huskur Gate"/>
+  </node>
+  <node id="1603463901" version="1" timestamp="2012-01-24T12:28:03Z" uid="83660" user="ashish v" changeset="10483955" lat="12.853912" lon="77.6661426">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Konappana Agrahara"/>
+  </node>
+  <node id="1613146084" version="1" timestamp="2012-01-31T15:00:01Z" uid="78656" user="Walter Schlögl" changeset="10549954" lat="12.9289967" lon="77.6214227">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1613153173" version="1" timestamp="2012-01-31T15:12:09Z" uid="78656" user="Walter Schlögl" changeset="10550150" lat="12.9040241" lon="77.6304448">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1614268203" version="1" timestamp="2012-02-01T13:52:47Z" uid="83660" user="ashish v" changeset="10558845" lat="12.9868093" lon="77.5789327">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Shivananda Stores"/>
+  </node>
+  <node id="1615723284" version="1" timestamp="2012-02-02T15:54:33Z" uid="78656" user="Walter Schlögl" changeset="10568779" lat="12.8961691" lon="77.6354824">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1615723289" version="1" timestamp="2012-02-02T15:54:33Z" uid="78656" user="Walter Schlögl" changeset="10568779" lat="12.9119762" lon="77.6257946">
+    <tag k="shelter" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bench" v="yes"/>
+    <tag k="name" v="Roopena Agrahara"/>
+  </node>
+  <node id="1617744744" version="1" timestamp="2012-02-04T14:17:45Z" uid="78656" user="Walter Schlögl" changeset="10584578" lat="12.9397865" lon="77.609573">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1617749837" version="1" timestamp="2012-02-04T14:21:44Z" uid="78656" user="Walter Schlögl" changeset="10584616" lat="12.9635964" lon="77.6066558">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1617752128" version="1" timestamp="2012-02-04T14:24:06Z" uid="78656" user="Walter Schlögl" changeset="10584640" lat="12.9606153" lon="77.6010218">
+    <tag k="highway" v="bus_stop"/>
+  </node>
+</osm>

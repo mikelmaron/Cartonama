@@ -334,6 +334,16 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 http://wiki.openstreetmap.org/wiki/Map_Features
 
 ---
+#Local Names
+
+    highway = bus_stop
+    name = Domlur
+    name:en = Domlur
+    name:kn = ಡೊಮಲೂರು
+    
+http://www.openstreetmap.org/browse/changeset/10839653
+
+---
 #RESTful API
 * simple data format
 * tagging for metadata
