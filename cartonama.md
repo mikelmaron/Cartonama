@@ -435,9 +435,13 @@ http://wiki.openstreetmap.org/wiki/Develop
 
 <img src="img/Mercator_1569.png" width="80%" />
 
+(image via Wikipedia)
+
 ---
 # Cylindrical projections
 <img src="img/USGS-mercator.gif" width="80%" />
+
+(projection images courtesy USGS)
 
 ---
 # Transverse cylindrical projections
@@ -467,6 +471,8 @@ http://wiki.openstreetmap.org/wiki/Develop
 #Equirectangular "Projection"
 
 <img src="img/Equirectangular_projection_SW.jpg" width="80%" />
+
+(image via Wikipedia)
 
 ---
 #Mercator
@@ -515,7 +521,27 @@ http://wiki.openstreetmap.org/wiki/Develop
     * Discrete
     * Continuous
     * Imagery
-* Affine transform
+* Georeferencing via affine transformation
+---
+#Affine Transformation
+
+<img src="img/affine-transformation.png" style="width:80%" />
+
+---
+#Affine Transformations
+
+<img src="img/affine-matrix.png" style="width:50%" />
+
+<img src="img/affine-equations.png" style="width:50%" />
+
+---
+#Raster Formats
+
+* GeoTIFF (.tif)
+    * World File (.wld, or .tfw)
+    * Projection in "Well-Known Text" (.prj)
+* Others: JPEG2000, ECW, NITF, etc.
+
 ---
 #Vector Data
 * The "Simple Features" Model
