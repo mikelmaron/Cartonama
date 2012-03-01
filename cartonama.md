@@ -435,13 +435,9 @@ http://wiki.openstreetmap.org/wiki/Develop
 
 <img src="img/Mercator_1569.png" width="80%" />
 
-(image via Wikipedia)
-
 ---
 # Cylindrical projections
 <img src="img/USGS-mercator.gif" width="80%" />
-
-(projection images courtesy USGS)
 
 ---
 # Transverse cylindrical projections
@@ -471,8 +467,6 @@ http://wiki.openstreetmap.org/wiki/Develop
 #Equirectangular "Projection"
 
 <img src="img/Equirectangular_projection_SW.jpg" width="80%" />
-
-(image via Wikipedia)
 
 ---
 #Mercator
@@ -535,12 +529,30 @@ http://wiki.openstreetmap.org/wiki/Develop
 <img src="img/affine-equations.png" style="width:50%" />
 
 ---
+#World File
+
+    32.0
+    0.0
+    0.0
+    -32.0
+    691200.0
+    4576000.0
+
+* A: x component of the pixel width (x-scale)
+* D: y component of the pixel width (y-skew)
+* B: x component of the pixel height (x-skew)
+* E: y component of the pixel height (*negative* y-scale)
+* C: x-coordinate of the center of the upper left pixel
+* F: y-coordinate of the center of the upper left pixel
+
+---
 #Raster Formats
 
 * GeoTIFF (.tif)
-    * World File (.wld, or .tfw)
+    * World file (.wld, or .tfw)
     * Projection in "Well-Known Text" (.prj)
-* Others: JPEG2000, ECW, NITF, etc.
+* World files for JPEGs, or PNGs (.jpw, .pgw)
+* Others: BIL, JPEG2000, ECW, NITF, etc.
 
 ---
 #Vector Data
