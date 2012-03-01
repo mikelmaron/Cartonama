@@ -422,9 +422,13 @@ http://wiki.openstreetmap.org/wiki/Develop
 * Lists, IRC
 
 ---
-* total time: 2.5 hours
-* data: results in data in OSM ... should have this already created for Bangalore
-    *Is the enough time??
+#Results
+
+OSM bus stop data for Bangalore
+
+http://open.mapquestapi.com/xapi/api/0.6/node[highway=bus_stop][bbox=77.4256,12.8254,77.7844,13.1396]
+
+https://github.com/mikelmaron/Cartonama/blob/master/data/busstops-bangalore.xml
 
 ---
 #WORKING WITH GEO DATA
@@ -815,8 +819,9 @@ Processing OSM data (osmosis, osmlib. osmium, imposm)
 * questions:
 
 ---
-* total time: ~2.5 hours
-* data: results in data in Shapefile
+#Results
+
+https://github.com/mikelmaron/Cartonama/blob/master/data/bangalore-bus-shp.zip
 
 ---
 #VISUALIZING GEO DATA
@@ -862,6 +867,24 @@ Creating Tiles w/ TileMill
 * questions: really try to show this, though it might be tricky
 
 ---
+#Carto references localized name
+
+    @futura_med: "Kedage Normal", "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book","unifont Medium";
+
+    #bus_stops {
+      marker-width: 2;
+      marker-line-color: #00f;
+      text-fill: #b50d38;
+      text-name: "[name_kn]";
+      text-face-name: @futura_med;
+      text-size: 12;
+      text-dx: 5;
+      text-allow-overlap: false;  
+    }
+
+https://tiles.mapbox.com/groundtruth/map/map-busd5lm5
+
+---
 #Serving Tiles
 Ways to serve tiles ... TileCache (for imagery), TileStash, MapBox, mod_tile, etc
 
@@ -874,9 +897,9 @@ Ways to serve tiles ... TileCache (for imagery), TileStash, MapBox, mod_tile, et
 * questions: hands on or?
 
 ---
+#Results
 
-* total time: 3 hours
-* data: tiles
+https://tiles.mapbox.com/groundtruth/map/map-busd5lm5
 
 ---
 #BUILDING APPS WITH GEO DATA
