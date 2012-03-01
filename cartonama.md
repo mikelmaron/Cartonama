@@ -491,10 +491,15 @@ http://wiki.openstreetmap.org/wiki/Develop
 * By setting max lat to +/- 85.0511&deg; the world is square
 * This has implications for tiling
 ---
+#Spatial Reference Systems
+
+__Projection + Spheroid + Datum + Units = SRS__
+
+----
 #EPSG Codes
 
 * European Petroleum Standards Group
-* Established _EPSG codes_ for each projection
+* Established _EPSG codes_ for common spatial reference systems
 * Unprojected Longitude/Latitude: __EPSG 4326__
 * Web Mercator: __EPSG 3857__
 * UTM zone 43 North: EPSG 32643 (for example)
@@ -502,10 +507,10 @@ http://wiki.openstreetmap.org/wiki/Develop
 ---
 #Geographic Data
 
-* Raster
-* Vector
+# Raster Data
+# Vector Data
 
-<div align="center">"Raster is faster but vector is correcter."</div>
+_"Raster is faster but vector is correcter."_
 
 ---
 #Raster Data
@@ -544,6 +549,8 @@ http://wiki.openstreetmap.org/wiki/Develop
 * E: y component of the pixel height (*negative* y-scale)
 * C: x-coordinate of the center of the upper left pixel
 * F: y-coordinate of the center of the upper left pixel
+
+(example borrowed from Wikipedia)
 
 ---
 #Raster Formats
@@ -602,16 +609,17 @@ http://wiki.openstreetmap.org/wiki/Develop
 <img src="img/polygon-area.png" style="width:40%"/>
 
 ---
-#Vector File Formats
+#Vector Formats
 
 * ESRI Shapefile
 * GML
 * KML
 * GeoJSON
+* "Well-Known" Text (WKT) and Binary (WKB)
 * GeoRSS
 * GPX
 ---
-#Shapefiles
+#The misnamed "Shapefile"
 
 * __.shp__
 * __.shx__
@@ -676,6 +684,40 @@ _N.B._ Properties can be any legit JSON object!
 ---
 #GEO ENABLED DATABASES
 ---
+#PostGIS
+
+* A geospatial extension to PostgreSQL
+* Geometry operations
+* Spatial predicates
+* Spatial indexes
+* Spatial reference system support
+
+---
+#Create a PostGIS database
+
+---
+#PostGIS metadata tables
+
+---
+#Create a PostGIS table
+
+---
+#Create some spatial data
+
+---
+#Select some spatial data
+
+---
+#Spatial predicates
+
+---
+#Load data from Shapefile
+
+---
+#Dump a spatial table to a Shapefile
+
+---
+
 #Geo Enabled Databases
 Understand PostGIS basics and MySQL spatial extension
 
@@ -693,18 +735,6 @@ Understand PostGIS basics and MySQL spatial extension
  * projections
 
 ---
-#Processing OSM Data & Making Shapefiles
-Processing OSM data (osmosis, osmlib. osmium, imposm)
-
-* format: workshop
-* slides: download an extract, transform
-* software: wget. osm2pgsql. osmium. osmlib. osmjs
-* data: OSM data and Shapefiles
-* other:
-* time: 45 minutes
-* questions:
-
----
 #Data Swiss Army Knives
 Convert and process geodata w/ OGR, GeoCommons
 
@@ -717,9 +747,16 @@ Convert and process geodata w/ OGR, GeoCommons
 * questions: important to know about it
 
 ---
+#Processing OSM Data & Making Shapefiles
+Processing OSM data (osmosis, osmlib. osmium, imposm)
 
-* total time: ~2.5 hours
-* data: results in data in Shapefile and/or database
+* format: workshop
+* slides: download an extract, transform
+* software: wget. osm2pgsql. osmium. osmlib. osmjs
+* data: OSM data and Shapefiles
+* other:
+* time: 45 minutes
+* questions:
 
 ---
 #VISUALIZING GEO DATA
