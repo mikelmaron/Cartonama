@@ -44,6 +44,9 @@ https://docs.google.com/spreadsheet/pub?key=0AkAxbDR2ycpddExzQ3JoV0pzT0t5aVFDSEF
 ** what are limits to google maps
 
 ---
+<img src="img/freemap-2008.png" style="width:80%" />
+
+---
 #CREATING GEO DATA
 
 ---
@@ -124,6 +127,15 @@ http://voiceofkibera.org/
 ##Community
 
 ---
+<img src="img/mcdonalds.png" width="80%" />
+
+---
+<img src="img/india-flight.png" height="80%" />
+
+---
+<img src="img/osm-bridge.png" height="80%" />
+
+---
 <img src="img/taptapmap.png" width="80%"/>
 
 ---
@@ -160,13 +172,13 @@ http://voiceofkibera.org/
 <img src="img/osm-relief.png" height="80%"/>
 
 ---
-<img src="img/osm-community.png" width="80%"/>
-
----
 #Foursquare
 <img src="img/osm-foursquare.png" style="width:80%" />
 
 http://blog.foursquare.com/2012/02/29/foursquare-is-joining-the-openstreetmap-movement-say-hi-to-pretty-new-maps/
+
+---
+<img src="img/osm-community.png" width="80%"/>
 
 ---
 #GPS Surveying for OSM
@@ -185,6 +197,21 @@ Understand how to use a GPS and collect data for OSM
 ** POIs are not collected nearby to CIS ... street hawkers
 ** MyTracks: can adjust frequency. gpx visible as mounted drives. uses GMaps as a basemap
 ** Watch the time!!!
+
+---
+<img src="img/gps-download.png" style="width:80%"/>
+
+---
+<img src="img/osm-bike-survey.png" style="width:80%"/>
+
+---
+<img src="img/osm-notes.png" style="width:80%"/>
+
+---
+<img src="img/josm-gpx.png" style="width:80%"/>
+
+---
+<img src="img/josm-editing.png" style="width:80%"/>
 
 ---
 #Downloading from GPS
@@ -222,6 +249,53 @@ Understand Tagging, Map Features, Editing Presets in JOSM and Potlatch
 * questions: how to generate interest
 
 ---
+#RESTful API
+* simple data format
+* tagging for metadata
+* standard map tiles
+= thriving ecosystem of tools, renderers, editors, routers, applications
+
+---
+<img src="img/osm-architecture.png" style="width:80%"/>
+
+---
+<img src="img/points-nodes.png" style="width:80%"/>
+
+---
+<img src="img/geometries.png" style="width:80%"/>
+
+---
+<img src="img/map-features.png" style="width:80%"/>
+
+---
+#Restful response
+
+Check this code:
+
+  !python
+      &lt;way id='7972254' timestamp='2007-09-24T12:36:29+01:00' user='chippy' visible='true'>
+    <nd ref='59608510' />
+    <nd ref='59608509' />
+    <nd ref='59608516' />
+    <nd ref='59608515' />
+    <nd ref='59608514' />
+    <nd ref='59608513' />
+    <nd ref='59608512' />
+    <nd ref='59608511' />
+    <nd ref='59608510' />
+    <tag k='created_by' v='JOSM' />
+    <tag k='building' v='retail' />
+    <tag k='name' v='White Rose Shopping Centre' />
+    <tag k='amenity' v='shopping_centre' />
+    <tag k='note' v='huge building' />
+  </way>
+
+---
+testing code:
+  why
+  doestn't
+  this
+  work
 
 * total time: 2.5 hours
 * data: results in data in OSM ... should have this already created for Bangalore
