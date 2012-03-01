@@ -291,6 +291,13 @@ Check this code:
   </way>
 
 ---
+#Resources
+* http://learnosm.org/
+* Books
+* Wiki
+* Lists
+
+---
 testing code:
   why
   doestn't
