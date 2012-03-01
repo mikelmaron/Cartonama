@@ -414,20 +414,163 @@ http://wiki.openstreetmap.org/wiki/Develop
 ---
 #WORKING WITH GEO DATA
 
+##or, "Points and Lines and Polygons, oh my!"
 ---
-#Geo File Formats
-Understand the most common ways GeoData is shared: Shapefile, CSV, KML, GeoRSS, GeoJSON
+#A Round World
+* Not perfectly round
+* Not even regularly irregular
+* An "oblate spheroid"
+* _spheroid_ versus  _geoid_
+* _geodesy_
+---
+#Spheroids
 
-* format: lecture
-* slides: yea, formats ... Shapefile, KML, GeoJSON, CSV, GeoRSS, GPX, etc ... with a few tips (shapefile column name limits)
-* software:
-* data:
-* other:
-* time: 15 minutes
-* questions: how can this not be boring?
-** Basic GIS data models ... geometries, features, attributes, rasters. projections.
-** demonstrate using QGIS
- * Future of Web Apps Slides http://schuyler.github.com/
+* semi-major axis (equatorial)
+* semi-minor axis (polar)
+* common spheroids
+    * World Geodetic Survey 1984 (WGS84)
+    * WGS 1974
+    * NAD 1927 and 1983
+    * Everest 1830 and 1956
+
+---
+#Geographic Data
+
+* Raster
+* Vector
+
+<div align="center">"Raster is faster but vector is correcter."</div>
+
+---
+#Raster Data
+
+* Grid: *columns* x *rows*
+* Cell values
+    * Discrete
+    * Continuous
+    * Imagery
+* Affine transform
+---
+#Vector Data
+* The "Simple Features" Model
+* Feature
+    * Attributes
+    * Geometry
+---
+#Geometry Types
+
+* Point
+* Line
+* Polygon
+* *Multi*-geometries
+---
+#Points
+
+* *x* and *y* (and sometimes *z*)
+* don't forget, *longitude* is *x* and *latitude* is *y*
+* `POINT(77.58 12.96)`
+---
+#Lines
+
+* Just a sequence of Points
+* `LINESTRING(77.56 12.95, 77.57 12.95, 77.58 12.96)`
+---
+#Polygons
+
+* One or more closed *rings*
+* A *ring* is a linestring that intersects *only* at the first and last points
+* &#8756; a square is represented with *five* points
+* `POLYGON((0 0, 0 1, 1 1, 1 0, 0 0))`
+---
+#Donut Holes
+
+* Polygons have one *exterior* ring and zero or more *interior* rings
+* Interior rings are donut holes
+* `POLYGON((0 0, 0 4, 4 4, 4 0, 0 0), (3 3, 3 1, 1 1, 1 3, 3 3))`
+---
+#Winding Rule
+
+* Donut holes can have holes of their own
+* Rings that mark included areas are *clockwise*
+* Ring that mark donut holes are *anti-clockwise*
+* This is to make area calculations work right
+
+<img src="img/polygon-area.png" style="width:40%"/>
+
+---
+#Vector File Formats
+
+* ESRI Shapefile
+* GML
+* KML
+* GeoJSON
+* GeoRSS
+* GPX
+---
+#Shapefiles
+
+* __.shp__
+* __.shx__
+* __.dbf__
+* .prj
+* others (e.g. .sbn, .xml, etc.)
+---
+#GeoJSON
+
+http://geojson.org/
+
+    { "type": "Point", "coordinates": [77.58, 12.96] }
+
+---
+#GeoJSON LineString
+
+    {
+        "type": "LineString",
+        "coordinates": [ [100.0, 0.0], [101.0, 1.0] ]
+    }
+
+---
+#GeoJSON Polygon
+
+    {
+        "type": "Polygon",
+        "coordinates": [
+            [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ]
+        ]
+    }
+
+---
+#GeoJSON Donut Holes
+
+    { 
+        "type": "Polygon",
+        "coordinates": [
+            [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ],
+            [ [100.2, 0.2], [100.8, 0.2], [100.8, 0.8], [100.2, 0.8], [100.2, 0.2] ]
+        ]
+    }
+
+---
+#GeoJSON Feature
+
+    { 
+        "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [77.58, 12.96]},
+        "properties": {"name": "Bangalore"}
+    }
+
+_N.B._ Properties can be any legit JSON object!
+
+---
+#GeoJSON FeatureCollection
+
+    {
+        "type": "FeatureCollection",
+        "features": [ ... ]
+    }
+
+---
+#GEO ENABLED DATABASES
 ---
 #Geo Enabled Databases
 Understand PostGIS basics and MySQL spatial extension
