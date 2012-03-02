@@ -1108,17 +1108,150 @@ A F/OSS library that speaks dozens and dozens of formats
 <img src="img/qgis.jpg" style="width:80%"/>
 
 ---
-#Processing OSM Data & Making Shapefiles
-Processing OSM data (osmosis, osmlib. osmium, imposm)
+#Processing OSM Data
+---
+#OSM API
 
-* format: workshop
-* slides: download an extract, transform
-* software: wget. osm2pgsql. osmium. osmlib. osmjs
-* data: OSM data and Shapefiles
-* other:
-* time: 45 minutes
-* questions:
+* API
 
+    $ curl http://api.openstreetmap.org/api/0.6/map?bbox=-0.5,51.25,0.5,51.75 
+
+    (only returns 50,000 objects)
+
+* XAPI
+    * Fewer limits
+    * Allows filtering by tags
+    * Dog slow
+
+---
+#OSM dumps
+
+* Formats
+    * XML
+    * Protocol Buffers (PBF)
+
+* Planet.osm
+    * http://planet.openstreetmap.org/
+    * Full size: 20GB *compressed*
+    * Weekly changesets: 400MB
+    * Hourly and minutely changes
+---
+#OSM dumps
+
+* Planet Extracts
+    * http://download.geofabrik.de/
+    * http://download.cloudmade.com/
+    * http://metro.teczno.com/
+    
+---
+#osm2pgsql
+
+## Lat/Lon import
+
+    $ osm2pgsql -l -d my_db -s -G planet.osm.bz2
+
+## Mercator import
+
+    $ osm2pgsql -m -d my_db -s -G planet.osm.bz2
+
+## Partial import
+    
+    $ osm2pgsql -l -d my_db -b -0.5,51.25,0.5,51.75 planet.extract.osm.bz2
+
+## Important flags
+
+* -l / -m = 4326 vs 3875
+* -s = "slim mode"
+* -G = compute multi-geometries
+* -b minlon,minlat,maxlon,maxlat = geographic extract
+---
+#osm2pgsql styles
+
+* "Style" dictates which tags get turned into columns
+* Default lives in `/usr/share/osm2pgsql/default.style` or similar
+
+    # OsmType  Tag          DataType     Flags
+    node,way   note         text         delete
+    node,way   source       text         delete
+    node,way   created_by   text         delete
+    node,way   access       text         linear
+    node,way   addr:housename      text  linear
+    node,way   addr:housenumber    text  linear
+    node,way   addr:interpolation  text  linear 
+    node,way   admin_level  text         linear
+    node,way   aerialway    text         linear
+    node,way   aeroway      text         polygon
+
+---
+#osmium
+
+    /*
+      run with: osmjs -l sparsetable -j extract-nodes.js OSMFILE
+    */
+
+    wanted_keys = [ ... ];
+
+    /*
+    Osmium.Callbacks.init = function() {
+        print('Start!');
+    }
+    */
+
+    Osmium.Callbacks.node = function() {
+      if(!this.tags["name"] && !this.tags["place_name"]) return;
+      found_wanted_keys = false;
+      for (var i = 0; i < wanted_keys.length; i++) {
+        if (this.tags[wanted_keys[i]]) {
+            found_wanted_keys = true;
+            break;
+        }
+      }
+      if (!found_wanted_keys) return;
+      print(JSON.stringify({
+        "geom": [this.geom.lon, this.geom.lat],
+        "tags": this.tags, 
+        "type":"node", 
+        "id": this.id
+        })
+      )
+    }
+
+---
+#Shapefile export via osmjs
+
+    var shp_pois = Osmium.Output.Shapefile.open('./pois', 'point');
+    shp_pois.add_field('id', 'integer', 10);
+    shp_pois.add_field('type', 'string', 32);
+    shp_pois.add_field('name', 'string', 32);
+
+    var node_tags = {
+        amenity: { restaurant: 'restaurant', pub: 'pub' },
+        shop: { supermarket: 'supermarket' }
+    }
+
+    Osmium.Callbacks.node = function() {
+        for (var key in this.tags) {
+            if (node_tags[key]) {
+                var type = node_tags[key][this.tags[key]];
+                if (type) {
+                    shp_pois.add(this.geom, {
+                        id: this.id,
+                        type: type, 
+                        name: this.tags.name
+                    });
+                }
+            }
+        }
+    }
+
+    Osmium.Callbacks.end = function() {
+        shp_pois.close();
+    }
+
+---
+END OF DAY 1
+---
+TIRED YET?
 ---
 #Results
 
@@ -1151,7 +1284,7 @@ Creating Tiles w/ TileMill
 * other:
 * time: 1.5 hours
 * questions: what can we get from devseed
-** show how to generate_tiles.py from mapnik style sheets output by tilemill
+** show how to generate\_tiles.py from mapnik style sheets output by tilemill
  * connect to shapefile, postgis db
  * overlay on preset osm tiles. render osm data itself
  * render raster data as well
