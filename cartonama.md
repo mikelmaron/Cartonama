@@ -1170,32 +1170,64 @@ A F/OSS library that speaks dozens and dozens of formats
 * "Style" dictates which tags get turned into columns
 * Default lives in `/usr/share/osm2pgsql/default.style` or similar
 
-    # OsmType  Tag          DataType     Flags
-    node,way   note         text         delete
-    node,way   source       text         delete
-    node,way   created_by   text         delete
-    node,way   access       text         linear
-    node,way   addr:housename      text  linear
-    node,way   addr:housenumber    text  linear
-    node,way   addr:interpolation  text  linear 
-    node,way   admin_level  text         linear
-    node,way   aerialway    text         linear
-    node,way   aeroway      text         polygon
+        # OsmType  Tag          DataType     Flags
+        node,way   note         text         delete
+        node,way   source       text         delete
+        node,way   created_by   text         delete
+        node,way   access       text         linear
+        node,way   admin_level  text         linear
+        node,way   aerialway    text         linear
+        node,way   aeroway      text         polygon
+        ...
+
+---
+#osm2pgsql schema
+
+* planet_osm_line: contains all imported ways
+* planet_osm_point: contains all imported nodes with tags
+* planet_osm_polygon: contains all imported polygons
+* planet_osm_roads: contains just the roads
+
+---
+#Osmosis
+
+http://wiki.openstreetmap.org/wiki/Osmosis
+
+
+## Create a local API database
+
+    osmosis --read-xml file="planet.osm" --write-apidb database="x"
+
+## Apply a diff to an OSM file
+
+    osmosis --read-xml-change file="planetdiff-1-2.osc"
+            --read-xml file="planet1.osm"
+            --apply-change --write-xml file="planet2.osm"
+
+## Extract specific key value pairs
+
+    osmosis --read-xml city.osm 
+            --way-key-value keyValueList="railway.tram,railway.tram_stop"
+            --used-node --write-xml city_tram.osm
+
+## Extract a bounding box
+
+    bzcat downloaded.osm.bz2 | osmosis\
+        --read-xml enableDateParsing=no file=-\
+        --bounding-box top=49.5138 left=10.9351 bottom=49.3866 right=11.201
+        --write-xml file=-\
+       | bzip2 > extracted.osm.bz2
 
 ---
 #osmium
+
+http://wiki.openstreetmap.org/wiki/Osmium
 
     /*
       run with: osmjs -l sparsetable -j extract-nodes.js OSMFILE
     */
 
     wanted_keys = [ ... ];
-
-    /*
-    Osmium.Callbacks.init = function() {
-        print('Start!');
-    }
-    */
 
     Osmium.Callbacks.node = function() {
       if(!this.tags["name"] && !this.tags["place_name"]) return;
@@ -1228,6 +1260,11 @@ A F/OSS library that speaks dozens and dozens of formats
         amenity: { restaurant: 'restaurant', pub: 'pub' },
         shop: { supermarket: 'supermarket' }
     }
+
+(continued...)
+
+---
+#Shapefile export via osmjs, part 2
 
     Osmium.Callbacks.node = function() {
         for (var key in this.tags) {
