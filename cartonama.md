@@ -1535,6 +1535,65 @@ https://github.com/yuvipanda/POSM
 http://yuvi.in/POSM/
 
 ---
+#Proxy
+
+    lrwxrwxrwx 1 root root 28 2012-03-03 11:45 proxy.load -> ../mods-available/proxy.load
+    lrwxrwxrwx 1 root root 28 2012-03-03 11:45 proxy.conf -> ../mods-available/proxy.conf
+    lrwxrwxrwx 1 root root 33 2012-03-03 11:53 proxy_http.load -> ../mods-available/proxy_http.load
+
+## proxy.conf
+
+    ProxyPass /osm http://api.openstreetmap.org
+    ProxyPass /overpass http://overpass.osm.rambler.ru/cgi/interpreter
+    ProxyPassReverse /osm http://api.openstreetmap.org
+    ProxyPassReverse /overpass http://overpass.osm.rambler.ru/cgi/interpreter
+
+---
+#Change tiles
+
+    diff --git a/assets/www/js/main.js b/assets/www/js/main.js
+    index cdaf34a..63279c1 100644
+    --- a/assets/www/js/main.js
+    +++ b/assets/www/js/main.js
+    @@ -135,8 +135,7 @@ function resizeContentArea() {
+     function init() {
+         $(window).bind('orientationchange pageshow resize', resizeContentArea);
+         map = new L.Map('map');
+    -
+    -    var tiles = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    +    var tiles = new L.TileLayer('http://{s}.tiles.mapbox.com/v3/mapbox.mapbox-streets,groundtruth.bangalore-bus-stops-kannada/{z}/{x}/{y}.png', {
+             //attribution: 'Map data &copy; 2011 OpenStreetMap contributors'
+             attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/
+         });
+    @@ -290,6 +289,7 @@ $(function() {
+         }, 300);
+     });
+
+---
+#Customize layers to edit
+    assets/www/zoomData.js
+    
+---    
+#How about Authentication    
+    assets/www/main.js
+
+---
+#How is a Changeset created
+    assets/www/changesets.js
+
+---
+#How is a node updated
+    assets/www/poi.js
+
+---
+#How are nodes loaded
+    assets/www/poimanager.js
+
+---
+#Cartonama
+<img src="img/cartonama.png" style="height:80%" />
+
+---
 #SUGGESTIONS
 
 ---
