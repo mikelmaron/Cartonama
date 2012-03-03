@@ -1408,7 +1408,7 @@ leaflet and discussion
     * Clustering
     * Embed other APIs
 * Large JS, you should customize your build
-* Has an entire boo
+* Has an entire book
 http://openlayers.org/
 
 ---
@@ -1437,11 +1437,13 @@ http://leaflet.cloudmade.com/
     ogr2ogr -f "GeoJSON" bangalore-stops.json bus_stops.shp 
     
 ---
-#Leaflet Example
+#Leaflet Starting Example
 
-data/leaflet
+## leaflet_start.html
 
-
+---
+#Leaflet GeoJSON Example
+## leaflet_geojson.html
 
 ---
 #Geocoding and Location Queries
@@ -1457,12 +1459,32 @@ data/leaflet
 show nominatim, geonames, overpass api
 
 ---
+#Nominatim
+
+http://nominatim.openstreetmap.org/search?q=bangalore&format=json&polygon=1
+
+http://wiki.openstreetmap.org/wiki/Nominatim
+
+---
+#Reverse Geocoding
+
+http://nominatim.openstreetmap.org/reverse?format=xml&lat=12.964761&lon=77.637527&addressdetails=1
+
+---
+#Location Queries
+## XAPI
+
+* http://open.mapquestapi.com/xapi/api/0.6/node[highway=bus_stop][bbox=77.4256,12.8254,77.7844,13.1396]
+* http://open.mapquestapi.com/xapi/api/0.6/way[highway=motorway|motorway_link|trunk|primary][bbox=77.4256,12.8254,77.7844,13.1396]
+* http://open.mapquestapi.com/xapi/api/0.6/way[construction=*][bbox=77.4256,12.8254,77.7844,13.1396]
+
+---
 #Routing
 
+* Good data for Routing (graphs, weights: restrictions, speed, cycling, etc)
+* Algorithms
 * Directions APIs
 * Routing Engines
-* Good data for Routing (graphs, restrictions, speed, etc)
-* Algorithms
 * OpenTripPlanner
 
 ---
