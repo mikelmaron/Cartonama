@@ -1286,10 +1286,6 @@ http://wiki.openstreetmap.org/wiki/Osmium
     }
 
 ---
-END OF DAY 1
----
-TIRED YET?
----
 #Results
 
 https://github.com/mikelmaron/Cartonama/blob/master/data/bangalore-bus-shp.zip
@@ -1299,16 +1295,16 @@ https://github.com/mikelmaron/Cartonama/blob/master/data/bangalore-bus-shp.zip
 
 ---
 #Tiles
-What are Map Tiles?
 
-* format: lecture
-* slides: what are tiles about
-* software:
-* data:
-* other:
-* time: 15 minutes
-* questions: more interest in this
-** nice graphics needed for tile pyramid 
+<img src="img/tile-grid.png" style="width:80%" />
+
+## http://tile.server/layer/${Z}/${X}/${Y}.png
+
+* Zoom 0  = 4<sup>0</sup> = 1
+* Zoom 1  = 4<sup>1</sup> = 4
+* Zoom 2  = 4<sup>2</sup> = 16
+* ...
+* Zoom 18 = 4<sup>18</sup> = 68 719 476 736
 
 ---
 #TileMill
@@ -1320,12 +1316,6 @@ Creating Tiles w/ TileMill
 * data: Shapefiles and/or PostGIS. result in tiles.
 * other:
 * time: 1.5 hours
-* questions: what can we get from devseed
-** show how to generate_tiles.py from mapnik style sheets output by tilemill
- * connect to shapefile, postgis db
- * overlay on preset osm tiles. render osm data itself
- * render raster data as well
-
 ---
 #Multi-lingual Tiles
 
@@ -1357,7 +1347,7 @@ https://tiles.mapbox.com/groundtruth/map/map-busd5lm5
 
 ---
 #Serving Tiles
-Ways to serve tiles ... TileCache (for imagery), TileStash, MapBox, mod_tile, etc
+Ways to serve tiles ... TileCache (for imagery), TileStache, MapBox, mod\_tile, etc
 
 * format: lecture
 * slides: show the various ways and how to configure
@@ -1367,6 +1357,45 @@ Ways to serve tiles ... TileCache (for imagery), TileStash, MapBox, mod_tile, et
 * time: 30 minutes
 * questions: hands on or?
 
+---
+#TileStache
+
+## tilestache.cfg
+
+    {
+      "cache": {
+        "name": "Disk",
+        "path": "/tmp/stache",
+      },
+      "layers": {
+        "blr": {
+          "provider": { "name": "mapnik", "mapfile": "style.xml" }
+        }
+      }
+    }
+
+## Starting it
+
+    python tilestache-server.py -c tilestache.cfg
+---
+#TileCache
+
+## tilecache.cfg
+
+    [cache]
+    type=Disk
+    base=/tmp/tilecache
+
+    [blr]
+    type=MapnikLayer
+    mapfile=style.xml
+    extension=png
+    srs=EPSG:3857
+    tms_type=google
+
+## Starting it
+
+    python tilecache_http_server.py
 ---
 #Results
 
