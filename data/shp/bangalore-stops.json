@@ -1,0 +1,1013 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "158692604", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641451, 12.956800 ] } }
+,
+{ "type": "Feature", "properties": { "id": "249775695", "name": "N.R.Colony Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569277, 12.937830 ] } }
+,
+{ "type": "Feature", "properties": { "id": "251103708", "name": "Hindustan Level Limited", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.718307, 12.965223 ] } }
+,
+{ "type": "Feature", "properties": { "id": "266323140", "name": "Agara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.650818, 12.924630 ] } }
+,
+{ "type": "Feature", "properties": { "id": "266371073", "name": "Ibblur", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.662764, 12.921281 ] } }
+,
+{ "type": "Feature", "properties": { "id": "266371138", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.665683, 12.921093 ] } }
+,
+{ "type": "Feature", "properties": { "id": "266371205", "name": "Ibblur", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.662441, 12.921164 ] } }
+,
+{ "type": "Feature", "properties": { "id": "267212842", "name": "Bellandur Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.670067, 12.918682 ] } }
+,
+{ "type": "Feature", "properties": { "id": "278163316", "name": "Kempapura Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592673, 13.049499 ] } }
+,
+{ "type": "Feature", "properties": { "id": "303933269", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630039, 12.924154 ] } }
+,
+{ "type": "Feature", "properties": { "id": "303933282", "name": "Jakkasandra Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.634528, 12.924873 ] } }
+,
+{ "type": "Feature", "properties": { "id": "308809874", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583925, 12.933640 ] } }
+,
+{ "type": "Feature", "properties": { "id": "308809954", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.586032, 12.929315 ] } }
+,
+{ "type": "Feature", "properties": { "id": "308809997", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583847, 12.931876 ] } }
+,
+{ "type": "Feature", "properties": { "id": "308922632", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.607253, 12.936202 ] } }
+,
+{ "type": "Feature", "properties": { "id": "308922692", "name": "Nimhans Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597663, 12.939823 ] } }
+,
+{ "type": "Feature", "properties": { "id": "316997347", "name": "Kodihalli", "name_kn": "ಕೊಡಿಹಳ್ಳಿ" }, "geometry": { "type": "Point", "coordinates": [ 77.646437, 12.960045 ] } }
+,
+{ "type": "Feature", "properties": { "id": "316997427", "name": "Domlur", "name_kn": "ಡೊಮಲೂರು" }, "geometry": { "type": "Point", "coordinates": [ 77.638209, 12.961068 ] } }
+,
+{ "type": "Feature", "properties": { "id": "316997464", "name": "Domlur", "name_kn": "ಡೊಮಲೂರು" }, "geometry": { "type": "Point", "coordinates": [ 77.636528, 12.961217 ] } }
+,
+{ "type": "Feature", "properties": { "id": "316998710", "name": "Doopanhalli Last Stop", "name_kn": "ದೋಪ್ಪನ ಹಳ್ಳಿ" }, "geometry": { "type": "Point", "coordinates": [ 77.641642, 12.963672 ] } }
+,
+{ "type": "Feature", "properties": { "id": "325156622", "name": "Domlur Herohonda Stop", "name_kn": "ಡೊಮಲೂರು ಹಿರೊಹೊಂಡ" }, "geometry": { "type": "Point", "coordinates": [ 77.641289, 12.955068 ] } }
+,
+{ "type": "Feature", "properties": { "id": "374216503", "name": "New B.E.L. Road (C.P.R.I.)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.572264, 13.022486 ] } }
+,
+{ "type": "Feature", "properties": { "id": "374217535", "name": "Sadashivnagar Police Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.572644, 13.016202 ] } }
+,
+{ "type": "Feature", "properties": { "id": "374218191", "name": "M.S. Ramaiah College", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571750, 13.026954 ] } }
+,
+{ "type": "Feature", "properties": { "id": "414404832", "name": "Konena Agrahara Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.659429, 12.958950 ] } }
+,
+{ "type": "Feature", "properties": { "id": "426402308", "name": "Peenya SRS Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.530098, 13.034679 ] } }
+,
+{ "type": "Feature", "properties": { "id": "426402661", "name": "Peenya SRS Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.530412, 13.034282 ] } }
+,
+{ "type": "Feature", "properties": { "id": "426402720", "name": "Guragunte Palya Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538322, 13.029575 ] } }
+,
+{ "type": "Feature", "properties": { "id": "426402798", "name": "CMTI", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.536144, 13.031214 ] } }
+,
+{ "type": "Feature", "properties": { "id": "428550495", "name": "13th Cross Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569281, 13.003842 ] } }
+,
+{ "type": "Feature", "properties": { "id": "428836836", "name": "Richmond Circle Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.602792, 12.965500 ] } }
+,
+{ "type": "Feature", "properties": { "id": "428836842", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.599395, 12.967250 ] } }
+,
+{ "type": "Feature", "properties": { "id": "428843485", "name": "Vasanth Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.595052, 12.992784 ] } }
+,
+{ "type": "Feature", "properties": { "id": "429001259", "name": "Bowring Institute", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.601414, 12.974245 ] } }
+,
+{ "type": "Feature", "properties": { "id": "429303160", "name": "Chinnaswamy Stadium", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.598904, 12.977499 ] } }
+,
+{ "type": "Feature", "properties": { "id": "429876579", "name": "Mayo Hall Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.610432, 12.973560 ] } }
+,
+{ "type": "Feature", "properties": { "id": "430043676", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.591601, 13.010717 ] } }
+,
+{ "type": "Feature", "properties": { "id": "430043752", "name": "RT Nagar Post Office", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592988, 13.025426 ] } }
+,
+{ "type": "Feature", "properties": { "id": "430127796", "name": "Hebbal", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590979, 13.042900 ] } }
+,
+{ "type": "Feature", "properties": { "id": "430127799", "name": "Hebbal", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590958, 13.042773 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443724378", "name": "Regulated  Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550413, 13.022804 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443724407", "name": "Regulated  Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550301, 13.023122 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443727650", "name": "BEL Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.556524, 13.045159 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443727723", "name": "HMT Theatre", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544697, 13.049144 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443803763", "name": "Avalahalli BDA Park", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.542911, 12.943192 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443803764", "name": "Girinagar Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545323, 12.940825 ] } }
+,
+{ "type": "Feature", "properties": { "id": "443803765", "name": "Girinagar Extn", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.539730, 12.941159 ] } }
+,
+{ "type": "Feature", "properties": { "id": "445573746", "name": "Tata Institute", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.565046, 13.014653 ] } }
+,
+{ "type": "Feature", "properties": { "id": "445574316", "name": "Tata Institute", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.562637, 13.016047 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446780151", "name": "Guragunte Palya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.536350, 13.028662 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446780153", "name": "MEI", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.543371, 13.026732 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446781796", "name": "Suryodaya Mill", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545603, 13.025469 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446781799", "name": "Govardhan Theater Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.551985, 13.021218 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446781800", "name": "Yeshwantpur Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.552835, 13.019504 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446781802", "name": "Govt Soap Factory", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553658, 13.013337 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446781803", "name": "ISKCON", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550870, 13.011685 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446782727", "name": "Kanteerava Studio", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532766, 13.022171 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446782728", "name": "Kanteerava Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538986, 13.019761 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446782729", "name": "Krishnanda Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540998, 13.018511 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446784269", "name": "Ramkrishna Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.535014, 13.020202 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446784270", "name": "Jaibhuvaneshwari Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532461, 13.014277 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446784271", "name": "Bakery", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533478, 13.017583 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446784272", "name": "Quaters", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533143, 13.010599 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446784273", "name": "Ramkrishna Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.530952, 13.016319 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791106", "name": "Lakshmidevi Nagar Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.522602, 13.018981 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791135", "name": "Lakshmidevi Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.523564, 13.018200 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791137", "name": "Vidhan Soudha Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.523426, 13.015700 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791139", "name": "Vidhan Soudha Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.526909, 13.010001 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791142", "name": "Swathantra Yodhara Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.529027, 13.010380 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791144", "name": "Laggere", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.529320, 13.015213 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791146", "name": "Muneshwara Block", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.526325, 13.006009 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791149", "name": "Community Hall", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.525123, 13.001705 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791153", "name": "Kamala Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.522499, 12.996838 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791156", "name": "Kamala Nagar BEML Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.528109, 12.993363 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791158", "name": "Shankarnag Bus Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.526898, 12.997053 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791162", "name": "Kamala Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.529988, 12.996278 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791165", "name": "Nethaji Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533455, 12.995878 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791168", "name": "Old Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.534911, 12.993220 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791171", "name": "Sharadha Colony", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532839, 12.991081 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791174", "name": "Sharadha Colony", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532245, 12.988942 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791176", "name": "Havanoor Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.536655, 12.987703 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791178", "name": "Natraj Junction", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.537650, 12.984292 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791181", "name": "Saneguruvana Halli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.542426, 12.989165 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791185", "name": "Darsahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.542743, 12.985140 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791187", "name": "Shivannahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546289, 12.988877 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791189", "name": "Pushpanjali Talkies", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546849, 12.990883 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791190", "name": "Manjunatha Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.543900, 12.992382 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791191", "name": "EHP", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550087, 12.990851 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791192", "name": "EHP", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.551112, 12.990633 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791193", "name": "Manjunatha Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550343, 12.995130 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791194", "name": "Water Tank Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540118, 12.995755 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791195", "name": "Modi Hospital Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545856, 12.997441 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791196", "name": "Shankar Mutt Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.541574, 12.999264 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791198", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550258, 12.998495 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791200", "name": "Navarangpura", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546240, 13.002345 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446791202", "name": "Canara Bank", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549913, 13.001185 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796164", "name": "JC Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.537266, 13.003434 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796165", "name": "Kaveri Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533798, 13.002760 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796166", "name": "Bhimjyothi Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540992, 13.001833 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796171", "name": "Galayara Balaga", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540622, 13.006305 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796173", "name": "Saraswathi Pura", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.539439, 13.009027 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796175", "name": "Anjaneya Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545482, 13.008189 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796177", "name": "Mahalakshmi Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544029, 13.012368 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796179", "name": "Ganesha Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.543018, 13.009698 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796180", "name": "Shankar Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.543912, 13.015767 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446796182", "name": "Sanjaygandhi Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.526126, 13.021800 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805853", "name": "Tata Tea", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540910, 13.032689 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805857", "name": "Mohan Kumar Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.551523, 13.030796 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805859", "name": "ALIDSA", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.541708, 13.037617 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805862", "name": "ASC supply point", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545732, 13.041172 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805864", "name": "Muthyala Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550459, 13.042697 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805867", "name": "Gokula", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.557318, 13.041281 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446805872", "name": "Post Office", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559691, 13.030965 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446810096", "name": "Bombay Dyeing", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558305, 13.027427 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446818836", "name": "BEL Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558088, 13.043803 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446818837", "name": "Kuvempu Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561841, 13.043908 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446822783", "name": "Yeshwantpur Market Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.555999, 13.019850 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446822785", "name": "Yeshwantpur Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559377, 13.017760 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446822786", "name": "Mysore Lamps", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561372, 13.011971 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446822787", "name": "Kirloskar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558402, 13.012036 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865383", "name": "chowdeshwari Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567117, 13.046640 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865385", "name": "Basaveshwaranagar Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573103, 13.042561 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865386", "name": "Nagashetty halli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.574816, 13.042247 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865387", "name": "Bakery", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.577811, 13.042614 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865388", "name": "Nagashetty halli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.575331, 13.046551 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865389", "name": "RMS Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.574290, 13.038188 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865390", "name": "RMV Stage 2", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.570791, 13.037931 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865391", "name": "Devasandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.564780, 13.038670 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865392", "name": "ITI Colony", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.568757, 13.034190 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865393", "name": "Sanjay Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.575657, 13.034390 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865394", "name": "Bupa Sandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.582498, 13.042124 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865395", "name": "Geddahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.577562, 13.030827 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865396", "name": "AshwathNagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.580118, 13.026647 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865397", "name": "Hebbal", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.589580, 13.039026 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865399", "name": "Baptist Hospital", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588858, 13.034502 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865400", "name": "Vetenary College", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.587154, 13.030967 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865401", "name": "Ananda Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592552, 13.029598 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865402", "name": "CBI office", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.586478, 13.026870 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865403", "name": "Ashwathappa Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588914, 13.026219 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865404", "name": "Ganga Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588613, 13.020684 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865405", "name": "Muneshwara Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.587953, 13.016969 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446865406", "name": "Airforce Camp", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583832, 13.017591 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941376", "name": "Mekhri Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583691, 13.013580 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941377", "name": "Sadhashivnagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.580041, 13.008590 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941379", "name": "TV Tower", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.591086, 13.009045 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941380", "name": "Sadashivanagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.579595, 13.006060 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941381", "name": "18th Cross Malleshwaram", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571097, 13.008624 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446941382", "name": "15th Cross Maleshwaram", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571172, 13.005339 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995784", "name": "Vyalikaval", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.578395, 13.002819 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995789", "name": "Guttahalli Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583786, 12.999504 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995791", "name": "Pipe Line", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.581057, 12.995542 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995793", "name": "RMS", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.577491, 12.993878 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995794", "name": "Dattatreya Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.575263, 12.998910 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995796", "name": "11th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571183, 13.001555 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995798", "name": "8th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571222, 12.999894 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995800", "name": "8th Cross 8th Main", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.565498, 12.999963 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995802", "name": "Devaiah Park", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.562976, 12.996707 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995807", "name": "Mariyappana Palya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.556091, 12.998579 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995809", "name": "Basaveshwara College", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553785, 12.995045 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995812", "name": "Old Police station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.554626, 12.990159 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995814", "name": "Navarang Bar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558922, 12.990727 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995816", "name": "Ayappa Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559681, 12.993036 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995818", "name": "LN Pura", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.563398, 12.992777 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995820", "name": "Aruna Talkies", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.566412, 12.988616 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995823", "name": "Bashyam Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567978, 12.990770 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995825", "name": "Central Talkies", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.572030, 12.988557 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995827", "name": "Gandhi School", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.568096, 12.986306 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995828", "name": "Ramachandra Pura Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.563000, 12.985689 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995829", "name": "Maleshwaram Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.568058, 12.996703 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995830", "name": "Brand Reddy Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567860, 12.993331 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995832", "name": "Chowdeshawari Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567220, 12.994437 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995834", "name": "Maleshwaram Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569470, 12.997481 ] } }
+,
+{ "type": "Feature", "properties": { "id": "446995837", "name": "18th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569142, 13.009688 ] } }
+,
+{ "type": "Feature", "properties": { "id": "452414811", "name": "Kasturba Road AC Stand", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.589772, 12.968533 ] } }
+,
+{ "type": "Feature", "properties": { "id": "454083696", "name": "BMTC 10th Depot", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.631727, 13.025816 ] } }
+,
+{ "type": "Feature", "properties": { "id": "459427775", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.543730, 12.930110 ] } }
+,
+{ "type": "Feature", "properties": { "id": "460976009", "name": "Yeshwantpur Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.557057, 13.017967 ] } }
+,
+{ "type": "Feature", "properties": { "id": "461539063", "name": "Mekhri Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.582337, 13.014597 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469614003", "name": "Cunningham Road Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.594516, 12.987599 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469626786", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567052, 13.014283 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469831466", "name": "Lottegollahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.565358, 13.047563 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469832484", "name": "Tatanagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573314, 13.055397 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469833387", "name": "Badrappa layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.576090, 13.048371 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469835554", "name": "Bommasandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559023, 13.058591 ] } }
+,
+{ "type": "Feature", "properties": { "id": "469835555", "name": "Thindlu", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.566637, 13.073290 ] } }
+,
+{ "type": "Feature", "properties": { "id": "483709336", "name": "HosaKereHalli bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540501, 12.933091 ] } }
+,
+{ "type": "Feature", "properties": { "id": "493556427", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592129, 12.919631 ] } }
+,
+{ "type": "Feature", "properties": { "id": "493556458", "name": "Sangam Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.577467, 12.917714 ] } }
+,
+{ "type": "Feature", "properties": { "id": "503532619", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532772, 13.054735 ] } }
+,
+{ "type": "Feature", "properties": { "id": "512100060", "name": "Hoodi Circle Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.716296, 12.992316 ] } }
+,
+{ "type": "Feature", "properties": { "id": "514184962", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.705506, 12.992982 ] } }
+,
+{ "type": "Feature", "properties": { "id": "514185567", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.706583, 12.993014 ] } }
+,
+{ "type": "Feature", "properties": { "id": "517325325", "name": "CMH Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.646276, 12.978490 ] } }
+,
+{ "type": "Feature", "properties": { "id": "517874467", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573741, 12.953043 ] } }
+,
+{ "type": "Feature", "properties": { "id": "520197507", "name": "BEL Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558599, 13.043531 ] } }
+,
+{ "type": "Feature", "properties": { "id": "524077013", "name": "Marenahalli Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588958, 12.917153 ] } }
+,
+{ "type": "Feature", "properties": { "id": "524080923", "name": "Raggigudda Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592752, 12.917145 ] } }
+,
+{ "type": "Feature", "properties": { "id": "524080930", "name": "East End Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597060, 12.917086 ] } }
+,
+{ "type": "Feature", "properties": { "id": "528968367", "name": "Mathikere", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.557295, 13.034536 ] } }
+,
+{ "type": "Feature", "properties": { "id": "537536153", "name": "Check Post\/Forum Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.613169, 12.932009 ] } }
+,
+{ "type": "Feature", "properties": { "id": "537536264", "name": "St Johns Hospital Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.615720, 12.929643 ] } }
+,
+{ "type": "Feature", "properties": { "id": "537536287", "name": "Koramangala Water Tank", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.622864, 12.926817 ] } }
+,
+{ "type": "Feature", "properties": { "id": "537536393", "name": "Madiwala", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.618108, 12.924288 ] } }
+,
+{ "type": "Feature", "properties": { "id": "537536464", "name": "Madiwala Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.620728, 12.919861 ] } }
+,
+{ "type": "Feature", "properties": { "id": "553942818", "name": "H.A.L", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.665948, 12.958532 ] } }
+,
+{ "type": "Feature", "properties": { "id": "568282147", "name": "Sadashivanagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.582175, 13.004401 ] } }
+,
+{ "type": "Feature", "properties": { "id": "568362029", "name": "Yeshwantpur Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553324, 13.019011 ] } }
+,
+{ "type": "Feature", "properties": { "id": "570888938", "name": "Seetha Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549784, 12.937986 ] } }
+,
+{ "type": "Feature", "properties": { "id": "573433441", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.599477, 12.990115 ] } }
+,
+{ "type": "Feature", "properties": { "id": "576134549", "name": "Rajiv Gandhi Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571977, 12.990176 ] } }
+,
+{ "type": "Feature", "properties": { "id": "577019587", "name": "Rajiv Gandhi Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.572556, 12.989716 ] } }
+,
+{ "type": "Feature", "properties": { "id": "577021934", "name": "Maleshwaram Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571308, 12.997521 ] } }
+,
+{ "type": "Feature", "properties": { "id": "581893766", "name": "Guragunte Palya Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540658, 13.028678 ] } }
+,
+{ "type": "Feature", "properties": { "id": "581893767", "name": "SRS", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.535644, 13.031189 ] } }
+,
+{ "type": "Feature", "properties": { "id": "582576069", "name": "LR Bande", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.609293, 13.029541 ] } }
+,
+{ "type": "Feature", "properties": { "id": "582924351", "name": "Gokula", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.557125, 13.041166 ] } }
+,
+{ "type": "Feature", "properties": { "id": "582924364", "name": "Jallahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.555762, 13.046465 ] } }
+,
+{ "type": "Feature", "properties": { "id": "582924366", "name": "BEL Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.556771, 13.045232 ] } }
+,
+{ "type": "Feature", "properties": { "id": "583207264", "name": "Mahadeshwarnagar(Hero halli cross) Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.493235, 12.987658 ] } }
+,
+{ "type": "Feature", "properties": { "id": "589780599", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.535472, 13.048904 ] } }
+,
+{ "type": "Feature", "properties": { "id": "589805799", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532854, 13.053827 ] } }
+,
+{ "type": "Feature", "properties": { "id": "590008914", "name": "BEL Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.552487, 13.051077 ] } }
+,
+{ "type": "Feature", "properties": { "id": "590009104", "name": "BEL Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.552701, 13.051098 ] } }
+,
+{ "type": "Feature", "properties": { "id": "590021026", "name": "Double Tank", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544529, 13.068948 ] } }
+,
+{ "type": "Feature", "properties": { "id": "590030412", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.537112, 13.049415 ] } }
+,
+{ "type": "Feature", "properties": { "id": "590030701", "name": "Gangamma Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546211, 13.057714 ] } }
+,
+{ "type": "Feature", "properties": { "id": "594866300", "name": "Beml", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.658287, 12.971611 ] } }
+,
+{ "type": "Feature", "properties": { "id": "594866728", "name": "GM Palya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.666044, 12.975187 ] } }
+,
+{ "type": "Feature", "properties": { "id": "595314102", "name": "Bus Depot", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592622, 12.924670 ] } }
+,
+{ "type": "Feature", "properties": { "id": "597083018", "name": "Maharani College", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.585700, 12.977204 ] } }
+,
+{ "type": "Feature", "properties": { "id": "597363270", "name": "Hudson Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590527, 12.967825 ] } }
+,
+{ "type": "Feature", "properties": { "id": "599194976", "name": "Foreman Training Institute", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.532638, 13.022514 ] } }
+,
+{ "type": "Feature", "properties": { "id": "601348330", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.517673, 12.842542 ] } }
+,
+{ "type": "Feature", "properties": { "id": "601348508", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.521964, 12.849079 ] } }
+,
+{ "type": "Feature", "properties": { "id": "607762874", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.677159, 12.972550 ] } }
+,
+{ "type": "Feature", "properties": { "id": "612075712", "name": "HSR Layout bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.637871, 12.912763 ] } }
+,
+{ "type": "Feature", "properties": { "id": "617540170", "name": "Veerabhadra Nagara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533844, 12.937760 ] } }
+,
+{ "type": "Feature", "properties": { "id": "622361511", "name": "Parangi Palya Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.649323, 12.908900 ] } }
+,
+{ "type": "Feature", "properties": { "id": "624993358", "name": "Yeswanthpur Tollgate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561170, 13.018477 ] } }
+,
+{ "type": "Feature", "properties": { "id": "628634429", "name": "Kaggadasapura Bus Stand", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.663962, 12.985618 ] } }
+,
+{ "type": "Feature", "properties": { "id": "628893494", "name": "Basavanagara Bus Stand", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.682386, 12.967544 ] } }
+,
+{ "type": "Feature", "properties": { "id": "638990888", "name": "ASC supply point", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545607, 13.041379 ] } }
+,
+{ "type": "Feature", "properties": { "id": "661987318", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590250, 13.010428 ] } }
+,
+{ "type": "Feature", "properties": { "id": "661987319", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.593169, 13.011726 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663317710", "name": "Nrupathunga Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.587227, 12.968718 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663551440", "name": "Vidhana Soudha", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.591394, 12.979022 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663551443", "name": "Vidhana Soudha", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.592120, 12.978735 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663573130", "name": "Kasturba Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.595345, 12.973767 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663573137", "name": "Kasturba Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.595453, 12.973747 ] } }
+,
+{ "type": "Feature", "properties": { "id": "663592961", "name": "Chinnaswamy Stadium", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.598781, 12.977546 ] } }
+,
+{ "type": "Feature", "properties": { "id": "665811373", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.586629, 12.973980 ] } }
+,
+{ "type": "Feature", "properties": { "id": "665871300", "name": "Jayamahal Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.594733, 13.000469 ] } }
+,
+{ "type": "Feature", "properties": { "id": "665871315", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590220, 13.010443 ] } }
+,
+{ "type": "Feature", "properties": { "id": "666936503", "name": "Sri Vidyanagara Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540289, 12.934028 ] } }
+,
+{ "type": "Feature", "properties": { "id": "677286825", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.584073, 12.963895 ] } }
+,
+{ "type": "Feature", "properties": { "id": "677286829", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.579119, 12.985548 ] } }
+,
+{ "type": "Feature", "properties": { "id": "677286851", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.580246, 12.987640 ] } }
+,
+{ "type": "Feature", "properties": { "id": "683352655", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.581127, 12.949282 ] } }
+,
+{ "type": "Feature", "properties": { "id": "683352664", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583580, 12.953083 ] } }
+,
+{ "type": "Feature", "properties": { "id": "693193671", "name": "Davis Road Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.619412, 13.004091 ] } }
+,
+{ "type": "Feature", "properties": { "id": "729896966", "name": "Double Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.593093, 12.958212 ] } }
+,
+{ "type": "Feature", "properties": { "id": "730673039", "name": "Hulimavu", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.608876, 12.876650 ] } }
+,
+{ "type": "Feature", "properties": { "id": "734814388", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.738147, 12.887330 ] } }
+,
+{ "type": "Feature", "properties": { "id": "746490971", "name": "Kodichikkanahalli Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.618003, 12.898391 ] } }
+,
+{ "type": "Feature", "properties": { "id": "757913473", "name": "collective", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.571374, 13.129855 ] } }
+,
+{ "type": "Feature", "properties": { "id": "806309393", "name": "HMT Theatre", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544790, 13.049340 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825452139", "name": "Whitefield Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.749840, 12.969846 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825452159", "name": "Hope Farm Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.752033, 12.983935 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825452667", "name": "Kundalahalli bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.714634, 12.956026 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825452795", "name": "Graphite Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.709802, 12.977508 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825453211", "name": "Sai Baba Hospital Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.727898, 12.982475 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825453217", "name": "Pattandur Agrahara Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.733699, 12.987987 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825453261", "name": "ITPL Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.737265, 12.987677 ] } }
+,
+{ "type": "Feature", "properties": { "id": "825453269", "name": "GR Tech Park Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.744332, 12.986579 ] } }
+,
+{ "type": "Feature", "properties": { "id": "844404618", "name": "Intel Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.684277, 12.929463 ] } }
+,
+{ "type": "Feature", "properties": { "id": "844434371", "name": "Kodihalli Bus Stop", "name_kn": "ಕೊಡಿಹಳ್ಳಿ" }, "geometry": { "type": "Point", "coordinates": [ 77.647371, 12.960038 ] } }
+,
+{ "type": "Feature", "properties": { "id": "844462413", "name": "Binnamangala", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.637605, 12.983149 ] } }
+,
+{ "type": "Feature", "properties": { "id": "850751665", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.593525, 13.024944 ] } }
+,
+{ "type": "Feature", "properties": { "id": "860057141", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.621515, 13.003078 ] } }
+,
+{ "type": "Feature", "properties": { "id": "918202621", "name": "Guragunte Palya Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540078, 13.029531 ] } }
+,
+{ "type": "Feature", "properties": { "id": "918202622", "name": "Guragunte Palya Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.540429, 13.028778 ] } }
+,
+{ "type": "Feature", "properties": { "id": "937026988", "name": "Doddanekundi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.694170, 12.979967 ] } }
+,
+{ "type": "Feature", "properties": { "id": "938177350", "name": "Doddanekundi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.695206, 12.979059 ] } }
+,
+{ "type": "Feature", "properties": { "id": "939097359", "name": "Kumaraswamy Layout last Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561722, 12.902957 ] } }
+,
+{ "type": "Feature", "properties": { "id": "953638201", "name": "Muneshwara Block Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.548989, 12.942390 ] } }
+,
+{ "type": "Feature", "properties": { "id": "953670592", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.554079, 12.923838 ] } }
+,
+{ "type": "Feature", "properties": { "id": "953687118", "name": "Hosakerehalli Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545360, 12.932623 ] } }
+,
+{ "type": "Feature", "properties": { "id": "953688689", "name": "SBM Colony", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553589, 12.938688 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954610622", "name": "Srinagar Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.554664, 12.944438 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954610757", "name": "Apex Bank Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.555779, 12.942012 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954619918", "name": "Maruthi Circle Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.558558, 12.943586 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954620241", "name": "Nirmala Stores", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561820, 12.943627 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954621288", "name": "Ganesh Bhavan", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.564094, 12.944088 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954627609", "name": "Avalahalli Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545437, 12.943157 ] } }
+,
+{ "type": "Feature", "properties": { "id": "954627990", "name": "Nagendra Block", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.552003, 12.942153 ] } }
+,
+{ "type": "Feature", "properties": { "id": "959250441", "name": "yelahanka new town 4th phase", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.576951, 13.103771 ] } }
+,
+{ "type": "Feature", "properties": { "id": "959251560", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.582193, 13.106236 ] } }
+,
+{ "type": "Feature", "properties": { "id": "959502439", "name": "Mother Dairy", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.576869, 13.099323 ] } }
+,
+{ "type": "Feature", "properties": { "id": "959502441", "name": "Mother Dairy", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.576873, 13.099497 ] } }
+,
+{ "type": "Feature", "properties": { "id": "975681668", "name": "Spice Garden Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.708997, 12.956307 ] } }
+,
+{ "type": "Feature", "properties": { "id": "997846402", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.716461, 12.960444 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1000885798", "name": "Graphite India Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.710417, 12.978193 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1001587090", "name": "BEML Layout", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.716425, 12.961073 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1010036512", "name": "Hoodi Circle Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.714979, 12.991908 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1054699506", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.651501, 12.919997 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1067189842", "name": "Chinnappa Garden", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.603533, 13.003047 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1067190323", "name": "Marappa Garden Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.599810, 13.004506 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1067841650", "name": "Brigade Road Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.606792, 12.971497 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1070314207", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573885, 12.917235 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1070314214", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573069, 12.916631 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1070361703", "name": "Check Post\/Forum Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.613155, 12.932183 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1070361737", "name": "Koramangala Water Tank", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.621066, 12.928068 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1078177793", "name": "DRDO Phase 2 Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.679079, 12.985830 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1078253111", "name": "Ramagondanahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.740412, 12.957064 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1078399192", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553326, 13.038496 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1080728417", "name": "N.R.Colony Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569015, 12.937912 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1093360265", "name": "EPIP  Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.723643, 12.976686 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1108008962", "name": "Vijayanagar Pipeline", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544927, 12.967501 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1131031327", "name": "Bhoruka Steel Limited Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.707650, 12.992881 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1147263595", "name": "Ganesha Temple Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.713772, 12.964317 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1176722296", "name": "8th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.569461, 13.000003 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1185757004", "name": "100 Feet Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641165, 12.974015 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1192534341", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.664574, 12.855491 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1213632666", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.634830, 12.982613 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1232740597", "name": "100 Feet Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.640950, 12.973597 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1232907904", "name": "Hebbal BIAS", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.590074, 13.042954 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1245517944", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.601423, 12.960859 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1252231261", "name": "Munekolala Bus Stand", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.708172, 12.948496 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1282881207", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641366, 12.958398 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1289988668", "name": "Indian Express", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597533, 12.983869 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1307680256", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553381, 12.930471 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1318917198", "name": "Gubbalala Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.551489, 12.884318 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1318987637", "name": "Konanakunte Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.564175, 12.890167 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1326252974", "name": "Vasantapura", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.552392, 12.896232 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1326252977", "name": "Talaghattapura", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.555767, 12.885710 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1333606520", "name": "15th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.564565, 13.006476 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1339602948", "name": "Hindustan Level Limited", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.718394, 12.965225 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1368933538", "name": "Siddapura (towards Kundalahalli Gate)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.730811, 12.956012 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1368933549", "name": "Kodi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.745446, 12.957058 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1417340828", "name": "Kudlu Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.639282, 12.889924 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1420059004", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.635531, 12.965565 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1420066707", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.635531, 12.965565 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1420113193", "name": "Doopanhalli Last Stop", "name_kn": "ದೋಪ್ಪನ ಹಳ್ಳಿ" }, "geometry": { "type": "Point", "coordinates": [ 77.641512, 12.963672 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1426776295", "name": "Murgeshpallya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.657118, 12.959310 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1426776304", "name": "Murgeshpallya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.656413, 12.959172 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1436191050", "name": "SadanandaNagar Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.657178, 12.996267 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1437330570", "name": "Hope Farm", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.752202, 12.982798 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1438147959", "name": "Varthur", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.746966, 12.941995 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1440202610", "name": "Havanur Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538582, 12.987813 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068020", "name": "Lalbagh Siddapura (Lalbagh East Gate)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588204, 12.946146 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068021", "name": "Lalbagh Siddapura (Lalbagh East Gate)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.588158, 12.946274 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068023", "name": "Wilson Garden 12th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597071, 12.945976 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068029", "name": "Madahavan Park", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.583902, 12.936465 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068030", "name": "Wilson Garden 10th Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.595891, 12.946556 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068034", "name": "Sarla Devi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.585149, 12.938231 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068035", "name": "Sarla Devi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.584966, 12.937975 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068036", "name": "Ashoka Pillar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.585248, 12.942748 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068037", "name": "Ashoka Pillar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.584537, 12.943629 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1442068041", "name": "Ashoka Pillar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.585049, 12.942510 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1445190594", "name": "Bus Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.658148, 12.994373 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1445190645", "name": "BusStation", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.658127, 12.994504 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1448262215", "name": "Kidwai (NIMHANS)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.598477, 12.938373 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1448634282", "name": "Byrasandra Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.589891, 12.935547 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1448635322", "name": "Lakkasandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597020, 12.944018 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1448635327", "name": "Lakksandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.597308, 12.943120 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1454651907", "name": "H.A.L", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.665921, 12.958282 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1454651909", "name": "Command Hospital", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.625720, 12.964482 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1459986597", "name": "Grindwell Norton", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.740305, 13.062724 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1462176186", "name": "Laxmipura Cross", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.533961, 13.092196 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1462222864", "name": "Sambhram College Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546833, 13.088191 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1463454294", "name": "Kanshiram Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538835, 13.090665 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1463557428", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.514193, 12.928137 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1463566956", "name": "BEML", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.518260, 12.922736 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1463658492", "name": "Nanjappa Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559952, 13.068520 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1463734435", "name": "BEL Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.556492, 13.046018 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464786104", "name": "Marathalli Bridge", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.702078, 12.957024 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464899739", "name": "MM industries", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573558, 12.929176 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464907353", "name": "tata silk farm, K R road( towards market)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573767, 12.935654 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464908663", "name": "tata silk farm, K R road( towards Banashankari)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573901, 12.936005 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464922039", "name": "MM industries", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573770, 12.929100 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1464962566", "name": "BMTC Bus Stop. Koramangala 8th Block,", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.620603, 12.941031 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1465059596", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.554337, 13.007897 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1465059611", "name": "BMTC", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.556440, 13.005639 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1466472864", "name": "malleahpallya bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.670014, 12.975024 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1466547205", "name": "BMTC BUS STOP", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.561235, 13.004351 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1466724591", "name": "Hanumanthanagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.559315, 12.941514 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1466857947", "name": "Udupi Garden Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.609752, 12.916862 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467246058", "name": "hal bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.665422, 12.958902 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467333641", "name": "AshwathNagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.579673, 13.027050 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467794500", "name": "Thyagaraja Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567580, 12.932036 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467987241", "name": "Yelhanka New Town", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.579106, 13.095744 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467987329", "name": "ChikkaBomasandra Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.582453, 13.093675 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1467987993", "name": "NES bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.591600, 13.097703 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1468911089", "name": "Dhobi Ghat", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550615, 12.987819 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1468911091", "name": "Kere Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.545036, 12.985226 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1468911092", "name": "Dhobi Ghat", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550625, 12.987306 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1469190370", "name": "Coles Road Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.611902, 12.996694 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1469190379", "name": "Coles Road Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.611896, 12.996631 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1469196565", "name": "Coles Park Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.609909, 12.993325 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1469215488", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.585039, 13.025624 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470544932", "name": "Mahalakshmi Layout Entrance Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.547912, 13.007789 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470545057", "name": "Fernhill Apartment Shop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630004, 12.916784 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470547252", "name": "VRL bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.553773, 13.005204 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470547294", "name": "Harishandra Ghat Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.560130, 12.997468 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470605462", "name": "BTM 1st Stage Bustand", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.602569, 12.916814 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1470608843", "name": "MicoLayout Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.604637, 12.916532 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471128637", "name": "Koramangala", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.618224, 12.936922 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471687832", "name": "Bommanahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.629517, 12.905682 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471776617", "name": "Temple Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.544212, 13.008509 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471781029", "name": "Rajajinagar 1st Block", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549914, 13.003706 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471781220", "name": "Rajajinagar 1st Block", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549185, 13.004194 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471781253", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641437, 12.954519 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1471813604", "name": "Singasandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.647295, 12.876947 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1472134470", "name": "Amruth Nagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.598513, 13.058054 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1472141960", "name": "Aralekatte Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.624544, 12.879729 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1472212720", "name": "Electronics City", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.671105, 12.847672 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1472871827", "name": "Kormangala 1st Block", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.633258, 12.930264 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1472871982", "name": "Wipro Park , Kormangala", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.633398, 12.928842 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473082160", "name": "St Johns Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.615303, 12.928393 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473298098", "name": "Bommanahalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630057, 12.905339 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473298099", "name": "Garabavipalaya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.635951, 12.895316 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473298100", "name": "Garavebhavipalaya", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.635933, 12.895878 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473298101", "name": "Madiwala Market", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.621011, 12.921527 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473330336", "name": "Koramangala ring road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630006, 12.938637 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473879998", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.584621, 12.917312 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473883092", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.573453, 12.921139 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473896296", "name": "Kurubarahalli Main Road", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.535953, 13.000937 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473972575", "name": "Ramakrishna Ashrama Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567739, 12.949238 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473972592", "name": "Ramakrishna Ashrama Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567578, 12.948862 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473972596", "name": "BHS Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.567509, 12.951873 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473995564", "name": "Sarakki", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.578737, 12.910957 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1473998140", "name": "Sangam Circle", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.578533, 12.917046 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474064316", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.577940, 12.927579 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474200451", "name": "Clarence Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.616636, 13.003030 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474220561", "name": "HAL 2nd stage", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641197, 12.969825 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474258848", "name": "Indira nagar Defence colony", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.641116, 12.976781 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474309825", "name": "Kuvempu Nagar Bus station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.616359, 12.916087 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474310210", "name": "BTM Layout Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.609696, 12.916411 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474310488", "name": "BTM Water tank BusStop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.606762, 12.916751 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474432211", "name": "Audugodi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.610411, 12.937527 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474432212", "name": "Audugodi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.610393, 12.937996 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474432219", "name": "Forum", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.614631, 12.935429 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474819890", "name": "Chord Road Stop (Navrang)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.550729, 12.995843 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474821314", "name": "Aralimara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549083, 12.982571 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474827874", "name": "Tollgate Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.548718, 12.974861 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474827877", "name": "Tollgate Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.549104, 12.974187 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474827886", "name": "Manuvana", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.546615, 12.973988 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474835636", "name": "Vijaynagara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538386, 12.972566 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474835640", "name": "Vijaynagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.538300, 12.973256 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474835884", "name": "Maruti mandir", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.536031, 12.967809 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854775", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.516082, 12.932549 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854780", "name": "Attiguppe", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.531650, 12.959969 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854781", "name": "BHEL", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.537089, 12.949928 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854788", "name": "Nayandalli", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.527407, 12.944501 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854790", "name": "Rajarajeshwari Temple Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.511141, 12.926791 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854795", "name": "Rajarajeshwari gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.517815, 12.936240 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854797", "name": "Nayandalli bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.526693, 12.943884 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854800", "name": "Deepanjalinagar", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.537386, 12.950859 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854803", "name": "BMTC Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.511222, 12.927750 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474854807", "name": "Rajarajeshwari Arch Busstop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.518319, 12.935822 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474863985", "name": "Jai Bharath Nagar Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630013, 13.001365 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474864004", "name": "Maruthi Sevanagar Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.634648, 13.002682 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474864012", "name": "Maruthi Sevanagar Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.634766, 13.002588 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474864013", "name": "Jai Bharath NagarBus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630249, 13.001543 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474877585", "name": "Kacharakanahalli Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.629791, 13.020864 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1474877609", "name": "Jyothi School Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.629262, 13.016428 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1488405361", "name": "Indira Nagar Police Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.637851, 12.982985 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1488405362", "name": "Indiranagar Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.638059, 12.978190 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1488405363", "name": "Indiranagar Station", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.638055, 12.978390 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1490428102", "name": "Budigere Cross Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.750230, 13.046548 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1504737976", "name": "Siddapura (towards Whitefield)", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.731742, 12.956352 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1523537189", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.603474, 12.983531 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1526010059", "name": "CPRI Bus stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.575032, 13.014697 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1573975041", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.701786, 12.993923 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1581347332", "name": "Ambedkar Institute of Technology Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.504667, 12.960484 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1581463479", "name": "Vinayaka Layout Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.507341, 12.960773 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1595181210", "name": "Wipro Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.658619, 12.838434 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612575", "name": "Tin Factory Bus Stop", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.669631, 12.997221 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612576", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.620093, 12.973420 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612577", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.629233, 12.979121 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612578", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.639235, 12.983645 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612579", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.649777, 12.987799 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612580", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.654625, 12.990056 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1597612581", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.675712, 13.000113 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603318756", "name": "Wilson Garden", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.595808, 12.950679 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379603", "name": "Hosa Road Junction", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.652844, 12.870713 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379639", "name": "Infosys", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.663594, 12.845480 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379643", "name": "Infosys", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.662987, 12.849745 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379645", "name": "Kudlu Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.639724, 12.889734 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379657", "name": "Muneshwara Temple", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.606634, 12.936413 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379679", "name": "Roopena Agrahara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.625905, 12.912029 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379682", "name": "Siemens", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.660256, 12.845166 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603379697", "name": "Singasandra", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.646445, 12.878705 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603463889", "name": "Hebbagodi", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.682815, 12.825942 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603463891", "name": "Huskur Gate", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.678779, 12.836861 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1603463901", "name": "Konappana Agrahara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.666143, 12.853912 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1613146084", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.621423, 12.928997 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1613153173", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.630445, 12.904024 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1614268203", "name": "Shivananda Stores", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.578933, 12.986809 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1615723284", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.635482, 12.896169 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1615723289", "name": "Roopena Agrahara", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.625795, 12.911976 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1617744744", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.609573, 12.939787 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1617749837", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.606656, 12.963596 ] } }
+,
+{ "type": "Feature", "properties": { "id": "1617752128", "name": "", "name_kn": "" }, "geometry": { "type": "Point", "coordinates": [ 77.601022, 12.960615 ] } }
+
+]
+}

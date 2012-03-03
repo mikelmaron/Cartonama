@@ -1321,7 +1321,7 @@ Creating Tiles w/ TileMill
 * other:
 * time: 1.5 hours
 * questions: what can we get from devseed
-** show how to generate\_tiles.py from mapnik style sheets output by tilemill
+** show how to generate_tiles.py from mapnik style sheets output by tilemill
  * connect to shapefile, postgis db
  * overlay on preset osm tiles. render osm data itself
  * render raster data as well
@@ -1389,6 +1389,60 @@ survey Javascript Mapping APIs (OpenLayers, ModestMaps, GMaps API, Leaflet, Maps
 * questions: survey the options, and pick one
 
 leaflet and discussion
+
+---
+#What is a Javascript Mapping API do?
+* "Slippy Map"
+* Display different layers (tiles, markers, vectors, WMS, images, KML, GeoJSON)
+* Interactive Controls (Zoom/Pan, Layer Switcher, Popups, Drawing Tools)
+* Mobile and Web
+## Basically, GIS viewer, made appropriate for the web
+
+---
+# OpenLayers
+* Comprehensive and Extensible
+    * Data Formats
+    * Drawing Tools
+    * Projections
+    * Different Tiling schemes
+    * Clustering
+    * Embed other APIs
+* Large JS, you should customize your build
+* Has an entire boo
+http://openlayers.org/
+
+---
+# Leaflet
+"Leaflet doesn't try to do everything for everyone. Instead it focuses on making the basic things work perfectly."
+* Most of what you might need (unless you need more)
+
+http://leaflet.cloudmade.com/
+
+---
+#GMaps API
+* Geocoding, Directions, StreetView
+
+---
+#Others
+* Mapstraction
+* Bing
+* ModestMaps
+* MapQuest
+* Nokia
+* dozens more
+
+---
+#Make some GeoJSON
+
+    ogr2ogr -f "GeoJSON" bangalore-stops.json bus_stops.shp 
+    
+---
+#Leaflet Example
+
+data/leaflet
+
+
+
 ---
 #Geocoding and Location Queries
 
@@ -1403,6 +1457,15 @@ leaflet and discussion
 show nominatim, geonames, overpass api
 
 ---
+#Routing
+
+* Directions APIs
+* Routing Engines
+* Good data for Routing (graphs, restrictions, speed, etc)
+* Algorithms
+* OpenTripPlanner
+
+---
 #Putting it all Together
 Create an app using, tiles and search, generated from the collected data.
 
@@ -1413,6 +1476,9 @@ Create an app using, tiles and search, generated from the collected data.
 * other:
 * time: 1.5 hours
 * questions: would be nice to have this app built.
+
+---
+#POSM
 
 https://github.com/yuvipanda/POSM
 http://yuvi.in/POSM/
