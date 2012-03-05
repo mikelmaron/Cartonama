@@ -1,0 +1,60 @@
+{
+  "bounds": [
+    77.3437,
+    12.8118,
+    77.959,
+    13.2399
+  ],
+  "center": [
+    77.7393,
+    12.9403,
+    8
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 6,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "Datasource": {
+        "type": "postgis",
+        "table": "planet_osm_line",
+        "extent": "",
+        "key_field": "",
+        "geometry_field": "",
+        "host": "localhost",
+        "dbname": "bangalore"
+      },
+      "id": "osm_line",
+      "class": "",
+      "name": "osm_line"
+      "srs-name": "Web Mercator",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+    },
+    {
+      "geometry": "polygon",
+      "Datasource": {
+        "type": "postgis",
+        "table": "planet_osm_polygon",
+        "extent": "",
+        "key_field": "",
+        "geometry_field": "",
+        "host": "localhost",
+        "dbname": "bangalore"
+      },
+      "id": "osm_poly",
+      "class": "",
+      "srs-name": "Web Mercator",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "osm_poly"
+    }
+  ],
+  "name": "Bangalore",
+  "description": "",
+  "attribution": "http://openstreetmap.org/"
+}
